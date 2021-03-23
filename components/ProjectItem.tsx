@@ -1,0 +1,72 @@
+import React, { useState } from "react";
+import { StandardReactProps } from "../interfaces";
+import { LinkIcon } from "./icons/LinkIcon";
+import "./index.scss";
+interface ItemProps extends StandardReactProps {
+  item: any;
+}
+
+export const ProjectItem = (props: ItemProps) => {
+  const { item } = props;
+
+  function goLivesite() {
+    window.open(item.siteUrl, "_blank");
+  }
+  const [hoveredEle, setHover] = useState(false);
+
+  return (
+    <div className="py-4 ">
+      <div className="container flex items-center justify-center max-w-sm mx-auto overflow-hidden transition duration-100 ease-in-out transform border rounded-md shadow-lg cursor-pointer hover:-translate-y-1 hover:scale-105 cardBg">
+        <div
+          onMouseOver={() => {
+            setHover(true);
+          }}
+          onMouseLeave={() => setHover(false)}
+          className="relative"
+        >
+          {hoveredEle && (
+            <div className="absolute z-20 flex items-center justify-center flex-1 w-full h-full">
+              <div>
+                <button
+                  onClick={goLivesite}
+                  className="flex p-3 rounded-lg linkBg"
+                >
+                  <LinkIcon className="fill-current linkBg" />
+                  <p className="mx-2 font-semibold linkBg ">LEARN MORE</p>
+                </button>
+              </div>
+            </div>
+          )}
+          <div className="absolute w-full image-cover rounded-t-md">
+            <div className="float-left w-16 h-16 p-2 m-4 text-center text-white bg-gray-800 rounded-full ">
+              <span className="font-sans text-xs font-bold tracking-wide">
+                {item.period?.year}
+              </span>
+              <span className="block font-sans text-xs font-bold tracking-wide uppercase border-t border-white">
+                {item.period?.month}
+              </span>
+            </div>
+          </div>
+          <img src={item.img} alt="" className="w-full sm:h-52" />
+
+          <div className="px-4 py-4 bg-white rounded-b-md ">
+            <span className="block text-lg font-bold tracking-wide text-gray-800">
+              {item.siteName}
+            </span>
+            <span className="block text-sm text-gray-600">
+              {item.description}
+            </span>
+
+            <span className="block text-sm font-bold tracking-wide text-gray-800">
+              Tech Stack:
+            </span>
+
+            <span className="block text-sm text-gray-600">
+              {item.techStack}
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
