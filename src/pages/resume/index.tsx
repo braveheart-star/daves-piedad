@@ -1,9 +1,8 @@
-import React from "react";
 import { Layout } from "../../components/Layout";
 import { WorkHistory } from "../../components/WorkHistory";
 import { Card } from "../../components/Card";
 
-export const Resume = () => {
+export default function Resume() {
   return (
     <Layout>
       <Card className="relative">
@@ -97,4 +96,4 @@ export const Resume = () => {
       </Card>
     </Layout>
   );
-};
+}

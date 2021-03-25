@@ -1,20 +1,12 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { StandardReactProps } from "../interfaces";
+import Link from "next/link";
 import { useStoreActions, useStoreState } from "../store/hooks";
 
-interface NavitemProp extends StandardReactProps {
-  title: string;
-}
 const NavItems = ["Projects", "About", "Contact", "Resume"];
-
-const NavItem = (props: NavitemProp) => {
+const NavItem = ({ title }: any) => {
   const clickedTitle = useStoreState((state) => state.header.title);
   const { setTitle, menuDropdown } = useStoreActions(
-    (actions) => actions.header,
+    (actions) => actions.header
   );
-
-  const { title } = props;
 
   function titleClick() {
     // after render the elements, preform click function
@@ -31,7 +23,7 @@ const NavItem = (props: NavitemProp) => {
   }
 
   return (
-    <Link to={title === "Resume" ? `./Resume` : `/#${title}`}>
+    <Link href={title === "Resume" ? `./Resume` : `/#${title}`}>
       <button
         onClick={titleClick}
         className={`${

@@ -1,10 +1,9 @@
 import Head from "next/head";
-import Link from "next/link";
 import { Footer } from "./Footer";
 import { Header } from "./Header";
 import { motion } from "framer-motion";
 
-export const Layout = ({ children, title = "Portfolio" }) => {
+export const Layout = ({ children, title = "Portfolio" }: any) => {
   return (
     <div>
       <Head>

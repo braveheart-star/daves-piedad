@@ -1,5 +1,4 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import { NavTitle } from "./NavTitle";
 import { MenuDropdown } from "./MenuDropdown";
 import { MenuToggle } from "./MenuToogle";
@@ -19,14 +18,14 @@ export const Header = () => {
           <MenuToggle />
 
           <div className="hidden md:flex">
-            <Link
-              to="./"
-              onClick={() => {
-                setTitle("home");
-                menuDropdown(false);
-              }}
-            >
-              <div className="flex items-center">
+            <Link href="./">
+              <div
+                onClick={() => {
+                  setTitle("home");
+                  menuDropdown(false);
+                }}
+                className="flex items-center"
+              >
                 <ProudIcon className="object-center w-12 h-12" />
                 <span className="font-serif font-semibold text-gray-900 md:px-8">
                   ShiXiong Han
@@ -40,14 +39,15 @@ export const Header = () => {
           </div>
 
           <div className="md:hidden">
-            <Link
-              to="./"
-              onClick={() => {
-                setTitle(`home`);
-                menuDropdown(false);
-              }}
-            >
-              <ProudIcon className="object-center w-12 h-12" />
+            <Link href="./">
+              <div
+                onClick={() => {
+                  setTitle(`home`);
+                  menuDropdown(false);
+                }}
+              >
+                <ProudIcon className="object-center w-12 h-12" />
+              </div>
             </Link>
           </div>
         </div>
