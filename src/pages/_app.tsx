@@ -1,4 +1,3 @@
-import React, { FC, Fragment, memo } from "react";
 import "../styles/globals.css";
 import { AppProps } from "next/app";
 

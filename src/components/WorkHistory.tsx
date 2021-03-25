@@ -1,4 +1,5 @@
 import React from "react";
+import { StandardReactProps } from "../utils/interface";
 
 interface WorkHistoryProps extends StandardReactProps {
   period: string;
