@@ -1,14 +1,7 @@
 import React, { useState } from "react";
-import { StandardReactProps } from "../interfaces";
 import { LinkIcon } from "./icons/LinkIcon";
-import "./index.scss";
-interface ItemProps extends StandardReactProps {
-  item: any;
-}
-
-export const ProjectItem = (props: ItemProps) => {
-  const { item } = props;
-
+import Image from "next/image";
+export const ProjectItem = ({ item }: any) => {
   function goLivesite() {
     window.open(item.siteUrl, "_blank");
   }
@@ -47,7 +40,12 @@ export const ProjectItem = (props: ItemProps) => {
               </span>
             </div>
           </div>
-          <img src={item.img} alt="" className="w-full sm:h-52" />
+          <Image
+            src={item.img}
+            alt="Picture of the author"
+            width={500}
+            height={300}
+          />
 
           <div className="px-4 py-4 bg-white rounded-b-md ">
             <span className="block text-lg font-bold tracking-wide text-gray-800">

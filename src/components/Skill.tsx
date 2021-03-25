@@ -1,7 +1,6 @@
 import React from "react";
-import { StandardReactProps } from "../interfaces";
-
-interface SkillProps extends StandardReactProps {
+import Image from "next/image";
+interface SkillProps {
   borderColor1: string;
   borderColor2: string;
   backColor: string;
@@ -31,10 +30,11 @@ export const Skill = (props: SkillProps) => {
         <div
           className={`absolute w-16 h-16 ${picSize} -mt-8 -ml-8 overflow-hidden ${backColor} border ${borderColor2} rounded-full`}
         >
-          <img
+          <Image
             src={pic}
-            alt="avatar"
-            className={` w-full h-full object-cover object-center mx-auto rounded`}
+            alt="Picture of the author"
+            width={100}
+            height={100}
           />
         </div>
         <p className="items-center my-4 text-lg font-hairline text-center text-gray-700 ">

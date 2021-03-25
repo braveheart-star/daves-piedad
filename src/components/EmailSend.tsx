@@ -28,13 +28,6 @@ export const EmailSend = () => {
     });
 
     const resData = await response.json();
-    console.log("resdata ==> ", resData);
-
-    // if (resData.success === true) {
-    //   alert("Message Sent.");
-    // } else if (resData.status === "fail") {
-    //   alert("Message failed to send.");
-    // }
   }
 
   function reSet() {

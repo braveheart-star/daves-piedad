@@ -16,6 +16,11 @@ const NavItem = ({ title }: any) => {
 
       // scroll to element with id
       const element = document.getElementById(title);
+      console.log(
+        "🚀 ~ file: NavTitle.tsx ~ line 20 ~ setTimeout ~ element",
+        element
+      );
+
       element?.scrollIntoView({
         behavior: "smooth",
       });
@@ -23,7 +28,7 @@ const NavItem = ({ title }: any) => {
   }
 
   return (
-    <Link href={title === "Resume" ? `./Resume` : `/#${title}`}>
+    <Link href={title === "Resume" ? "./resume" : `/`}>
       <button
         onClick={titleClick}
         className={`${

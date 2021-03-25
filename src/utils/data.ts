@@ -1,15 +1,10 @@
-import React from "react";
-import { motion } from "framer-motion";
-import { Card } from "./Card";
-import { ProjectItem } from "./ProjectItem";
-
-const projects = [
+export const projects = [
   {
     siteUrl: "https://caltechcasino.com/",
     role: "Front-End Developer",
     techStack: "React-Redux, React-hook, TypeScript, Smart Contractor, ",
     siteName: "SonicX Foundation / CaltechCasino",
-    img: "projects/caltech.jpg",
+    img: "/projects/caltech.jpg",
     description: `
     I built this site using React-Redux , TypeScript, React-hook.
     `,
@@ -24,7 +19,7 @@ const projects = [
     techStack:
       "React-Redux, Node.js ( Nest.js ), easy-peasy library, postgreSQL, Docker",
     siteName: "AlphaSwap Company",
-    img: "projects/alphaswap1.jpg",
+    img: "/projects/alphaswap1.jpg",
     description: `
     I have worked as a full-stack developer in AlphaSwap company.
     I built UI using React-Redux and implemented the functionality of the investment idea.
@@ -40,7 +35,7 @@ const projects = [
     role: "Full-Stack Developer",
     techStack: "Django, React, PostgreSQL",
     siteName: "Workwelltogether",
-    img: "projects/work.jpg",
+    img: "/projects/work.jpg",
     description: `
    I built this site using React for frontend, Django for backend
     `,
@@ -55,7 +50,7 @@ const projects = [
     role: "CSS developer",
     techStack: "CSS",
     siteName: "animation css",
-    img: "projects/css.jpg",
+    img: "/projects/css.jpg",
     description: `
    CSS fully animation
     `,
@@ -70,7 +65,7 @@ const projects = [
     role: "Front-End Developer",
     techStack: "Vue.js, Node.js",
     siteName: "Chinesepod",
-    img: "projects/chinese.jpg",
+    img: "/projects/chinese.jpg",
 
     description: `I worked as a front end developer using vue.js with another developer as team contributor.`,
     period: {
@@ -84,7 +79,7 @@ const projects = [
     role: "React Native Developer",
     techStack: "React Native, Firebase",
     siteName: "msgsafe",
-    img: "projects/native.jpg",
+    img: "/projects/native.jpg",
     description: `I worked as a React Native developer with another developer.`,
     period: {
       year: "2018",
@@ -97,7 +92,7 @@ const projects = [
     role: "Front-End Developer",
     techStack: "Angular 7+, CSS animations, Azure DevOps, Microsoft Teams",
     siteName: "Rosetta Technology",
-    img: "projects/rosetta.jpg",
+    img: "/projects/rosetta.jpg",
 
     description: `I worked as a front end developer with another developer as team contributor.`,
     period: {
@@ -111,7 +106,7 @@ const projects = [
     siteName: "Racing Management",
     description:
       "I worked on this project for about 3 months as a backend developer.",
-    img: "projects/racing.jpg",
+    img: "/projects/racing.jpg",
 
     period: {
       year: "2017",
@@ -131,7 +126,7 @@ const projects = [
        individual portfolio website or shoping page, etc.
     `,
     techStack: "React",
-    img: "projects/production.jpg",
+    img: "/projects/production.jpg",
 
     period: {
       year: "2020",
@@ -147,30 +142,10 @@ const projects = [
     The requirements is that implementing any kind of glass manipulation design by drawing that in the SVG, Canvas.
     `,
     techStack: "JavaScript, jQuery, SVG, Canvas",
-    img: "projects/svg.jpg",
+    img: "/projects/svg.jpg",
     period: {
       year: "2020",
       month: "3 ~ 6",
     },
   },
 ];
-
-export const Project = () => {
-  return (
-    <motion.main
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-    >
-      <Card id="Projects">
-        <p className="my-6 text-xl font-bold text-gray-800 sm:text-3xl md:text-4xl">
-          Projects I have worked on:
-        </p>
-
-        {projects.map((item, idx) => {
-          return <ProjectItem item={item} key={idx} />;
-        })}
-      </Card>
-    </motion.main>
-  );
-};
