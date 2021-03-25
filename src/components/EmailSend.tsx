@@ -26,8 +26,6 @@ export const EmailSend = () => {
       },
       body: JSON.stringify(payload),
     });
-
-    const resData = await response.json();
   }
 
   function reSet() {
