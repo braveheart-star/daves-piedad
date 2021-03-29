@@ -1,5 +1,20 @@
 export const projects = [
   {
+    siteUrl: "https://gamebit888.com/",
+    role: "Front-End Developer",
+    techStack: "Next.js, TypeScript, TailwindCSS, ",
+    siteName: "SonicX Foundation / Gamebit888",
+    img: "/projects/game888.jpg",
+    description: `
+    I built this site using React-Redux , TypeScript, React-hook.
+    `,
+    period: {
+      year: "-2021",
+      month: "12 ~ 1",
+    },
+  },
+
+  {
     siteUrl: "https://caltechcasino.com/",
     role: "Front-End Developer",
     techStack: "React-Redux, React-hook, TypeScript, Smart Contractor, ",
