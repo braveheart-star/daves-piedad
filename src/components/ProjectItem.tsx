@@ -24,8 +24,10 @@ export const ProjectItem = ({ item }: any) => {
                   onClick={goLivesite}
                   className="flex p-3 rounded-lg linkBg"
                 >
-                  <LinkIcon className="fill-current linkBg" />
-                  <p className="mx-2 font-semibold linkBg ">LEARN MORE</p>
+                  <LinkIcon className="text-white fill-current linkBg" />
+                  <p className="mx-2 font-semibold text-white linkBg">
+                    LEARN MORE
+                  </p>
                 </button>
               </div>
             </div>
