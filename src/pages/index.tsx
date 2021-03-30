@@ -60,9 +60,11 @@ export default function Home() {
           Projects I have worked on:
         </p>
 
-        {projects.map((item, idx) => {
-          return <ProjectItem item={item} key={idx} />;
-        })}
+        <div className="flex flex-wrap ">
+          {projects.map((item, idx) => {
+            return <ProjectItem item={item} key={idx} />;
+          })}
+        </div>
       </Card>
 
       <Card id="About">

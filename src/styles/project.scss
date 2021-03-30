@@ -8,4 +8,10 @@
   text {
     color: white;
   }
+  .description {
+    height: auto;
+    @media (min-width: 1024px) {
+      height: 170px;
+    }
+  }
 }

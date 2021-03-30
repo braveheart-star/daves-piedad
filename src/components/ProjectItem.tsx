@@ -8,7 +8,7 @@ export const ProjectItem = ({ item }: any) => {
   const [hoveredEle, setHover] = useState(false);
 
   return (
-    <div className="py-4 ">
+    <div className="py-4 mx-auto lg:p-4 ">
       <div className="container flex items-center justify-center max-w-sm mx-auto overflow-hidden transition duration-100 ease-in-out transform border rounded-md shadow-lg cursor-pointer hover:-translate-y-1 hover:scale-105 cardBg">
         <div
           onMouseOver={() => {
@@ -47,7 +47,7 @@ export const ProjectItem = ({ item }: any) => {
             height={300}
           />
 
-          <div className="px-4 py-4 bg-white rounded-b-md ">
+          <div className="px-4 py-4 bg-white rounded-b-md description">
             <span className="block text-lg font-bold tracking-wide text-gray-800">
               {item.siteName}
             </span>

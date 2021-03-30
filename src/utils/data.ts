@@ -132,24 +132,6 @@ export const projects = [
   },
 
   {
-    siteUrl: "https://prod-land.herokuapp.com/",
-    role: "Front-End Developer",
-    siteName: "Production Landing",
-    description: `Production Landing Page was built based on React,
-     styled-component, framer-motion basically.
-      This kind of website should be used for Blog page, production store website,
-       individual portfolio website or shoping page, etc.
-    `,
-    techStack: "React",
-    img: "/projects/production.jpg",
-
-    period: {
-      year: "2020",
-      month: "10 ~ 11",
-    },
-  },
-
-  {
     siteUrl: "https://threejs-svg-designer.herokuapp.com/",
     role: "JavaScript Developer",
     siteName: "Glass Design",
