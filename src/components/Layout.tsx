@@ -3,7 +3,7 @@ import { Footer } from "./Footer";
 import { Header } from "./Header";
 import { motion } from "framer-motion";
 
-export const Layout = ({ children, title = "Portfolio" }: any) => {
+export const Layout = ({ children, title = "portfolio" }: any) => {
   return (
     <div>
       <Head>
