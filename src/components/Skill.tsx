@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import { StarIcon } from "./icons/StarIcon";
+import { StartEmptyIcon } from "./icons/StartEmptyIcon";
 interface SkillProps {
   borderColor1: string;
   borderColor2: string;
@@ -42,6 +44,57 @@ export const Skill = (props: SkillProps) => {
         </p>
 
         <div className="relative w-full h-1 my-10 text-gray-700 bg-gray-400 rounded ">
+          <div className="absolute right-0 flex p-1 -mt-6 text-sm ">
+            {degree > 98 ? (
+              [1, 2, 3, 4, 5].map((idx) => (
+                <StarIcon
+                  key={idx}
+                  className="w-3 h-3 text-yellow-300 fill-current"
+                />
+              ))
+            ) : degree > 95 ? (
+              <div className="flex ">
+                {[1, 2, 3, 4].map((idx) => (
+                  <StarIcon
+                    key={idx}
+                    className="w-3 h-3 text-yellow-300 fill-current"
+                  />
+                ))}
+                <StartEmptyIcon className="w-3 h-3 text-yellow-300 fill-current" />
+              </div>
+            ) : degree > 90 ? (
+              <div className="flex ">
+                {[1, 2, 3].map((idx) => (
+                  <StarIcon
+                    key={idx}
+                    className="w-3 h-3 text-yellow-300 fill-current"
+                  />
+                ))}
+                {[1, 2].map((idx) => (
+                  <StartEmptyIcon
+                    key={idx}
+                    className="w-3 h-3 text-yellow-300 fill-current"
+                  />
+                ))}
+              </div>
+            ) : (
+              <div className="flex ">
+                {[1, 2, 2].map((idx) => (
+                  <StarIcon
+                    key={idx}
+                    className="w-3 h-3 text-yellow-300 fill-current"
+                  />
+                ))}
+                {[1, 2, 3].map((idx) => (
+                  <StartEmptyIcon
+                    key={idx}
+                    className="w-3 h-3 text-yellow-300 fill-current"
+                  />
+                ))}
+              </div>
+            )}
+          </div>
+
           <div
             className={` ${
               degree > 80
@@ -54,15 +107,7 @@ export const Skill = (props: SkillProps) => {
                   : ` w-9/12`
                 : ` w-8/12`
             } absolute inset-0  h-1 ${degreeColor} rounded `}
-          >
-            <div className="relative ">
-              <div
-                className={`absolute right-0 p-1 -mt-8 -mr-4 text-sm ${degreeColor} border rounded-md shadow `}
-              >
-                <p className={`text-xs text-white `}>{`${degree}%`}</p>
-              </div>
-            </div>
-          </div>
+          ></div>
         </div>
       </div>
     </div>
