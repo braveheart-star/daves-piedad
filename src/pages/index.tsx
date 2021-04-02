@@ -140,7 +140,7 @@ export default function Home() {
                   pic="/images/skills/ta.jpg"
                   picSize="p-3"
                   title="Tailwind CSS"
-                  degree={98}
+                  degree={99}
                   degreeColor="bg-pink-400"
                 />
               </div>
