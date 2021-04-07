@@ -98,7 +98,7 @@ export default function Resume() {
       </div>
 
       <div className="absolute bottom-0 right-0 mb-2 mr-2">
-        <a href="./CV/CV2020-ShiXiong.pdf" target="_blank" download>
+        <a href="./CV/CV-2021.pdf" target="_blank" download>
           <button className="bottom-auto p-2 text-white bg-green-400 border border-green-300 rounded-md shadow hover:bg-green-300 focus:outline-none">
             Download CV
           </button>
