@@ -12,7 +12,7 @@ export const Header = () => {
   );
 
   return (
-    <div className="fixed z-10 w-full bg-white border-t-8 border-green-400 shadow-md opacity-75">
+    <div className="fixed z-10 w-full bg-white border-t-8 border-green-400 shadow-md ">
       <div className="container w-full max-w-screen-xl px-2 py-1 mx-auto ">
         <div className="flex items-center justify-between">
           <MenuToggle />

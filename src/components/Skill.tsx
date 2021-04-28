@@ -45,14 +45,14 @@ export const Skill = (props: SkillProps) => {
 
         <div className="relative w-full h-1 my-10 text-gray-700 bg-gray-400 rounded ">
           <div className="absolute right-0 flex p-1 -mt-6 text-sm ">
-            {degree > 98 ? (
+            {degree >= 95 ? (
               [1, 2, 3, 4, 5].map((idx) => (
                 <StarIcon
                   key={idx}
                   className="w-3 h-3 text-yellow-300 fill-current"
                 />
               ))
-            ) : degree > 95 ? (
+            ) : degree >= 90 ? (
               <div className="flex ">
                 {[1, 2, 3, 4].map((idx) => (
                   <StarIcon
@@ -62,7 +62,7 @@ export const Skill = (props: SkillProps) => {
                 ))}
                 <StartEmptyIcon className="w-3 h-3 text-yellow-300 fill-current" />
               </div>
-            ) : degree > 90 ? (
+            ) : (
               <div className="flex ">
                 {[1, 2, 3].map((idx) => (
                   <StarIcon
@@ -77,36 +77,19 @@ export const Skill = (props: SkillProps) => {
                   />
                 ))}
               </div>
-            ) : (
-              <div className="flex ">
-                {[1, 2, 2].map((idx) => (
-                  <StarIcon
-                    key={idx}
-                    className="w-3 h-3 text-yellow-300 fill-current"
-                  />
-                ))}
-                {[1, 2, 3].map((idx) => (
-                  <StartEmptyIcon
-                    key={idx}
-                    className="w-3 h-3 text-yellow-300 fill-current"
-                  />
-                ))}
-              </div>
             )}
           </div>
 
           <div
             className={` ${
-              degree > 80
+              degree > 85
                 ? degree > 90
                   ? degree > 95
-                    ? degree > 98
-                      ? `w-full`
-                      : `w-11/12`
-                    : "w-10/12"
-                  : ` w-9/12`
-                : ` w-8/12`
-            } absolute inset-0  h-1 ${degreeColor} rounded `}
+                    ? "w-full"
+                    : "w-11/12"
+                  : "w-10/12"
+                : "w-9/12"
+            } absolute inset-0 h-1 rounded ${degreeColor} `}
           ></div>
         </div>
       </div>

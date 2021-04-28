@@ -1,5 +1,5 @@
-import { WorkHistory } from "../../components/WorkHistory";
 import { Card } from "../../components/Card";
+import { WorkHistory } from "../../components/WorkHistory";
 
 export default function Resume() {
   return (

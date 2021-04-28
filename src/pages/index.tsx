@@ -1,21 +1,17 @@
-import { motion } from "framer-motion";
 import React from "react";
+import { motion } from "framer-motion";
+import Image from "next/image";
 import { Card } from "../components/Card";
 import { CoderIcon, CodingIcon, ThinkerIcon } from "../components/icons";
 import { ProjectItem } from "../components/ProjectItem";
 import { Skill } from "../components/Skill";
 import { projects } from "../utils/data";
-import Image from "next/image";
 import { EmailSend } from "../components/EmailSend";
 import { Social } from "../components/Social";
 
 export default function Home() {
   return (
-    <motion.main
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-    >
+    <>
       <Card id="Home" className="relative">
         <div className="justify-between p-2 md:mx-6 md:flex ">
           <div className="flex flex-col w-full font-bold text-center md:w-3/5">
@@ -66,7 +62,6 @@ export default function Home() {
           })}
         </div>
       </Card>
-
       <Card id="About">
         <div className="lg:flex">
           <p className="my-6 text-xl font-bold text-gray-800 sm:text-3xl md:text-4xl">
@@ -155,7 +150,7 @@ export default function Home() {
                   pic="/images/skills/react.png"
                   picSize="p-2"
                   title="React/Next"
-                  degree={99}
+                  degree={100}
                   degreeColor="bg-purple-400"
                 />
               </div>
@@ -167,7 +162,7 @@ export default function Home() {
                   pic="/images/skills/an.jpg"
                   picSize="p-1"
                   title="Angular"
-                  degree={95}
+                  degree={93}
                   degreeColor="bg-indigo-400"
                 />
               </div>
@@ -218,7 +213,7 @@ export default function Home() {
                   pic="/images/skills/docker.png"
                   picSize="p-2"
                   title="Docker"
-                  degree={89}
+                  degree={86}
                   degreeColor="bg-red-400"
                 />
               </div>
@@ -233,7 +228,7 @@ export default function Home() {
                   pic="/images/skills/lara.png"
                   picSize="p-2"
                   title="PHP/Laravel"
-                  degree={91}
+                  degree={88}
                   degreeColor="bg-indigo-400"
                 />
               </div>
@@ -241,7 +236,6 @@ export default function Home() {
           </div>
         </div>
       </Card>
-
       <Card id="Contact" className="bg-white">
         <div>
           <p className="my-6 text-xl font-bold text-gray-800 sm:text-3xl md:text-4xl">
@@ -273,6 +267,6 @@ export default function Home() {
           </div>
         </div>
       </Card>
-    </motion.main>
+    </>
   );
 }
