@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 import Image from "next/image";
 import { Card } from "../components/Card";
 import { CoderIcon, CodingIcon, ThinkerIcon } from "../components/icons";
