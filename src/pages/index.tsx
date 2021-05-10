@@ -235,9 +235,9 @@ export default function Home() {
             Contact me:
           </p>
           <p className="text-sm text-gray-700 lg:m-6 sm:text-lg md:text-xl">
-            I am always up for interesting ideas and projects. If you want to
-            chat about any of the project I worked on, or have an interesting
-            project or opportunity, feel free to get in touch!
+            I'm always up for interesting ideas and projects. If you want to
+            talk about any of the projects I have worked on, or want to work
+            with a project with me, feel free to get in touch!
           </p>
           <div className="my-4 mb-16">
             <EmailSend />
