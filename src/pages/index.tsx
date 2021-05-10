@@ -37,9 +37,9 @@ export default function Home() {
           </p>
 
           <p className="text-gray-700 sm:text-lg lg:text-2xl">
-            The different kinds of projects I’ve contributed have led me to use
-            lots of various technologies and taught me how to best adapt to new
-            situations, whether technically or socially.
+            The different kind of projects I've worked with in the past has led
+            me to used lots of various technologies and taught me how to best
+            adapt to new situations, whether technically or socially.
           </p>
         </div>
         <div className="justify-center mx-auto md:mt-16 md:flex">
