@@ -20,7 +20,7 @@ export default function Home() {
                   Full-Stack Developer
                 </p>
                 <p className="my-4 text-xl leading-tight text-green-600 sm:text-2xl xl:text-3xl md:my-8">
-                  Welcome to my website !
+                  Thanks for checking my portfolio site.
                 </p>
               </div>
             </div>
@@ -29,18 +29,15 @@ export default function Home() {
             <CoderIcon className="w-full h-full " />
           </div>
         </div>
-        <div className="my-6 lg:my-12 md:mx-12">
+        <div className="my-6 space-y-2 lg:my-12 md:mx-12">
           <p className="text-gray-700 sm:text-lg lg:text-2xl">
             As a Full Stack Developer with 5 years of experience in software
             development, I’ve acquired a diverse set of skills with a main focus
             on JavaScript and its vast ecosystem.
           </p>
+
           <p className="text-gray-700 sm:text-lg lg:text-2xl">
-            React and NodeJs are the main tools I use to create robust and
-            modern web applications.
-          </p>
-          <p className="text-gray-700 sm:text-lg lg:text-2xl">
-            The different kinds of projects I’ve contributed to led me to use
+            The different kinds of projects I’ve contributed have led me to use
             lots of various technologies and taught me how to best adapt to new
             situations, whether technically or socially.
           </p>
@@ -83,16 +80,13 @@ export default function Home() {
           </div>
           <div className="my-8 xl:w-4/6 lg:w-3/5 lg:my-0">
             <p className="font-serif text-gray-700 sm:text-lg lg:text-xl">
-              My name is ShiXiong Han, from Hong Kong, a senior web developer,
-              who has worked for web developments since 2015.
+              My name is ShiXiong Han. I'm a senior web developer based in Hong
+              Kong with a focus in building beautiful and well-structured web
+              site using modern technologies.
             </p>
+
             <p className="my-2 font-serif text-gray-700 sm:text-lg lg:text-xl">
-              As a professional web developer, I love building creative ,
-              beautiful , well-structured web site using modern-set
-              technologies.
-            </p>
-            <p className="my-2 font-serif text-gray-700 sm:text-lg lg:text-xl">
-              I can start working immediately at any time zone.
+              I'm open to work at any time zone.
             </p>
           </div>
         </div>
