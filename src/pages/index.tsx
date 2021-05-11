@@ -59,9 +59,9 @@ export default function Home() {
         </p>
 
         <div className="flex flex-wrap ">
-          {projects.map((item, idx) => {
-            return <ProjectItem item={item} key={idx} />;
-          })}
+          {projects.map((item, idx) => (
+            <ProjectItem item={item} key={idx} />
+          ))}
         </div>
       </Card>
       <Card id="About">

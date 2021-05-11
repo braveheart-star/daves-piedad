@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
   return (
     <StoreProvider store={store}>
       <Layout>
-        <Component {...pageProps} />;
+        <Component {...pageProps} />
       </Layout>
     </StoreProvider>
   );
