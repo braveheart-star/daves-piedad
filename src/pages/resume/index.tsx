@@ -21,7 +21,7 @@ export default function Resume() {
         <p className="font-mono text-xl font-bold text-gray-700 lg:text-2xl">
           Work History
         </p>
-        <WorkHistory period="Apr. 2017 ~ Sep. 2018">
+        <WorkHistory period="Oct. 2016 ~ Sep. 2019">
           <div className="">
             <p className="mt-4 font-serif text-lg text-gray-800 xl:w-4/6 lg:w-3/5 sm:text-xl lg:text-2xl lg:my-0">
               Hong Kong Kenxinda Technology Co., Ltd
@@ -32,26 +32,22 @@ export default function Resume() {
           </div>
 
           <p className="my-3 font-serif text-gray-600 lg:my-4 xl:w-4/6 lg:w-3/5 sm:text-base lg:text-lg ">
-            (Computer Engineer)
+            (Web Developer)
           </p>
         </WorkHistory>
-        <WorkHistory period="Mar. 2017 ~ Jun. 2019">
+
+        <WorkHistory period="Aug. 2018 ~ Jan. 2020">
           <p className="my-4 font-serif text-lg text-gray-800 xl:w-4/6 lg:w-3/5 sm:text-xl lg:text-2xl lg:my-0">
-            Upwork.com
+            Freelancer Platform (Upwork & Guru)
           </p>
-          <p className="my-3 font-serif text-gray-600 lg:my-4 xl:w-4/6 lg:w-3/5 sm:text-base lg:text-lg ">
-            (Full-Stack Web Developer)
-          </p>
-        </WorkHistory>
-        <WorkHistory period="Aug. 2019 ~ Jan. 2020">
-          <p className="my-4 font-serif text-lg text-gray-800 xl:w-4/6 lg:w-3/5 sm:text-xl lg:text-2xl lg:my-0">
-            Guru.com
+          <p className="my-2 font-serif text-base text-indigo-700 xl:w-4/6 lg:w-3/5 sm:text-lg lg:text-xl lg:my-0">
+            (Remote)
           </p>
           <p className="my-3 font-serif text-gray-600 lg:my-4 xl:w-4/6 lg:w-3/5 sm:text-base lg:text-lg ">
             (Front-End Web Developer)
           </p>
         </WorkHistory>
-        <WorkHistory period="Apr. 2020 ~ Nov. 2020">
+        <WorkHistory period="Apr. 2019 ~ Nov. 2020">
           <div>
             <p className="mt-4 font-serif text-lg text-gray-800 xl:w-4/6 lg:w-3/5 sm:text-xl lg:text-2xl lg:my-0">
               AlphaSwap Company
@@ -66,7 +62,7 @@ export default function Resume() {
           </p>
         </WorkHistory>
 
-        <WorkHistory period="Jan. 2021 ~ Mar. 2021">
+        <WorkHistory period="Dec. 2020 ~ Apr. 2021">
           <div>
             <p className="mt-4 font-serif text-lg text-gray-800 xl:w-4/6 lg:w-3/5 sm:text-xl lg:text-2xl lg:my-0">
               SonicX Blockchain Foundation
@@ -80,26 +76,11 @@ export default function Resume() {
             (Full-Stack Web Developer)
           </p>
         </WorkHistory>
-
-        <WorkHistory period="May. 2018 ~ Present">
-          <div>
-            <p className="mt-4 font-serif text-lg text-gray-800 xl:w-4/6 lg:w-3/5 sm:text-xl lg:text-2xl lg:my-0">
-              Self Employed Web Developer
-            </p>
-            <p className="my-2 font-serif text-base text-indigo-700 xl:w-4/6 lg:w-3/5 sm:text-lg lg:text-xl lg:my-0">
-              (remote)
-            </p>
-          </div>
-
-          <p className="my-3 font-serif text-gray-600 lg:my-4 xl:w-4/6 lg:w-3/5 sm:text-base lg:text-lg ">
-            (Full-Stack Developer)
-          </p>
-        </WorkHistory>
       </div>
 
       <div className="absolute bottom-0 right-0 mb-2 mr-2">
         <a href="./CV/CV-2021.pdf" target="_blank" download>
-          <button className="bottom-auto p-2 text-white bg-green-400 border border-green-300 rounded-md shadow hover:bg-green-300 focus:outline-none">
+          <button className="bottom-auto p-2 text-white bg-green-500 border border-green-300 rounded-md shadow hover:bg-green-400 focus:outline-none">
             Download CV
           </button>
         </a>
