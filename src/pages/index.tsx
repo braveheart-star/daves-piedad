@@ -31,7 +31,7 @@ export default function Home() {
         </div>
         <div className="my-6 space-y-2 lg:my-12 md:mx-12">
           <p className="text-gray-700 sm:text-lg lg:text-2xl">
-            As a Full Stack Developer with 6 years of experience in software
+            As a Full Stack Developer with 7 years of experience in software
             development, I’ve acquired a diverse set of skills with a main focus
             on JavaScript and its vast ecosystem.
           </p>
