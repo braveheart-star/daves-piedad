@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import { Card } from "../components/Card";
 import { CoderIcon, CodingIcon, ThinkerIcon } from "../components/icons";
@@ -7,8 +7,14 @@ import { Skill } from "../components/Skill";
 import { projects } from "../utils/data";
 import { EmailSend } from "../components/EmailSend";
 import { Social } from "../components/Social";
+import AddChat from "../utils/tawkto";
 
 export default function Home() {
+  useEffect(() => {
+    window.Tawk_API?.showWidget();
+    AddChat();
+    // eslint-disable-next-line
+  }, []);
   return (
     <>
       <Card id="Home" className="relative">
