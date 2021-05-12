@@ -26,7 +26,7 @@ export default function Home() {
                   Full-Stack Developer
                 </p>
                 <p className="my-4 text-xl leading-tight text-green-600 sm:text-2xl xl:text-3xl md:my-8">
-                  Thanks for checking my portfolio site.
+                  Thanks for visiting my portfolio site.
                 </p>
               </div>
             </div>
