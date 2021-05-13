@@ -74,9 +74,11 @@ export const EmailSend = () => {
         <button
           type="submit"
           onClick={reSet}
-          className="absolute right-0 bottom-auto p-2 px-6 mr-4 bg-green-400 border border-green-300 rounded-md shadow hover:bg-green-300 focus:outline-none"
+          className="absolute right-0 bottom-auto p-2 px-6 mr-4 bg-green-500 border border-green-300 rounded-md shadow hover:bg-green-300 focus:outline-none"
         >
-          <p className="text-sm text-white md:text-base">Submit</p>
+          <p className="text-sm font-semibold tracking-wide text-white md:text-base">
+            Submit
+          </p>
           <span className="absolute top-0 right-0 flex w-3 h-3 -mt-1 -mr-1">
             <span className="absolute inline-flex w-full h-full bg-indigo-400 rounded-full opacity-75 animate-ping"></span>
             <span className="relative inline-flex w-3 h-3 bg-indigo-500 rounded-full"></span>

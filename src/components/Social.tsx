@@ -33,7 +33,7 @@ export const Social = () => {
       </div>
       <div className="w-10 h-10 mx-auto my-3 lg:w-12 lg:h-12 sm:mx-4">
         <a
-          href="https://discord.gg/JBmawd6u"
+          href="https://discord.gg/SjhcpdQZ"
           target="_blank"
           rel="noopener noreferrer"
         >
