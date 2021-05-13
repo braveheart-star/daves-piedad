@@ -35,12 +35,12 @@ export const EmailSend = () => {
   }
   return (
     <form onSubmit={submitRequest}>
-      <div className="justify-between lg:flex">
+      <div className="justify-between lg:flex ">
         <div className="w-full px-2 my-2 lg:w-1/2 xl:w-5/12">
           <input
             name="name"
             value={payload.name}
-            className="w-full p-2 px-5 my-1 text-sm text-gray-800 border-b focus:border-green-500 sm:text-base sm:p-3 focus:outline-none "
+            className="w-full p-2 px-5 my-1 text-gray-800 border-b focus:border-green-500 sm:text-base sm:p-3 focus:outline-none "
             placeholder="Name"
             onChange={onInputChange}
           />
@@ -50,7 +50,7 @@ export const EmailSend = () => {
           <input
             name="email"
             value={payload.email}
-            className="w-full p-2 px-5 my-1 text-sm text-gray-800 border-b sm:text-base sm:p-3 focus:outline-none focus:border-green-500"
+            className="w-full p-2 px-5 my-1 text-gray-800 border-b sm:text-base sm:p-3 focus:outline-none focus:border-green-500"
             placeholder="Email"
             onChange={onInputChange}
           />
@@ -64,7 +64,7 @@ export const EmailSend = () => {
             resize: "none",
             height: `200px`,
           }}
-          className="w-full p-2 px-5 my-1 text-sm text-gray-800 border focus:border-green-500 sm:text-base sm:p-3 focus:outline-none"
+          className="w-full p-2 px-5 my-1 text-gray-800 border focus:border-green-500 sm:text-base sm:p-3 focus:outline-none"
           placeholder="Message"
           onChange={onInputChange}
         />
@@ -76,7 +76,7 @@ export const EmailSend = () => {
           onClick={reSet}
           className="absolute right-0 bottom-auto p-2 px-6 mr-4 bg-green-500 border border-green-300 rounded-md shadow hover:bg-green-300 focus:outline-none"
         >
-          <p className="text-sm font-semibold tracking-wide text-white md:text-base">
+          <p className="font-semibold tracking-wide text-white md:text-base">
             Submit
           </p>
           <span className="absolute top-0 right-0 flex w-3 h-3 -mt-1 -mr-1">
