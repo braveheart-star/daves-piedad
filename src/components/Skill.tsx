@@ -27,7 +27,7 @@ export const Skill = (props: SkillProps) => {
   return (
     <div className="w-40 mx-auto border rounded-lg md:w-32 lg:w-40 xl:w-40">
       <div
-        className={`${borderColor1} relative h-32 p-3 border-b-4  rounded-lg shadow-lg`}
+        className={`${borderColor1} relative h-32 p-3 border-b-4  rounded-lg shadow `}
       >
         <div
           className={`absolute w-16 h-16 ${picSize} -mt-8 -ml-8 overflow-hidden ${backColor} border ${borderColor2} rounded-full`}

@@ -13,8 +13,8 @@ export const Card = (props: CardProps) => {
       id={id}
       className="container flex w-full max-w-screen-lg px-4 mx-auto my-8 "
     >
-      <div className="w-full mx-auto bg-white shadow">
-        <div className="m-6 rounded shadow md:m-16">
+      <div className="w-full mx-auto bg-white shadow-md">
+        <div className="m-6 md:m-16">
           <div className={`md:py-5 lg:py-12 p-3 rounded ${props.className}`}>
             {children}
           </div>

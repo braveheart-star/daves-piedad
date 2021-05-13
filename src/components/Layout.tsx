@@ -10,7 +10,7 @@ export const Layout = ({ children, title = "portfolio" }: any) => {
         <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="relative flex flex-col w-full min-h-screen bg-gray-50 APP">
+      <div className="relative flex flex-col w-full min-h-screen bg-gray-100 APP">
         <Header />
         <motion.main
           initial={{ opacity: 0 }}

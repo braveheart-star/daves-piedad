@@ -9,7 +9,7 @@ export const ProjectItem = ({ item }: any) => {
 
   return (
     <div className="py-4 mx-auto lg:p-4 ">
-      <div className="container flex items-center justify-center max-w-sm mx-auto overflow-hidden transition duration-100 ease-in-out transform border rounded-md shadow-lg cursor-pointer hover:-translate-y-1 hover:scale-105 cardBg">
+      <div className="container flex items-center justify-center max-w-sm mx-auto overflow-hidden transition duration-100 ease-in-out transform rounded-md shadow cursor-pointer hover:-translate-y-1 hover:scale-105 cardBg">
         <div
           onMouseOver={() => {
             setHover(true);
@@ -22,10 +22,12 @@ export const ProjectItem = ({ item }: any) => {
               <div>
                 <button
                   onClick={goLivesite}
-                  className="flex p-3 rounded-lg linkBg"
+                  className="flex items-center p-3 rounded-lg linkBg"
                 >
-                  <LinkIcon className="fill-current  linkBg" />
-                  <p className="mx-2 font-semibold linkBg">LEARN MORE</p>
+                  <LinkIcon className="w-4 h-4 text-gray-600 fill-current linkBg" />
+                  <p className="mx-2 font-sans font-semibold text-gray-600 linkBg">
+                    LEARN MORE
+                  </p>
                 </button>
               </div>
             </div>
