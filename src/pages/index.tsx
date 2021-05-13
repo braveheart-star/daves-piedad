@@ -24,7 +24,7 @@ export default function Home() {
                 <p className="text-3xl leading-tight text-gray-800 sm:text-4xl xl:text-5xl ">
                   Full-Stack Developer
                 </p>
-                <p className="my-4 text-xl leading-tight text-green-600 sm:text-2xl xl:text-3xl md:my-8">
+                <p className="my-4 text-2xl font-bold leading-tight text-transparent uppercase bg-clip-text bg-gradient-to-r from-yellow-400 via-pink-400 to-red-500 sm:text-2xl xl:text-4xl md:my-8">
                   welcome to my site.
                 </p>
               </div>
