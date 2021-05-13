@@ -100,136 +100,107 @@ export default function Home() {
             Main Skills
           </p>
           <div className="my-6 ">
-            <div className="justify-around w-full md:flex md:my-4">
-              <div className="my-3 ">
-                <Skill
-                  borderColor1="border-yellow-400 "
-                  borderColor2="border-yellow-200"
-                  backColor="bg-yellow-100"
-                  pic="/images/skills/js.jpg"
-                  picSize="p-2"
-                  title="JS/TS"
-                  degree={96}
-                  degreeColor="bg-blue-400"
-                />
-              </div>
-              <div className="my-3 ">
-                <Skill
-                  borderColor1="border-indigo-500 "
-                  borderColor2="border-indigo-300"
-                  backColor="bg-indigo-200"
-                  pic="/images/skills/py.jpg"
-                  picSize="p-1"
-                  title="Python/DJ"
-                  degree={91}
-                  degreeColor="bg-green-400"
-                />
-              </div>
-              <div className="my-3 ">
-                <Skill
-                  borderColor1="border-green-500 "
-                  borderColor2="border-green-300"
-                  backColor="bg-green-200"
-                  pic="/images/skills/ta.jpg"
-                  picSize="p-3"
-                  title="Tailwind CSS"
-                  degree={99}
-                  degreeColor="bg-pink-400"
-                />
-              </div>
-            </div>
-
-            <div className="justify-around w-full md:flex md:my-4">
-              <div className="my-3 ">
-                <Skill
-                  borderColor1="border-blue-400 "
-                  borderColor2="border-blue-300"
-                  backColor="bg-white"
-                  pic="/images/skills/react.png"
-                  picSize="p-2"
-                  title="React/Next"
-                  degree={100}
-                  degreeColor="bg-purple-400"
-                />
-              </div>
-              <div className="my-3">
-                <Skill
-                  borderColor1="border-red-500 "
-                  borderColor2="border-red-300"
-                  backColor="bg-red-200"
-                  pic="/images/skills/an.jpg"
-                  picSize="p-1"
-                  title="Angular"
-                  degree={93}
-                  degreeColor="bg-indigo-400"
-                />
-              </div>
-              <div className="my-3">
-                <Skill
-                  borderColor1="border-green-400 "
-                  borderColor2="border-green-200"
-                  backColor="bg-white"
-                  pic="/images/skills/vue.png"
-                  picSize="p-2"
-                  title="Vue/Nuxt"
-                  degree={93}
-                  degreeColor="bg-yellow-400"
-                />
-              </div>
-            </div>
-
-            <div className="justify-around w-full md:flex md:my-4">
-              <div className="my-3 ">
-                <Skill
-                  borderColor1="border-yellow-500 "
-                  borderColor2="border-blue-300"
-                  backColor="bg-blue-100"
-                  pic="/images/skills/ps.png"
-                  picSize="p-2"
-                  title="PostgreSQL"
-                  degree={93}
-                  degreeColor="bg-green-400"
-                />
-              </div>
-              <div className="my-3 ">
-                <Skill
-                  borderColor1="border-pink-500 "
-                  borderColor2="border-pink-300"
-                  backColor="bg-pink-200"
-                  pic="/images/skills/nest.jpg"
-                  picSize="p-3"
-                  title="Nest(node.js)"
-                  degree={94}
-                  degreeColor="bg-yellow-400"
-                />
-              </div>
-              <div className="my-3 ">
-                <Skill
-                  borderColor1="border-blue-500 "
-                  borderColor2="border-indigo-300"
-                  backColor="bg-white"
-                  pic="/images/skills/docker.png"
-                  picSize="p-2"
-                  title="Docker"
-                  degree={86}
-                  degreeColor="bg-red-400"
-                />
-              </div>
-            </div>
-
-            <div className="justify-around w-full md:flex md:my-4">
-              <div className="my-3 ">
-                <Skill
-                  borderColor1="border-yellow-500 "
-                  borderColor2="border-yellow-300"
-                  backColor="bg-yellow-100"
-                  pic="/images/skills/lara.png"
-                  picSize="p-2"
-                  title="PHP/Laravel"
-                  degree={88}
-                  degreeColor="bg-indigo-400"
-                />
-              </div>
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 gap-y-6">
+              <Skill
+                borderColor1="border-yellow-400 "
+                borderColor2="border-yellow-200"
+                backColor="bg-yellow-100"
+                pic="/images/skills/js.jpg"
+                picSize="p-2"
+                title="JS/TS"
+                degree={96}
+                degreeColor="bg-blue-400"
+              />
+              <Skill
+                borderColor1="border-indigo-500 "
+                borderColor2="border-indigo-300"
+                backColor="bg-indigo-200"
+                pic="/images/skills/py.jpg"
+                picSize="p-1"
+                title="Python/DJ"
+                degree={91}
+                degreeColor="bg-green-400"
+              />
+              <Skill
+                borderColor1="border-green-500 "
+                borderColor2="border-green-300"
+                backColor="bg-green-200"
+                pic="/images/skills/ta.jpg"
+                picSize="p-3"
+                title="Tailwind CSS"
+                degree={99}
+                degreeColor="bg-pink-400"
+              />
+              <Skill
+                borderColor1="border-blue-400 "
+                borderColor2="border-blue-300"
+                backColor="bg-white"
+                pic="/images/skills/react.png"
+                picSize="p-2"
+                title="React/Next"
+                degree={100}
+                degreeColor="bg-purple-400"
+              />
+              <Skill
+                borderColor1="border-red-500 "
+                borderColor2="border-red-300"
+                backColor="bg-red-200"
+                pic="/images/skills/an.jpg"
+                picSize="p-1"
+                title="Angular"
+                degree={93}
+                degreeColor="bg-indigo-400"
+              />
+              <Skill
+                borderColor1="border-green-400 "
+                borderColor2="border-green-200"
+                backColor="bg-white"
+                pic="/images/skills/vue.png"
+                picSize="p-2"
+                title="Vue/Nuxt"
+                degree={93}
+                degreeColor="bg-yellow-400"
+              />
+              <Skill
+                borderColor1="border-yellow-500 "
+                borderColor2="border-blue-300"
+                backColor="bg-blue-100"
+                pic="/images/skills/ps.png"
+                picSize="p-2"
+                title="PostgreSQL"
+                degree={93}
+                degreeColor="bg-green-400"
+              />
+              <Skill
+                borderColor1="border-pink-500 "
+                borderColor2="border-pink-300"
+                backColor="bg-pink-200"
+                pic="/images/skills/nest.jpg"
+                picSize="p-3"
+                title="Nest(node.js)"
+                degree={94}
+                degreeColor="bg-yellow-400"
+              />
+              <Skill
+                borderColor1="border-blue-500 "
+                borderColor2="border-indigo-300"
+                backColor="bg-white"
+                pic="/images/skills/docker.png"
+                picSize="p-2"
+                title="Docker"
+                degree={86}
+                degreeColor="bg-red-400"
+              />
+              <Skill
+                borderColor1="border-yellow-500 "
+                borderColor2="border-yellow-300"
+                backColor="bg-yellow-100"
+                pic="/images/skills/lara.png"
+                picSize="p-2"
+                title="PHP/Laravel"
+                degree={88}
+                degreeColor="bg-indigo-400"
+              />
             </div>
           </div>
         </div>

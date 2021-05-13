@@ -29,7 +29,7 @@ export const Layout = ({ children, title = "portfolio" }: any) => {
 
 function renderSide() {
   return (
-    <div className="fixed z-20 flex min-h-screen right-10">
+    <div className="fixed z-20 flex min-h-screen right-6 sm:right-10">
       <div className="m-auto space-y-2">
         <div className="w-8 h-8 lg:w-11 lg:h-11">
           <a

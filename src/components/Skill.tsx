@@ -25,7 +25,7 @@ export const Skill = (props: SkillProps) => {
     degreeColor,
   } = props;
   return (
-    <div className="w-40 mx-auto border rounded-lg md:w-32 lg:w-40 xl:w-40">
+    <div className="w-40 mx-auto border rounded-lg ">
       <div
         className={`${borderColor1} relative h-32 p-3 border-b-4  rounded-lg shadow `}
       >
