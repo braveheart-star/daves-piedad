@@ -6,7 +6,6 @@ import { ProjectItem } from "../components/ProjectItem";
 import { Skill } from "../components/Skill";
 import { projects } from "../utils/data";
 import { EmailSend } from "../components/EmailSend";
-import { Social } from "../components/Social";
 import AddChat from "../utils/tawkto";
 
 export default function Home() {
@@ -259,9 +258,6 @@ export default function Home() {
                   Send me an Email directly
                 </a>
               </p>
-            </div>
-            <div>
-              <Social />
             </div>
           </div>
         </div>

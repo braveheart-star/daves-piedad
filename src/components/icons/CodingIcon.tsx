@@ -26,57 +26,57 @@ export const CodingIcon = (props: StandardReactProps) => {
         </linearGradient>
       </defs>
       <path
-        fill="#6c63ff"
+        fill="#3dc730"
         d="M763.63 283H815.63V310H763.63z"
         opacity="0.2"
       ></path>
       <path
-        fill="#6c63ff"
+        fill="#3dc730"
         d="M767.63 316H819.63V343H767.63z"
         opacity="0.2"
       ></path>
       <path
-        fill="#6c63ff"
+        fill="#3dc730"
         d="M724.63 87H776.63V114H724.63z"
         opacity="0.2"
       ></path>
       <path
-        fill="#6c63ff"
+        fill="#3dc730"
         d="M761.63 118H813.63V145H761.63z"
         opacity="0.2"
       ></path>
       <path
-        fill="#6c63ff"
+        fill="#3dc730"
         d="M661.63 89H713.63V116H661.63z"
         opacity="0.2"
       ></path>
       <path
-        fill="#6c63ff"
+        fill="#3dc730"
         d="M828.63 149H880.63V176H828.63z"
         opacity="0.2"
       ></path>
       <path
-        fill="#6c63ff"
+        fill="#3dc730"
         d="M765.63 151H817.63V178H765.63z"
         opacity="0.2"
       ></path>
       <path
-        fill="#6c63ff"
+        fill="#3dc730"
         d="M698.63 120H750.63V147H698.63z"
         opacity="0.2"
       ></path>
       <path
-        fill="#6c63ff"
+        fill="#3dc730"
         d="M825.63 357H877.63V384H825.63z"
         opacity="0.2"
       ></path>
       <path
-        fill="#6c63ff"
+        fill="#3dc730"
         d="M762.63 359H814.63V386H762.63z"
         opacity="0.2"
       ></path>
       <path
-        fill="#6c63ff"
+        fill="#3dc730"
         d="M280.17 332.5s73.29 73.29 31.92 182S383 804.14 383 804.14s-1.2-.18-3.43-.57C229.05 777 154.26 604.85 238 477c31.08-47.59 56.62-103.36 42.17-144.5z"
         transform="translate(-149.42 -56.5)"
       ></path>
@@ -88,7 +88,7 @@ export const CodingIcon = (props: StandardReactProps) => {
         d="M130.75 276s41.37 89.84 0 163.12-7.09 279 102.84 308.52"
       ></path>
       <path
-        fill="#6c63ff"
+        fill="#3dc730"
         d="M149.63 628.92s83.63-13.32 91.25 61.63 160.82 85.34 160.82 85.34-1 .68-2.87 1.91c-126.49 83-247.4 52.89-229.17-57.36 6.77-40.99 6.21-82.16-20.03-91.52z"
         transform="translate(-149.42 -56.5)"
       ></path>
@@ -105,42 +105,42 @@ export const CodingIcon = (props: StandardReactProps) => {
         strokeWidth="2"
         d="M.21 572.42s64.91 14.25 59.58 73.27 96.4 129.81 192.49 73.7"
       ></path>
-      <path fill="#6c63ff" d="M0.63 284H52.63V311H0.63z" opacity="0.2"></path>
-      <path fill="#6c63ff" d="M37.63 315H89.63V342H37.63z" opacity="0.2"></path>
-      <path fill="#6c63ff" d="M318.63 0H370.63V27H318.63z" opacity="0.2"></path>
+      <path fill="#3dc730" d="M0.63 284H52.63V311H0.63z" opacity="0.2"></path>
+      <path fill="#3dc730" d="M37.63 315H89.63V342H37.63z" opacity="0.2"></path>
+      <path fill="#3dc730" d="M318.63 0H370.63V27H318.63z" opacity="0.2"></path>
       <path
-        fill="#6c63ff"
+        fill="#3dc730"
         d="M728.63 498H780.63V525H728.63z"
         opacity="0.2"
       ></path>
-      <path fill="#6c63ff" d="M41.63 348H93.63V375H41.63z" opacity="0.2"></path>
+      <path fill="#3dc730" d="M41.63 348H93.63V375H41.63z" opacity="0.2"></path>
       <path
-        fill="#6c63ff"
+        fill="#3dc730"
         d="M355.63 31H407.63V58H355.63z"
         opacity="0.2"
       ></path>
       <path
-        fill="#6c63ff"
+        fill="#3dc730"
         d="M165.63 214H217.63V241H165.63z"
         opacity="0.2"
       ></path>
       <path
-        fill="#6c63ff"
+        fill="#3dc730"
         d="M202.63 245H254.63V272H202.63z"
         opacity="0.2"
       ></path>
       <path
-        fill="#6c63ff"
+        fill="#3dc730"
         d="M301.63 228H353.63V255H301.63z"
         opacity="0.2"
       ></path>
       <path
-        fill="#6c63ff"
+        fill="#3dc730"
         d="M206.63 278H258.63V305H206.63z"
         opacity="0.2"
       ></path>
       <path
-        fill="#6c63ff"
+        fill="#3dc730"
         d="M798.63 498H850.63V525H798.63z"
         opacity="0.2"
       ></path>
