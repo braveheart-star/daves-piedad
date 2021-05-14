@@ -17,20 +17,16 @@ export default function Home() {
   return (
     <>
       <Card id="Home" className="relative">
-        <div className="justify-between p-2 md:mx-6 md:flex ">
-          <div className="flex flex-col w-full font-bold text-center md:w-3/5">
-            <div className="flex items-center justify-center flex-1">
-              <div className="">
-                <p className="text-3xl leading-tight text-gray-800 sm:text-4xl xl:text-5xl ">
-                  Full-Stack Developer
-                </p>
-                <p className="my-4 text-2xl font-bold leading-tight text-transparent uppercase bg-clip-text bg-gradient-to-r from-yellow-400 via-pink-400 to-red-500 sm:text-2xl xl:text-4xl md:my-8">
-                  welcome to my site
-                </p>
-              </div>
-            </div>
+        <div className="grid items-center gap-4 sm:grid-cols-7">
+          <div className="space-y-2 font-bold text-center lg:space-y-4 sm:col-span-4">
+            <p className="text-3xl text-gray-800 sm:text-4xl xl:text-5xl ">
+              Full-Stack Developer
+            </p>
+            <p className="text-2xl text-transparent uppercase bg-clip-text bg-gradient-to-r from-yellow-400 via-pink-400 to-red-500 sm:text-2xl xl:text-4xl ">
+              welcome to my site
+            </p>
           </div>
-          <div className="flex w-auto h-32 mx-auto">
+          <div className="sm:col-span-3">
             <CoderIcon className="w-full h-full " />
           </div>
         </div>
@@ -57,7 +53,7 @@ export default function Home() {
           Projects I have worked on:
         </p>
 
-        <div className="flex flex-wrap ">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 ">
           {projects.map((item, idx) => (
             <ProjectItem item={item} key={idx} />
           ))}

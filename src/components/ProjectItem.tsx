@@ -49,7 +49,7 @@ export const ProjectItem = ({ item }: any) => {
             height={300}
           />
 
-          <div className="px-4 py-4 bg-white rounded-b-md description">
+          <div className="p-4 bg-white rounded-b-md description">
             <span className="block text-lg font-bold tracking-wide text-gray-800">
               {item.siteName}
             </span>
