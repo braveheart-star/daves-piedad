@@ -43,9 +43,9 @@ export default function Home() {
             adapt to new situations, whether technically or socially.
           </p>
         </div>
-        <div className="justify-center mx-auto md:mt-16 md:flex">
-          <ThinkerIcon className="w-5/6 h-32 py-2 mx-auto md:w-1/2" />
-          <CodingIcon className="w-5/6 h-32 mx-auto my-2 md:w-1/2" />
+        <div className="grid gap-4 sm:grid-cols-2">
+          <ThinkerIcon className="w-full h-40 p-4 lg:h-52" />
+          <CodingIcon className="w-full h-40 p-4 lg:h-52" />
         </div>
       </Card>
       <Card id="Projects">
