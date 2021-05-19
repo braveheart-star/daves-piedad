@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { LinkIcon } from "./icons/LinkIcon";
 import Image from "next/image";
 export const ProjectItem = ({ item }: any) => {
-  function goLivesite() {
+  function checkLiveSite() {
     window.open(item.siteUrl, "_blank");
   }
   const [hoveredEle, setHover] = useState(false);
@@ -21,7 +21,7 @@ export const ProjectItem = ({ item }: any) => {
             <div className="absolute z-20 flex items-center justify-center flex-1 w-full h-full">
               <div>
                 <button
-                  onClick={goLivesite}
+                  onClick={checkLiveSite}
                   className="flex items-center p-3 rounded-lg linkBg"
                 >
                   <LinkIcon className="w-4 h-4 text-gray-600 fill-current linkBg" />

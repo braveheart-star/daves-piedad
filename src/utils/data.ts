@@ -35,10 +35,8 @@ export const projects = [
       "React-Redux, Node.js ( Nest.js ), easy-peasy library, postgreSQL, Docker",
     siteName: "AlphaSwap Company",
     img: "/projects/alphaswap1.jpg",
-    description: `
-    I have worked as a full-stack developer in AlphaSwap company.
-    I built UI using React-Redux and implemented the functionality of the investment idea.
-    `,
+    description:
+      "I built UI using React-Redux and implemented the functionality of the investment idea",
     period: {
       year: "2020",
       month: "4 ~ 11",
@@ -135,9 +133,9 @@ export const projects = [
     siteUrl: "https://threejs-svg-designer.herokuapp.com/",
     role: "JavaScript Developer",
     siteName: "Glass Design",
-    description: `I got this project on the Upwork when I worked as a freelancer.
-    The requirements is that implementing any kind of glass manipulation design by drawing that in the SVG, Canvas.
-    `,
+    description:
+      "I got this project on the Upwork. The requirements was implementing any kind of glass manipulation design by drawing that in the SVG, Canvas.",
+
     techStack: "JavaScript, jQuery, SVG, Canvas",
     img: "/projects/svg.jpg",
     period: {
