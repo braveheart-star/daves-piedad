@@ -1,15 +1,20 @@
-import Link from "next/link";
-
+import { useRouter } from "next/router";
 const NavItems = ["Projects", "About", "Contact", "Resume"];
 
 interface NavProps {
-  title: string;
+  clickedTitle: string;
   setTitle: Function;
 }
 export const NavTitle = (props: NavProps) => {
-  const { title, setTitle } = props;
+  const { setTitle } = props;
+  const router = useRouter();
 
   function titleClick(title: string) {
+    if (title === "Resume") {
+      router.push("/resume");
+      return;
+    } else router.push("/");
+
     setTimeout(() => {
       setTitle(title);
       const element = document.getElementById(title);
@@ -24,14 +29,13 @@ export const NavTitle = (props: NavProps) => {
       <div className="items-center w-full my-3 md:my-0 md:flex ">
         {NavItems.map((item, index) => {
           return (
-            <Link key={index} href={title === "Resume" ? "/resume" : "/"}>
-              <button
-                onClick={() => titleClick(item)}
-                className="block p-2 font-mono text-xl xl:px-8 lg:px-4 focus:outline-none"
-              >
-                {item}
-              </button>
-            </Link>
+            <button
+              key={index}
+              onClick={() => titleClick(item)}
+              className="block p-2 font-mono text-xl xl:px-8 lg:px-4 focus:outline-none"
+            >
+              {item}
+            </button>
           );
         })}
       </div>

@@ -28,7 +28,7 @@ export const Header = () => {
           </div>
 
           <div className="hidden m-2 md:flex ">
-            <NavTitle title={title} setTitle={setTitle} />
+            <NavTitle clickedTitle={title} setTitle={setTitle} />
           </div>
 
           <div className="md:hidden">
@@ -40,7 +40,7 @@ export const Header = () => {
           </div>
         </div>
 
-        {menuDrop && <NavTitle title={title} setTitle={setTitle} />}
+        {menuDrop && <NavTitle clickedTitle={title} setTitle={setTitle} />}
       </div>
     </div>
   );
