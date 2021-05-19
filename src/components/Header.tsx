@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { ProudIcon } from "./icons";
 import { NavTitle } from "./NavTitle";
-import { MenuToggle } from "./MenuToogle";
+import { MenuToggle } from "./MenuToggle";
 
 export const Header = () => {
   const [menuDrop, setMenuDrop] = useState(false);
