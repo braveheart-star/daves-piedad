@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 
-const NavItems = ["Projects", "About", "Contact", "Resume"];
+const NavItems = ["Projects", "About", "Recommend", "Contact", "Resume"];
 
 interface NavProps {
   clickedTitle: string;

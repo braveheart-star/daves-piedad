@@ -1,12 +1,14 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
-import { Card } from "../components/Card";
-import { CoderIcon, CodingIcon, ThinkerIcon } from "../components/icons";
-import { ProjectItem } from "../components/ProjectItem";
-import { Skill } from "../components/Skill";
-import { projects } from "../utils/data";
-import { EmailSend } from "../components/EmailSend";
 import AddChat from "../utils/tawkto";
+import { projects, recommend } from "../utils/data";
+
+import { Card } from "../components/Card";
+import { Skill } from "../components/Skill";
+import { EmailSend } from "../components/EmailSend";
+import { ProjectItem } from "../components/ProjectItem";
+import { RecommendDetail } from "../components/RecommendDetail";
+import { CoderIcon, CodingIcon, ThinkerIcon } from "../components/icons";
 
 export default function Home() {
   useEffect(() => {
@@ -201,6 +203,17 @@ export default function Home() {
           </div>
         </div>
       </Card>
+      <Card id="Recommend">
+        <p className="my-6 text-xl font-bold text-gray-800 sm:text-3xl md:text-4xl">
+          Recommendations:
+        </p>
+        <div className="space-y-4 divide-y lg:space-y-6 md:mt-10">
+          {recommend.map((item, idx) => (
+            <RecommendDetail item={item} key={idx} />
+          ))}
+        </div>
+      </Card>
+
       <Card id="Contact" className="bg-white">
         <div>
           <p className="my-6 text-xl font-bold text-gray-800 sm:text-3xl md:text-4xl">
