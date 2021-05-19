@@ -18,7 +18,6 @@ export const EmailSend = () => {
 
   async function submitRequest(e: any) {
     e.preventDefault();
-    console.log(payload);
     await fetch("/send-email", {
       method: "POST",
       headers: {

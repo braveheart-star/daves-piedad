@@ -1,22 +1,26 @@
 import React from "react";
-import { useStoreActions, useStoreState } from "../store/hooks";
 import { CloseIcon } from "./icons";
 import { MenuIcon } from "./icons";
 
-export const MenuToggle = () => {
-  const menuDrop = useStoreState((state) => state.header.menuDrop);
-  const menuDropdown = useStoreActions(
-    (actions) => actions.header.menuDropdown
-  );
+interface MenuProps {
+  menuDrop: boolean;
+  setMenuDrop: Function;
+}
 
+export const MenuToggle = (props: MenuProps) => {
+  const { menuDrop, setMenuDrop } = props;
+
+  function handleClickMenu() {
+    setMenuDrop(!menuDrop);
+  }
   return (
     <div
       className={`${
-        menuDrop ? `border-green-600` : `border-gray-600`
+        menuDrop ? "border-green-600" : "border-gray-600"
       } items-center border rounded shadow-sm md:hidden`}
     >
       <button
-        onClick={() => menuDropdown(!menuDrop)}
+        onClick={handleClickMenu}
         className="flex justify-start px-3 py-2 focus:outline-none"
       >
         {menuDrop ? (
