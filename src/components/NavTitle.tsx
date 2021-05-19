@@ -10,10 +10,14 @@ export const NavTitle = (props: NavProps) => {
   const router = useRouter();
 
   function titleClick(title: string) {
+    const { pathname } = router;
+
     if (title === "Resume") {
       router.push("/resume");
       return;
-    } else router.push("/");
+    } else {
+      pathname === "/resume" && router.push("/");
+    }
 
     setTimeout(() => {
       setTitle(title);
