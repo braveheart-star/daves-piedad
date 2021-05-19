@@ -7,13 +7,14 @@ interface NavProps {
   setTitle: Function;
 }
 export const NavTitle = (props: NavProps) => {
-  const { setTitle } = props;
+  const { setTitle, clickedTitle } = props;
   const router = useRouter();
 
   function titleClick(title: string) {
     const { pathname } = router;
+    setTitle(title);
 
-    if (title === "Resume") {
+    if (title.toLowerCase() === "resume") {
       router.push("/resume");
       return;
     } else {
@@ -21,7 +22,6 @@ export const NavTitle = (props: NavProps) => {
     }
 
     setTimeout(() => {
-      setTitle(title);
       const element = document.getElementById(title);
       element?.scrollIntoView({
         behavior: "smooth",
@@ -37,7 +37,11 @@ export const NavTitle = (props: NavProps) => {
             <button
               key={index}
               onClick={() => titleClick(item)}
-              className="block p-2 font-mono text-xl xl:px-8 lg:px-4 focus:outline-none"
+              className={`block p-2 font-mono text-xl xl:px-8 lg:px-4 focus:outline-none ${
+                clickedTitle.toLowerCase() === item.toLowerCase()
+                  ? " text-lime-500 "
+                  : " text-green-600"
+              }`}
             >
               {item}
             </button>
