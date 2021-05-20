@@ -19,7 +19,7 @@ export const Layout = ({ children, title = "ShiXiong" }: any) => {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
         >
-          <div className="my-24 md:my-32"> {children}</div>
+          <div className="my-20 md:my-32"> {children}</div>
           <Footer />
         </motion.main>
       </div>

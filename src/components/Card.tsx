@@ -11,15 +11,9 @@ export const Card = (props: CardProps) => {
   return (
     <div
       id={id}
-      className="container flex w-full max-w-screen-lg px-4 mx-auto my-8 "
+      className="container w-full max-w-5xl mx-auto bg-white shadow-sm"
     >
-      <div className="w-full mx-auto bg-white shadow-md">
-        <div className="m-6 md:m-16">
-          <div className={`md:py-5 lg:py-12 p-3 rounded ${props.className}`}>
-            {children}
-          </div>
-        </div>
-      </div>
+      <div className="p-10 space-y-4 lg:p-16">{children}</div>
     </div>
   );
 };

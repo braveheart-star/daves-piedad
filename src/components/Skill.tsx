@@ -25,12 +25,12 @@ export const Skill = (props: SkillProps) => {
     degreeColor,
   } = props;
   return (
-    <div className="w-40 mx-auto border rounded-lg ">
+    <div className="w-32 mx-auto text-gray-700 border rounded-lg sm:w-40 ">
       <div
-        className={`${borderColor1} relative h-32 p-3 border-b-4  rounded-lg shadow `}
+        className={`${borderColor1} relative sm:h-32 p-3 border-b-4  rounded-lg shadow `}
       >
         <div
-          className={`absolute w-16 h-16 ${picSize} -mt-8 -ml-8 overflow-hidden ${backColor} border ${borderColor2} rounded-full`}
+          className={`absolute w-12 h-12 sm:w-16 sm:h-16 ${picSize} -mt-8 -ml-8 overflow-hidden ${backColor} border ${borderColor2} rounded-full`}
         >
           <Image
             src={pic}
@@ -39,12 +39,13 @@ export const Skill = (props: SkillProps) => {
             height={100}
           />
         </div>
-        <p className="items-center my-4 text-lg font-hairline text-center text-gray-700 ">
+
+        <p className="items-center mt-4 text-lg font-hairline text-center ">
           {title}
         </p>
 
-        <div className="relative w-full h-1 my-10 text-gray-700 bg-gray-400 rounded ">
-          <div className="absolute right-0 flex p-1 -mt-6 text-sm ">
+        <div className="relative w-full h-1 mt-8 bg-gray-400 rounded ">
+          <div className="absolute right-0 flex p-1 text-sm -top-6 ">
             {degree >= 95 ? (
               [1, 2, 3, 4, 5].map((idx) => (
                 <StarIcon
@@ -79,7 +80,6 @@ export const Skill = (props: SkillProps) => {
               </div>
             )}
           </div>
-
           <div
             className={` ${
               degree > 85

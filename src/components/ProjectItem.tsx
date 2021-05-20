@@ -8,7 +8,7 @@ export const ProjectItem = ({ item }: any) => {
   const [hoveredEle, setHover] = useState(false);
 
   return (
-    <div className="py-4 mx-auto lg:p-4 ">
+    <div className="mx-auto lg:p-4 ">
       <div className="container flex items-center justify-center max-w-sm mx-auto overflow-hidden transition duration-100 ease-in-out transform rounded-md shadow cursor-pointer hover:-translate-y-1 hover:scale-105 cardBg">
         <div
           onMouseOver={() => {
