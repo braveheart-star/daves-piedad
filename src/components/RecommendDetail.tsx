@@ -5,7 +5,7 @@ import { LinkedinIcon } from "./icons";
 
 export const RecommendDetail = ({ item }: any) => {
   return (
-    <div className="grid py-4 sm:py-6 lg:py-8 sm:grid-cols-8">
+    <div className="grid py-4 sm:py-6 lg:py-14 sm:grid-cols-8">
       <div className=" sm:col-span-1">
         <div className="object-cover object-center w-20 h-20 mx-auto overflow-hidden rounded-full">
           <Image
