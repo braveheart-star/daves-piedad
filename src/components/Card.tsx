@@ -13,7 +13,7 @@ export const Card = (props: CardProps) => {
       id={id}
       className="container w-full max-w-5xl mx-auto bg-white shadow-sm"
     >
-      <div className="p-10 space-y-4 lg:p-16">{children}</div>
+      <div className="p-10 space-y-4 lg:space-y-10 lg:p-16">{children}</div>
     </div>
   );
 };

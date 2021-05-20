@@ -5,8 +5,8 @@ import { LinkedinIcon } from "./icons";
 
 export const RecommendDetail = ({ item }: any) => {
   return (
-    <div className="grid sm:grid-cols-8">
-      <div className="py-4 sm:col-span-1">
+    <div className="grid py-4 sm:py-6 lg:py-8 sm:grid-cols-8">
+      <div className=" sm:col-span-1">
         <div className="object-cover object-center w-20 h-20 mx-auto overflow-hidden rounded-full">
           <Image
             src={item.photoUrl}
@@ -16,8 +16,8 @@ export const RecommendDetail = ({ item }: any) => {
           />
         </div>
       </div>
-      <div className="p-4 space-y-4 sm:col-span-2">
-        <div className="space-y-2 ">
+      <div className="space-y-2 sm:col-span-2">
+        <div className="">
           <p className="font-bold text-center ">{item.name}</p>
           <p className="text-sm text-center text-gray-500">{item.job}</p>
         </div>
@@ -28,7 +28,7 @@ export const RecommendDetail = ({ item }: any) => {
           </div>
         </Link>
       </div>
-      <div className="p-4 text-sm text-gray-700 sm:col-span-5 md:text-base">
+      <div className="text-sm text-gray-700 sm:col-span-5 md:text-base">
         <p>{item.content}</p>
       </div>
     </div>

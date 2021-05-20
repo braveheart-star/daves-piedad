@@ -71,7 +71,7 @@ export default function Home() {
           </p>
         </div>
         <div className="items-center my-8 lg:my-12 lg:flex lg:justify-around">
-          <div className="overflow-hidden border-2 border-blue-200 rounded-full w-36 h-36 ">
+          <div className="overflow-hidden border-2 border-blue-200 rounded-full w-28 h-28 lg:w-36 lg:h-36 ">
             <div className="object-cover object-center w-full h-full mx-auto rounded">
               <Image
                 src="/images/photo/picture.jpg"
@@ -203,35 +203,34 @@ export default function Home() {
       </Card>
       <Card id="Recommend">
         <p className="title">Recommendations:</p>
-        <div className="space-y-4 divide-y lg:space-y-6 md:mt-10">
+        <div className="divide-y md:mt-10">
           {recommend.map((item, idx) => (
             <RecommendDetail item={item} key={idx} />
           ))}
         </div>
       </Card>
       <Card id="Contact">
-        <div>
-          <p className=" title">Contact me:</p>
-          <p className="text-sm text-gray-700 lg:m-6 sm:text-lg md:text-xl">
-            I'm always up for interesting ideas and projects. If you want to
-            talk about any of the projects I have worked on, or want to work
-            with a project with me, feel free to get in touch!
+        <p className="title">Contact me:</p>
+        <div className="text-sm text-gray-700 lg:text-lg sm:text-base">
+          <p>I'm always up for interesting ideas and projects.</p>
+          <p>
+            If you want to talk about any of the projects I have worked on, or
+            want to work with a project with me, feel free to get in touch!
           </p>
-          <div className="my-4 mb-16">
-            <EmailSend />
-          </div>
+        </div>
 
-          <div className="my-4">
-            <div className="my-4 sm:flex">
-              <p className="mx-3 text-base text-gray-600 md:text-lg">
-                My Email:
-              </p>
-              <p className="flex justify-center text-base text-green-600 md:text-lg">
-                <a href="mailto: lovelymouse115@gmail.com">
-                  Send me an Email directly
-                </a>
-              </p>
-            </div>
+        <div className="my-4 mb-16">
+          <EmailSend />
+        </div>
+
+        <div className="my-4">
+          <div className="my-4 sm:flex">
+            <p className="mx-3 text-base text-gray-600 md:text-lg">My Email:</p>
+            <p className="flex justify-center text-base text-green-600 md:text-lg">
+              <a href="mailto: lovelymouse115@gmail.com">
+                Send me an Email directly
+              </a>
+            </p>
           </div>
         </div>
       </Card>

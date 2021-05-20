@@ -31,7 +31,7 @@ export const NavTitle = (props: NavProps) => {
 
   return (
     <>
-      <div className="items-center w-full my-3 md:my-0 md:flex ">
+      <div className="items-center w-full md:flex">
         {NavItems.map((item, index) => {
           return (
             <button

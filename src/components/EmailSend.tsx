@@ -34,7 +34,7 @@ export const EmailSend = () => {
   }
   return (
     <form onSubmit={submitRequest}>
-      <div className="justify-between lg:flex ">
+      <div className="justify-between text-sm lg:flex ">
         <div className="w-full px-2 my-2 lg:w-1/2 xl:w-5/12">
           <input
             name="name"
@@ -61,9 +61,8 @@ export const EmailSend = () => {
           value={payload.message}
           style={{
             resize: "none",
-            height: `200px`,
           }}
-          className="w-full p-2 px-5 my-1 text-gray-800 border focus:border-green-500 sm:text-base sm:p-3 focus:outline-none"
+          className="w-full h-40 p-2 px-5 my-1 text-gray-800 border lg:h-48 focus:border-green-500 sm:text-base sm:p-3 focus:outline-none"
           placeholder="Message"
           onChange={onInputChange}
         />
