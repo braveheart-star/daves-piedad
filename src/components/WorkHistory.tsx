@@ -18,7 +18,7 @@ export const WorkHistory = (props: WorkHistoryProps) => {
               <div
                 className="h-full bg-gray-200 pointer-events-none"
                 style={{ width: "2px" }}
-              ></div>
+              />
             </div>
             <div className="flex-shrink-0 w-2 h-2 mt-2 bg-gray-500 rounded-full "></div>
             <div className="flex-grow hidden mt-1 ml-4 lg:flex">
