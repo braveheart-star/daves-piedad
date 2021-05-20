@@ -29,7 +29,11 @@ export const EmailSend = () => {
   }
 
   function reSet() {
-    Swal.fire("Warning", "Sorry, This is not working now... ", "warning");
+    Swal.fire(
+      "Warning",
+      "Sorry, Please send me an email directly or contact via social",
+      "warning"
+    );
     setTimeout(() => {
       setPayload({ name: ``, email: ``, message: `` });
     }, 5000);
