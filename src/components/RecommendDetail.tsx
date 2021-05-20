@@ -17,7 +17,7 @@ export const RecommendDetail = ({ item }: any) => {
         </div>
       </div>
       <div className="space-y-2 sm:col-span-2">
-        <div className="">
+        <div>
           <p className="font-bold text-center ">{item.name}</p>
           <p className="text-sm text-center text-gray-500">{item.job}</p>
         </div>
