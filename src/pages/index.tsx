@@ -225,11 +225,8 @@ export default function Home() {
 
         <div className="my-4">
           <div className="my-4 sm:flex">
-            <p className="mx-3 text-base text-gray-600 md:text-lg">My Email:</p>
-            <p className="flex justify-center text-base text-green-600 md:text-lg">
-              <a href="mailto: lovelymouse115@gmail.com">
-                Send me an Email directly
-              </a>
+            <p className="text-base text-teal-600 md:text-lg">
+              <a href="mailto: lovelymouse115@gmail.com ">Email Me Directly</a>
             </p>
           </div>
         </div>

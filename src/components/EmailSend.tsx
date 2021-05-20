@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Swal from "sweetalert2";
 
 export const EmailSend = () => {
   const [payload, setPayload] = useState({
@@ -28,6 +29,7 @@ export const EmailSend = () => {
   }
 
   function reSet() {
+    Swal.fire("Warning", "Sorry, This is not working now... ", "warning");
     setTimeout(() => {
       setPayload({ name: ``, email: ``, message: `` });
     }, 5000);
