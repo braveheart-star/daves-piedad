@@ -85,7 +85,7 @@ export default function Home() {
             <p className="font-serif text-gray-700 sm:text-lg lg:text-xl">
               My name is ShiXiong Han.
               <span className="block">
-                I'm a senior web developer based in Hong Kong with a focus in
+                I'm a senior web developer based in Dalian, China with a focus in
                 building beautiful and well-structured web site using modern
                 technologies.
               </span>
