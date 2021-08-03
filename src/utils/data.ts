@@ -1,12 +1,42 @@
 export const projects = [
   {
-    siteUrl: "https://gamebit888.com/",
+    siteUrl: "https://divizend.com/",
+    role: "Full-Stack Developer",
+    techStack:
+      "React-Redux, Node.js ( LoopBack ), postgreSQL, Docker, MongoDB, Redis, MySQL, Next.js",
+    siteName: "Divizend Company",
+    img: "/projects/divizend.png",
+    description:
+      "I contributed to build & maintain a website using React, LoopBack",
+    period: {
+      year: "2020",
+      month: "4 ~ 11",
+    },
+  },
+
+  {
+    siteUrl: "https://www.alphaswap.io/about-us",
+    role: "Full-Stack Developer",
+    techStack:
+      "React-Redux, Node.js ( Nest.js ), easy-peasy library, postgreSQL, Docker",
+    siteName: "AlphaSwap Company",
+    img: "/projects/alphaswap.jpg",
+    description:
+      "I built UI using React-Redux and implemented the functionality of the investment idea",
+    period: {
+      year: "2020",
+      month: "4 ~ 11",
+    },
+  },
+
+  {
+    siteUrl: "https://www.skills4school.de/",
     role: "Front-End Developer",
-    techStack: "Next.js, TypeScript, TailwindCSS, SWR hook ",
-    siteName: "SonicX Foundation / Gamebit888",
-    img: "/projects/game888.jpg",
+    techStack: "Ionic React, firebase, directus",
+    siteName: "Skills4School company News app",
+    img: "/projects/s4c.png",
     description: `
-    I built this site using Next.js, TailwindCSS, SWR hook.
+    I built this app using Ionic React.
     `,
     period: {
       year: "-2021",
@@ -26,20 +56,6 @@ export const projects = [
     period: {
       year: "-2021",
       month: "12 ~ 1",
-    },
-  },
-  {
-    siteUrl: "https://www.alphaswap.io/about-us",
-    role: "Full-Stack Developer",
-    techStack:
-      "React-Redux, Node.js ( Nest.js ), easy-peasy library, postgreSQL, Docker",
-    siteName: "AlphaSwap Company",
-    img: "/projects/alphaswap1.jpg",
-    description:
-      "I built UI using React-Redux and implemented the functionality of the investment idea",
-    period: {
-      year: "2020",
-      month: "4 ~ 11",
     },
   },
 
