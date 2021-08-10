@@ -37,17 +37,6 @@ export default function Resume() {
             </p>
           </WorkHistory>
 
-          <WorkHistory period="Aug. 2018 ~ Jan. 2020">
-            <p className="my-4 font-serif text-lg text-gray-800 xl:w-4/6 lg:w-3/5 sm:text-xl lg:text-2xl lg:my-0">
-              Freelancer Platform (Upwork & Guru)
-            </p>
-            <p className="my-2 font-serif text-base text-indigo-700 xl:w-4/6 lg:w-3/5 sm:text-lg lg:text-xl lg:my-0">
-              (Remote)
-            </p>
-            <p className="my-3 font-serif text-gray-600 lg:my-4 xl:w-4/6 lg:w-3/5 sm:text-base lg:text-lg ">
-              (Front-End Web Developer)
-            </p>
-          </WorkHistory>
           <WorkHistory period="Apr. 2019 ~ Nov. 2020">
             <div>
               <p className="mt-4 font-serif text-lg text-gray-800 xl:w-4/6 lg:w-3/5 sm:text-xl lg:text-2xl lg:my-0">
