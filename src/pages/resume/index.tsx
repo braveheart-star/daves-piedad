@@ -63,7 +63,7 @@ export default function Resume() {
             </p>
           </WorkHistory>
 
-          <WorkHistory period="Dec. 2020 ~ Apr. 2021">
+          <WorkHistory period="Dec. 2020 ~ Mar. 2021">
             <div>
               <p className="mt-4 font-serif text-lg text-gray-800 xl:w-4/6 lg:w-3/5 sm:text-xl lg:text-2xl lg:my-0">
                 SonicX Blockchain Foundation
@@ -75,6 +75,35 @@ export default function Resume() {
 
             <p className="my-3 font-serif text-gray-600 lg:my-4 xl:w-4/6 lg:w-3/5 sm:text-base lg:text-lg ">
               (Full-Stack Web Developer)
+            </p>
+          </WorkHistory>
+
+          <WorkHistory period="Jan. 2021 ~ Apr. 2021">
+            <div>
+              <p className="mt-4 font-serif text-lg text-gray-800 xl:w-4/6 lg:w-3/5 sm:text-xl lg:text-2xl lg:my-0">
+                Skills4school Company
+              </p>
+              <p className="my-2 font-serif text-base text-indigo-700 xl:w-4/6 lg:w-3/5 sm:text-lg lg:text-xl lg:my-0">
+                (remote)
+              </p>
+            </div>
+
+            <p className="my-3 font-serif text-gray-600 lg:my-4 xl:w-4/6 lg:w-3/5 sm:text-base lg:text-lg ">
+              (Ionic Mobile Developer)
+            </p>
+          </WorkHistory>
+          <WorkHistory period="Mar. 2021 ~ Aug. 2021">
+            <div>
+              <p className="mt-4 font-serif text-lg text-gray-800 xl:w-4/6 lg:w-3/5 sm:text-xl lg:text-2xl lg:my-0">
+                Divizend Company
+              </p>
+              <p className="my-2 font-serif text-base text-indigo-700 xl:w-4/6 lg:w-3/5 sm:text-lg lg:text-xl lg:my-0">
+                (remote)
+              </p>
+            </div>
+
+            <p className="my-3 font-serif text-gray-600 lg:my-4 xl:w-4/6 lg:w-3/5 sm:text-base lg:text-lg ">
+              (Full Stack Developer)
             </p>
           </WorkHistory>
         </div>
