@@ -74,20 +74,6 @@ export const projects = [
     },
   },
 
-  {
-    siteUrl: "https://canvas-animation-muscular.herokuapp.com/",
-    role: "CSS developer",
-    techStack: "CSS",
-    siteName: "animation css",
-    img: "/projects/css.jpg",
-    description: `
-   CSS fully animation
-    `,
-    period: {
-      year: "2020",
-      month: "4 ~ 5",
-    },
-  },
 
   {
     siteUrl: "https://staging.chinesepod.com/",
