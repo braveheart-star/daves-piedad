@@ -201,14 +201,14 @@ export default function Home() {
           </div>
         </div>
       </Card>
-      <Card id="Recommend">
+      {/* <Card id="Recommend">
         <p className="title">Recommendations:</p>
         <div className="divide-y md:mt-10">
           {recommend.map((item, idx) => (
             <RecommendDetail item={item} key={idx} />
           ))}
         </div>
-      </Card>
+      </Card> */}
       <Card id="Contact">
         <p className="title">Contact me:</p>
         <div className="text-sm text-gray-700 lg:text-lg sm:text-base">
