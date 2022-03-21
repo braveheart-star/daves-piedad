@@ -59,21 +59,6 @@ export const projects = [
     },
   },
 
-  {
-    siteUrl: "https://www.workwelltogether.co/",
-    role: "Full-Stack Developer",
-    techStack: "Django, React, PostgreSQL",
-    siteName: "Workwelltogether",
-    img: "/projects/work.jpg",
-    description: `
-   I built this site using React for frontend, Django for backend
-    `,
-    period: {
-      year: "2020",
-      month: "9 ~ 11",
-    },
-  },
-
   // {
   //   siteUrl: "https://canvas-animation-muscular.herokuapp.com/",
   //   role: "CSS developer",
@@ -128,21 +113,6 @@ export const projects = [
       year: "2018",
       month: "3 ~ 8",
     },
-  },
-  {
-    siteUrl: "https://theracingmanager.com/",
-    role: "Back-End Developer",
-    siteName: "Racing Management",
-    description:
-      "I worked on this project for about 3 months as a backend developer.",
-    img: "/projects/racing.jpg",
-
-    period: {
-      year: "2017",
-      month: "5 ~ 8",
-    },
-    techStack:
-      "Node.js ( express ), React, AWS Amplify, Cognito, API Gateway, Lambdas, Serverless Architecture",
   },
 
   {
