@@ -2,8 +2,7 @@ export const projects = [
   {
     siteUrl: "https://divizend.com/",
     role: "Full-Stack Developer",
-    techStack:
-      "React-Redux, Node.js ( LoopBack ), postgreSQL, Docker, MongoDB, Redis, MySQL, Next.js",
+    techStack: "React-Redux, Node.js ( LoopBack ), postgreSQL, Docker, Next.js",
     siteName: "Divizend Company",
     img: "/projects/divizend.png",
     description:
