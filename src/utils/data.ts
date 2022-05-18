@@ -75,47 +75,6 @@ export const projects = [
   // },
 
   {
-    siteUrl: "https://staging.chinesepod.com/",
-    role: "Front-End Developer",
-    techStack: "Vue.js, Node.js",
-    siteName: "Chinesepod",
-    img: "/projects/chinese.jpg",
-
-    description: `I worked as a front end developer using vue.js with another developer as team contributor.`,
-    period: {
-      year: "2019",
-      month: "7 ~ 8",
-    },
-  },
-
-  {
-    siteUrl: "https://www.msgsafe.io/",
-    role: "React Native Developer",
-    techStack: "React Native, Firebase",
-    siteName: "msgsafe",
-    img: "/projects/native.jpg",
-    description: `I worked as a React Native developer with another developer.`,
-    period: {
-      year: "2018",
-      month: "8 ~ 12",
-    },
-  },
-
-  {
-    siteUrl: "https://portal.cdm.rosetta-technology.io/",
-    role: "Front-End Developer",
-    techStack: "Angular 7+, CSS animations, Azure DevOps, Microsoft Teams",
-    siteName: "Rosetta Technology",
-    img: "/projects/rosetta.jpg",
-
-    description: `I worked as a front end developer with another developer as team contributor.`,
-    period: {
-      year: "2018",
-      month: "3 ~ 8",
-    },
-  },
-
-  {
     siteUrl: "https://threejs-svg-designer.herokuapp.com/",
     role: "JavaScript Developer",
     siteName: "Glass Design",

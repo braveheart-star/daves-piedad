@@ -81,7 +81,7 @@ export default function Resume() {
               (Ionic Mobile Developer)
             </p>
           </WorkHistory>
-          <WorkHistory period="Mar. 2021 ~ Aug. 2021">
+          <WorkHistory period="Mar. 2021 ~ Apr. 2022">
             <div>
               <p className="mt-4 font-serif text-lg text-gray-800 xl:w-4/6 lg:w-3/5 sm:text-xl lg:text-2xl lg:my-0">
                 Divizend Company
@@ -98,7 +98,7 @@ export default function Resume() {
         </div>
         <div className="flex justify-between ">
           <div></div>
-          <a href="./CV/CV-2021.pdf" target="_blank" download>
+          <a href="./CV/CV-2022.pdf" target="_blank" download>
             <button className="bottom-auto p-2 text-white bg-green-500 border border-green-300 rounded-md shadow hover:bg-green-400 focus:outline-none">
               Download CV
             </button>
