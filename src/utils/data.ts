@@ -46,7 +46,8 @@ export const projects = [
   {
     siteUrl: "https://caltechcasino.com/",
     role: "Front-End Developer",
-    techStack: "React-Redux, React-hook, TypeScript, Smart Contractor, ",
+    techStack:
+      "BlockChain, SmartContract, React-Redux, React-hook, TypeScript, Smart Contractor, ",
     siteName: "SonicX Foundation / CaltechCasino",
     img: "/projects/caltech.jpg",
     description: `
@@ -80,7 +81,7 @@ export const projects = [
     description:
       "I got this project on the Upwork. The requirements was implementing any kind of glass manipulation design by drawing that in the SVG, Canvas.",
 
-    techStack: "JavaScript, jQuery, SVG, Canvas",
+    techStack: "Three.js, JavaScript, jQuery, SVG, Canvas",
     img: "/projects/svg.jpg",
     period: {
       year: "2020",
