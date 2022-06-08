@@ -52,7 +52,7 @@ export default function Resume() {
             </p>
           </WorkHistory>
 
-          <WorkHistory period="Dec. 2020 ~ Mar. 2021">
+          <WorkHistory period="Dec. 2020 ~ July. 2021">
             <div>
               <p className="mt-4 font-serif text-lg text-gray-800 xl:w-4/6 lg:w-3/5 sm:text-xl lg:text-2xl lg:my-0">
                 SonicX Blockchain Foundation
@@ -81,7 +81,7 @@ export default function Resume() {
               (Ionic Mobile Developer)
             </p>
           </WorkHistory>
-          <WorkHistory period="Mar. 2021 ~ Apr. 2022">
+          <WorkHistory period="Mar. 2021 ~ Feb. 2022">
             <div>
               <p className="mt-4 font-serif text-lg text-gray-800 xl:w-4/6 lg:w-3/5 sm:text-xl lg:text-2xl lg:my-0">
                 Divizend Company
