@@ -1,5 +1,18 @@
 export const projects = [
   {
+    siteUrl: "https://giftcash.com/",
+    role: "Full-Stack Developer",
+    techStack: "Next.js, AWS Lamda function, PHP, Laravel, MySql, Docker",
+    siteName: "GiftCash Company",
+    img: "/projects/gift.png",
+    description: "I worked for maintaining projects and adding new features.",
+    period: {
+      year: "2020",
+      month: "4 ~ 11",
+    },
+  },
+
+  {
     siteUrl: "https://divizend.com/",
     role: "Full-Stack Developer",
     techStack: "React-Redux, Node.js ( LoopBack ), postgreSQL, Docker, Next.js",
