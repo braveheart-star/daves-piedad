@@ -113,7 +113,7 @@ export default function Resume() {
         </div>
         <div className="flex justify-between ">
           <div></div>
-          <a href="./CV/CV-2022.pdf" target="_blank" download>
+          <a href="./CV/CV-2022-9.pdf" target="_blank" download>
             <button className="bottom-auto p-2 text-white bg-green-500 border border-green-300 rounded-md shadow hover:bg-green-400 focus:outline-none">
               Download CV
             </button>
