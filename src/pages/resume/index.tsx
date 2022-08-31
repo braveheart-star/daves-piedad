@@ -22,7 +22,7 @@ export default function Resume() {
           <p className="font-mono text-xl font-bold text-gray-700 lg:text-2xl">
             Work History
           </p>
-          <WorkHistory period="Oct. 2016 ~ Sep. 2019">
+          {/* <WorkHistory period="Oct. 2016 ~ Sep. 2019">
             <div>
               <p className="mt-4 font-serif text-lg text-gray-800 xl:w-4/6 lg:w-3/5 sm:text-xl lg:text-2xl lg:my-0">
                 Hong Kong Kenxinda Technology Co., Ltd
@@ -35,7 +35,7 @@ export default function Resume() {
             <p className="my-3 font-serif text-gray-600 lg:my-4 xl:w-4/6 lg:w-3/5 sm:text-base lg:text-lg ">
               (Web Developer)
             </p>
-          </WorkHistory>
+          </WorkHistory> */}
 
           <WorkHistory period="Apr. 2019 ~ Nov. 2020">
             <div>
