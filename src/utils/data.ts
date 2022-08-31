@@ -27,7 +27,7 @@ export const projects = [
   },
 
   {
-    siteUrl: "https://www.alphaswap.io/institutional-about-us",
+    siteUrl: "https://app.alphaswap.io/",
     role: "Full-Stack Developer",
     techStack:
       "React-Redux, Node.js ( Nest.js ), easy-peasy library, postgreSQL, Docker",
