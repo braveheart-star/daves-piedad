@@ -85,8 +85,8 @@ export default function Home() {
             <p className="font-serif text-gray-700 sm:text-lg lg:text-xl">
               My name is ShiXiong Han.
               <span className="block">
-                I'm a senior web developer based in Dalian, China with a focus in
-                building beautiful and well-structured web site using modern
+                I'm a senior web developer based in Dalian, China with a focus
+                in building beautiful and well-structured web site using modern
                 technologies.
               </span>
               <span className="block">I'm open to work at any time zone.</span>
@@ -158,7 +158,7 @@ export default function Home() {
               degree={93}
               degreeColor="bg-yellow-400"
             />
-            <Skill
+            {/* <Skill
               borderColor1="border-yellow-500 "
               borderColor2="border-blue-300"
               backColor="bg-blue-100"
@@ -167,7 +167,7 @@ export default function Home() {
               title="PostgreSQL"
               degree={93}
               degreeColor="bg-green-400"
-            />
+            /> */}
             <Skill
               borderColor1="border-pink-500 "
               borderColor2="border-pink-300"
