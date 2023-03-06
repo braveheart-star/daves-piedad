@@ -1,6 +1,6 @@
 import React from "react";
 import { AppProps } from "next/app";
-
+import "remixicon/fonts/remixicon.css";
 import { Layout } from "../components/Layout";
 import "../styles/globals.css";
 import "../styles/project.scss";

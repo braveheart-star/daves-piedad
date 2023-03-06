@@ -3,26 +3,38 @@ export const projects = [
     siteUrl: "https://giftcash.com/",
     role: "Full-Stack Developer",
     techStack: "Next.js, AWS Lamda function, PHP, Laravel, MySql, Docker",
-    siteName: "GiftCash Company",
+    siteName: "GiftCash ",
     img: "/projects/gift.png",
-    description: "I worked for maintaining projects and adding new features.",
+    description:
+      "GiftCash designed a brand new platform from the ground-up that makes selling your unwanted gift cards a straightforward and completely secure process.",
     period: {
-      year: "2020",
-      month: "4 ~ 11",
+      year: "2021.10",
+      month: "2022.7",
     },
   },
-
+  {
+    siteUrl: "https://thetrackapp.com/",
+    role: "Frontend Developer",
+    techStack: "React.js, Electronic",
+    siteName: "The Track App",
+    img: "/projects/trackapp.png",
+    description: "Fast, Efficient and Elegant Calendar & Scheduling software",
+    period: {
+      year: "2021.4",
+      month: "2022.12",
+    },
+  },
   {
     siteUrl: "https://divizend.com/",
     role: "Full-Stack Developer",
     techStack: "React-Redux, Node.js ( LoopBack ), postgreSQL, Docker, Next.js",
-    siteName: "Divizend Company",
+    siteName: "Divizend ",
     img: "/projects/divizend.png",
     description:
-      "I contributed to build & maintain a website using React, LoopBack",
+      "Divizend is the leading international wealth-tax FinTech platform for the fastest way to reclaim foreign dividend withholding taxes.",
     period: {
-      year: "2020",
-      month: "4 ~ 11",
+      year: "2020.12",
+      month: "2021.8",
     },
   },
 
@@ -31,13 +43,13 @@ export const projects = [
     role: "Full-Stack Developer",
     techStack:
       "React-Redux, Node.js ( Nest.js ), easy-peasy library, postgreSQL, Docker",
-    siteName: "AlphaSwap Company",
+    siteName: "AlphaSwap ",
     img: "/projects/alphaswap.png",
     description:
-      "I built UI using React-Redux and implemented the functionality of the investment idea",
+      "AlphaSwap is an investment technology platform, bundling the community's best stock picks into Data-as-a-Service.",
     period: {
-      year: "2020",
-      month: "4 ~ 11",
+      year: "2019.4",
+      month: "2020.11",
     },
   },
 
@@ -47,28 +59,11 @@ export const projects = [
     techStack: "Ionic React, firebase, directus",
     siteName: "Skills4School company News app",
     img: "/projects/s4c.png",
-    description: `
-    I built this app using Ionic React.
-    `,
+    description:
+      "Skills4School is a learning platform that enables students to prepare appropriately for the lesson, the textbook and the teacher. The student learns individually in the app and can see their own learning progress.",
     period: {
-      year: "-2021",
-      month: "12 ~ 1",
-    },
-  },
-
-  {
-    siteUrl: "https://caltechcasino.com/",
-    role: "Front-End Developer",
-    techStack:
-      "BlockChain, SmartContract, React-Redux, React-hook, TypeScript, Smart Contractor, ",
-    siteName: "SonicX Foundation / CaltechCasino",
-    img: "/projects/caltech.jpg",
-    description: `
-    I built this site using React-Redux , TypeScript, React-hook.
-    `,
-    period: {
-      year: "-2021",
-      month: "12 ~ 1",
+      year: "2021",
+      month: "1 ~ 4",
     },
   },
 
@@ -91,8 +86,7 @@ export const projects = [
     siteUrl: "https://drawing-svg-3-d.vercel.app/",
     role: "JavaScript Developer",
     siteName: "Glass Design",
-    description:
-      "I got this project on the Upwork. The requirements was implementing any kind of glass manipulation design by drawing that in the SVG, Canvas.",
+    description: "Creating designs for glass manufacture platform",
 
     techStack: "Three.js, JavaScript, jQuery, SVG, Canvas",
     img: "/projects/svg.jpg",

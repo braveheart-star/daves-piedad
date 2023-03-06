@@ -35,8 +35,8 @@ export default function Home() {
         <div className="my-6 space-y-2 lg:my-12 md:mx-12">
           <p className="text-gray-700 sm:text-lg lg:text-2xl">
             As a Full Stack Developer with 8 years of experience in software
-            development, I`ve acquired a diverse set of skills with a main focus
-            on JavaScript and its vast ecosystem.
+            development, I have acquired a diverse set of skills with a main
+            focus on JavaScript and its vast ecosystem.
           </p>
 
           <p className="text-gray-700 sm:text-lg lg:text-2xl">
@@ -66,7 +66,7 @@ export default function Home() {
       <Card id="About">
         <div className="items-center lg:flex">
           <p className=" title">Get to know me:</p>
-          <p className="text-lg font-bold text-green-500 lg:m-6 sm:text-xl md:text-2xl">
+          <p className="text-lg font-bold text-cyan-500 lg:m-6 sm:text-xl md:text-2xl">
             ShiXiong(世雄) Han(韩)
           </p>
         </div>

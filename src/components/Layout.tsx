@@ -30,14 +30,14 @@ export const Layout = ({ children, title = "ShiXiong" }: any) => {
 function renderSide() {
   return (
     <div className="fixed z-20 flex min-h-screen right-6 sm:right-10">
-      <div className="m-auto space-y-2">
+      <div className="m-auto space-y-2 lg:space-y-4">
         <div className="w-8 h-8 lg:w-11 lg:h-11">
           <a
             href="https://www.linkedin.com/in/shixionghan/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <LinkedinIcon className="w-full h-full text-green-500 fill-current" />
+            <LinkedinIcon className="w-full h-full fill-current text-cyan-500" />
           </a>
         </div>
         <div className="w-8 h-8 lg:w-11 lg:h-11">
@@ -46,7 +46,7 @@ function renderSide() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <SkypeIcon className="w-full h-full text-green-500 fill-current" />
+            <SkypeIcon className="w-full h-full fill-current text-cyan-500" />
           </a>
         </div>
         <div className="w-8 h-8 lg:w-11 lg:h-11">
@@ -55,7 +55,7 @@ function renderSide() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <GitIcon className="w-full h-full text-green-500 fill-current" />
+            <GitIcon className="w-full h-full fill-current text-cyan-500" />
           </a>
         </div>
         <div className="w-9 h-9 lg:w-12 lg:h-12">
@@ -64,7 +64,7 @@ function renderSide() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <DiscordIcon className="w-full h-full text-green-500 fill-current" />
+            <DiscordIcon className="w-full h-full fill-current text-cyan-500" />
           </a>
         </div>
       </div>

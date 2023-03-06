@@ -8,8 +8,8 @@ export const ProjectItem = ({ item }: any) => {
   const [hoveredEle, setHover] = useState(false);
 
   return (
-    <div className="mx-auto lg:p-4 ">
-      <div className="container flex items-center justify-center max-w-sm mx-auto overflow-hidden transition duration-100 ease-in-out transform rounded-md shadow cursor-pointer hover:-translate-y-1 hover:scale-105 cardBg">
+    <div className="w-full mx-auto">
+      <div className="container flex items-center justify-center w-full max-w-sm mx-auto overflow-hidden transition duration-100 ease-in-out transform rounded-md shadow cursor-pointer hover:-translate-y-1 hover:scale-105 cardBg">
         <div
           onMouseOver={() => {
             setHover(true);
@@ -33,7 +33,7 @@ export const ProjectItem = ({ item }: any) => {
             </div>
           )}
           <div className="absolute w-full image-cover rounded-t-md">
-            <div className="float-left w-16 h-16 p-2 m-4 text-center text-white bg-gray-800 rounded-full ">
+            <div className="flex-1 float-left w-16 h-16 p-2 m-4 text-center text-white bg-gray-800 rounded-full ">
               <span className="font-sans text-xs font-bold tracking-wide">
                 {item.period?.year}
               </span>
@@ -46,7 +46,7 @@ export const ProjectItem = ({ item }: any) => {
             src={item.img}
             alt="Picture of the author"
             width={500}
-            height={300}
+            height={500}
           />
 
           <div className="p-4 bg-white rounded-b-md description">

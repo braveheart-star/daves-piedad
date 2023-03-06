@@ -24,7 +24,7 @@ export const RecommendDetail = ({ item }: any) => {
 
         <Link href={item.contactUrl}>
           <div className="flex justify-center w-full h-full cursor-pointer">
-            <LinkedinIcon className="w-8 h-8 fill-current text-lightBlue-600" />
+            <LinkedinIcon className="w-8 h-8 mt-2 fill-current text-sky-600" />
           </div>
         </Link>
       </div>

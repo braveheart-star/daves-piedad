@@ -14,7 +14,7 @@ export const Header = () => {
   }
 
   return (
-    <div className="fixed z-20 w-full bg-white border-t-8 border-green-400 shadow-md ">
+    <div className="fixed z-20 w-full bg-white border-t-8 shadow-md border-cyan-400 ">
       <div className="container w-full max-w-screen-xl px-2 py-1 mx-auto ">
         <div className="flex items-center justify-between">
           <MenuToggle menuDrop={menuDrop} setMenuDrop={setMenuDrop} />

@@ -39,8 +39,8 @@ export const NavTitle = (props: NavProps) => {
               onClick={() => titleClick(item)}
               className={`block p-2 font-mono text-xl xl:px-8 lg:px-4 focus:outline-none ${
                 clickedTitle.toLowerCase() === item.toLowerCase()
-                  ? " text-lime-500 "
-                  : " text-green-600"
+                  ? " text-sky-500 font-bold italic "
+                  : " text-cyan-600"
               }`}
             >
               {item}
