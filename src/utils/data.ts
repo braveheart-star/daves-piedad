@@ -88,7 +88,7 @@ export const projects = [
   // },
 
   {
-    siteUrl: "https://threejs-svg-designer.herokuapp.com/",
+    siteUrl: "https://drawing-svg-3-d.vercel.app/",
     role: "JavaScript Developer",
     siteName: "Glass Design",
     description:
