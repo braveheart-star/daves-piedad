@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 // import AddChat from "../utils/tawkto";
 import { projects, recommend } from "../utils/data";
@@ -9,13 +9,14 @@ import { EmailSend } from "../components/EmailSend";
 import { ProjectItem } from "../components/ProjectItem";
 import { RecommendDetail } from "../components/RecommendDetail";
 import { CoderIcon, CodingIcon, ThinkerIcon } from "../components/icons";
+import AddChat from "../utils/tawkto";
 
 export default function Home() {
-  // useEffect(() => {
-  //   window.Tawk_API?.showWidget();
-  //   AddChat();
-  //   // eslint-disable-next-line
-  // }, []);
+  useEffect(() => {
+    window.Tawk_API?.showWidget();
+    AddChat();
+    // eslint-disable-next-line
+  }, []);
   return (
     <div className="space-y-4 lg:space-y-8 ">
       <Card id="Home">
