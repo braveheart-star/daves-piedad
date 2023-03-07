@@ -8,8 +8,8 @@ export const ProjectItem = ({ item }: any) => {
   const [hoveredEle, setHover] = useState(false);
 
   return (
-    <div className="w-full mx-auto">
-      <div className="container flex items-center justify-center w-full max-w-sm mx-auto overflow-hidden transition duration-100 ease-in-out transform rounded-md shadow cursor-pointer hover:-translate-y-1 hover:scale-105 cardBg">
+    <div className="w-full mx-auto ">
+      <div className="flex items-center justify-center mx-auto overflow-hidden transition duration-100 ease-in-out transform rounded-md shadow cursor-pointer hover:-translate-y-1 hover:scale-105 cardBg">
         <div
           onMouseOver={() => {
             setHover(true);
@@ -47,9 +47,10 @@ export const ProjectItem = ({ item }: any) => {
             alt="Picture of the author"
             width={500}
             height={500}
+            className="h-40 md:h-60"
           />
 
-          <div className="p-4 bg-white rounded-b-md description">
+          <div className="p-4 space-y-2 bg-white rounded-b-md h-96 description">
             <span className="block text-lg font-bold tracking-wide text-gray-800">
               {item.siteName}
             </span>
