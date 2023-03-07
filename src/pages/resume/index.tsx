@@ -3,7 +3,7 @@ import { Card } from "../../components/Card";
 import { AlphaSwap } from "../../components/icons/projects/AlphaSwap";
 import { Divizend } from "../../components/icons/projects/Divizend";
 import { TrackApp } from "../../components/icons/projects/TrackApp";
-import { History } from "./History";
+import { History } from "../../components/History";
 
 export default function Resume() {
   const educationHistory = [
