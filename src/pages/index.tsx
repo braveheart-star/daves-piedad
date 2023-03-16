@@ -35,15 +35,34 @@ export default function Home() {
         </div>
         <div className="my-6 space-y-2 lg:my-12 md:mx-12">
           <p className="text-gray-700 sm:text-lg lg:text-2xl">
-            As a Full Stack Developer with 8 years of experience in software
-            development, I have acquired a diverse set of skills with a main
-            focus on JavaScript and its vast ecosystem.
+            As a senior full-stack web developer with 8 years of experience, I
+            have established myself as a coding expert in building modern,
+            performant, and user-friendly web applications.
           </p>
 
           <p className="text-gray-700 sm:text-lg lg:text-2xl">
-            The different kind of projects I've worked with in the past has led
-            me to used lots of various technologies and taught me how to best
-            adapt to new situations, whether technically or socially.
+            I specialize in frontend development and have a proven track record
+            of delivering high-quality, scalable, and intuitive interfaces using
+            React, Vue, Angular, and React Native.
+          </p>
+          <p className="text-gray-700 sm:text-lg lg:text-2xl">
+            My proficiency extends beyond frontend development as I possess a
+            solid understanding of backend development using Node.js, PHP, and
+            Python.
+          </p>
+          <p className="text-gray-700 sm:text-lg lg:text-2xl">
+            Throughout my career, I have been involved in numerous high-impact
+            projects where I have collaborated with cross-functional teams and
+            contributed to the successful delivery of complex applications.
+          </p>
+          <p className="text-gray-700 sm:text-lg lg:text-2xl">
+            I am comfortable working in different time zones and enjoy
+            communicating with clients and stakeholders to ensure project
+            success.
+          </p>
+          <p className="text-gray-700 sm:text-lg lg:text-2xl">
+            I am always seeking new challenges and opportunities to grow as a
+            developer and contribute to meaningful projects.
           </p>
         </div>
         <div className="hidden grid-cols-2 gap-4 sm:grid ">
@@ -227,7 +246,7 @@ export default function Home() {
         <div className="my-4">
           <div className="my-4 sm:flex">
             <p className="text-base text-teal-600 md:text-lg">
-              <a href="mailto: lovelymouse115@gmail.com ">Email Me Directly</a>
+              <a href="mailto: shixiong199525@gmail.com ">Email Me Directly</a>
             </p>
           </div>
         </div>
