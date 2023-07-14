@@ -4,6 +4,7 @@ import { AlphaSwap } from "../../components/icons/projects/AlphaSwap";
 import { Divizend } from "../../components/icons/projects/Divizend";
 import { TrackApp } from "../../components/icons/projects/TrackApp";
 import { History } from "../../components/History";
+import { Pillar } from "../../components/icons/projects/Pillar";
 
 export default function Resume() {
   const educationHistory = [
@@ -52,7 +53,7 @@ export default function Resume() {
       other: "Senior Frontend Developer",
       dot: (
         <Link href="https://www.pillarmarkets.com/" passHref>
-          <TrackApp />
+          <Pillar />
         </Link>
       ),
     },
