@@ -57,7 +57,7 @@ export default function Resume() {
       ),
     },
     {
-      period: "Apr. 2021 ~ ",
+      period: "Jan. 2022 ~ ",
       company: "Pillar Company",
       other: "Senior Frontend Developer",
       dot: (
