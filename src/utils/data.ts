@@ -5,8 +5,7 @@ export const projects = [
     techStack: "Next.js, Docker",
     siteName: "PillarMarket ",
     img: "/projects/pillar.png",
-    description:
-      "Past performance in no guarantee of future results. Any historical returns, expected returns, or probability projections may not reflect actual future performance and are provided by the sponsor of the investment opportunity and subject to change.",
+    description: "PillarMarkets built using Next.js",
     period: {
       year: "2021.1",
       month: "",
