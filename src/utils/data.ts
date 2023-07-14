@@ -1,5 +1,19 @@
 export const projects = [
   {
+    siteUrl: "https://www.pillarmarkets.com/",
+    role: "Frontend Developer",
+    techStack: "Next.js, Docker",
+    siteName: "PillarMarket ",
+    img: "/projects/pillar.png",
+    description:
+      "Past performance in no guarantee of future results. Any historical returns, expected returns, or probability projections may not reflect actual future performance and are provided by the sponsor of the investment opportunity and subject to change.",
+    period: {
+      year: "2021.1",
+      month: "",
+    },
+  },
+
+  {
     siteUrl: "https://giftcash.com/",
     role: "Full-Stack Developer",
     techStack: "Next.js, AWS Lamda function, PHP, Laravel, MySql, Docker",
@@ -8,8 +22,8 @@ export const projects = [
     description:
       "GiftCash designed a brand new platform from the ground-up that makes selling your unwanted gift cards a straightforward and completely secure process.",
     period: {
-      year: "2021.10",
-      month: "2022.7",
+      year: "2021.1",
+      month: "2021.6",
     },
   },
   {
@@ -21,7 +35,7 @@ export const projects = [
     description: "Fast, Efficient and Elegant Calendar & Scheduling software",
     period: {
       year: "2021.4",
-      month: "2022.12",
+      month: "2021.12",
     },
   },
   {
