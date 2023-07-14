@@ -37,16 +37,6 @@ export default function Resume() {
       ),
     },
     {
-      period: "Oct. 2021 ~ July. 2022",
-      company: "GiftCash",
-      other: "Full-Stack Developer",
-      dot: (
-        <Link href="https://www.giftcash.com/" passHref>
-          <img className="w-10" src="gc-logo-square.svg" />
-        </Link>
-      ),
-    },
-    {
       period: "Apr. 2021 ~ Dec. 2021",
       company: "The Track App",
       other: "Senior Frontend Developer",
