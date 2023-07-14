@@ -47,11 +47,21 @@ export default function Resume() {
       ),
     },
     {
-      period: "Apr. 2021 ~ Dec. 2022",
+      period: "Apr. 2021 ~ Dec. 2021",
       company: "The Track App",
       other: "Senior Frontend Developer",
       dot: (
         <Link href="https://thetrackapp.com/" passHref>
+          <TrackApp />
+        </Link>
+      ),
+    },
+    {
+      period: "Apr. 2021 ~ ",
+      company: "Pillar Company",
+      other: "Senior Frontend Developer",
+      dot: (
+        <Link href="https://www.pillarmarkets.com/" passHref>
           <TrackApp />
         </Link>
       ),
