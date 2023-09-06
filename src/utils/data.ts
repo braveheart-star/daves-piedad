@@ -1,17 +1,28 @@
 export const projects = [
+  // {
+  //   siteUrl: "https://www.pillarmarkets.com/",
+  //   role: "Frontend Developer",
+  //   techStack: "Next.js, Docker",
+  //   siteName: "PillarMarket ",
+  //   img: "/projects/pillar.png",
+  //   description: "PillarMarkets built using Next.js",
+  //   period: {
+  //     year: "2021.1",
+  //     month: "",
+  //   },
+  // },
   {
-    siteUrl: "https://www.pillarmarkets.com/",
+    siteUrl: "https://thetrackapp.com/",
     role: "Frontend Developer",
-    techStack: "Next.js, Docker",
-    siteName: "PillarMarket ",
-    img: "/projects/pillar.png",
-    description: "PillarMarkets built using Next.js",
+    techStack: "React.js, Electronic",
+    siteName: "The Track App",
+    img: "/projects/trackapp.png",
+    description: "Fast, Efficient and Elegant Calendar & Scheduling software",
     period: {
-      year: "2021.1",
-      month: "",
+      year: "2021.4",
+      month: "2023.1",
     },
   },
-
   {
     siteUrl: "https://giftcash.com/",
     role: "Full-Stack Developer",
@@ -25,18 +36,7 @@ export const projects = [
       month: "2021.6",
     },
   },
-  {
-    siteUrl: "https://thetrackapp.com/",
-    role: "Frontend Developer",
-    techStack: "React.js, Electronic",
-    siteName: "The Track App",
-    img: "/projects/trackapp.png",
-    description: "Fast, Efficient and Elegant Calendar & Scheduling software",
-    period: {
-      year: "2021.4",
-      month: "2021.12",
-    },
-  },
+
   {
     siteUrl: "https://divizend.com/",
     role: "Full-Stack Developer",

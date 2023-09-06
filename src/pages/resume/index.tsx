@@ -4,7 +4,7 @@ import { AlphaSwap } from "../../components/icons/projects/AlphaSwap";
 import { Divizend } from "../../components/icons/projects/Divizend";
 import { TrackApp } from "../../components/icons/projects/TrackApp";
 import { History } from "../../components/History";
-import { Pillar } from "../../components/icons/projects/Pillar";
+// import { Pillar } from "../../components/icons/projects/Pillar";
 
 export default function Resume() {
   const educationHistory = [
@@ -38,7 +38,7 @@ export default function Resume() {
       ),
     },
     {
-      period: "Apr. 2021 ~ Dec. 2021",
+      period: "Apr. 2021 ~ Jan. 2023",
       company: "The Track App",
       other: "Senior Frontend Developer",
       dot: (
@@ -47,16 +47,16 @@ export default function Resume() {
         </Link>
       ),
     },
-    {
-      period: "Jan. 2022 ~ ",
-      company: "Pillar Company",
-      other: "Senior Frontend Developer",
-      dot: (
-        <Link href="https://www.pillarmarkets.com/" passHref>
-          <Pillar />
-        </Link>
-      ),
-    },
+    // {
+    //   period: "Jan. 2022 ~ ",
+    //   company: "Pillar Company",
+    //   other: "Senior Frontend Developer",
+    //   dot: (
+    //     <Link href="https://www.pillarmarkets.com/" passHref>
+    //       <Pillar />
+    //     </Link>
+    //   ),
+    // },
   ];
   return (
     <Card>
