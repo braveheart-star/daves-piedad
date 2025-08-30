@@ -4,6 +4,7 @@ import { AlphaSwap } from "../../components/icons/projects/AlphaSwap";
 import { Divizend } from "../../components/icons/projects/Divizend";
 import { TrackApp } from "../../components/icons/projects/TrackApp";
 import { History } from "../../components/History";
+import { Pillar } from "../../components/icons/projects/Pillar";
 // import { Pillar } from "../../components/icons/projects/Pillar";
 
 export default function Resume() {
@@ -40,23 +41,23 @@ export default function Resume() {
     {
       period: "Apr. 2021 ~ Jan. 2023",
       company: "The Track App",
-      other: "Senior Frontend Developer",
+      other: "Electron Developer",
       dot: (
         <Link href="https://thetrackapp.com/" passHref>
           <TrackApp />
         </Link>
       ),
     },
-    // {
-    //   period: "Jan. 2022 ~ ",
-    //   company: "Pillar Company",
-    //   other: "Senior Frontend Developer",
-    //   dot: (
-    //     <Link href="https://www.pillarmarkets.com/" passHref>
-    //       <Pillar />
-    //     </Link>
-    //   ),
-    // },
+    {
+      period: "Jan. 2022 ~ Feb. 2024",
+      company: "Pillar Company",
+      other: "Senior Frontend Developer",
+      dot: (
+        <Link href="https://www.pillarmarkets.com/" passHref>
+          <Pillar />
+        </Link>
+      ),
+    },
   ];
   return (
     <Card>
