@@ -7,9 +7,10 @@ interface HistoryProps {
     period: string;
     company: string;
     other?: string;
-    dot?: any;
+    dot?: React.ReactNode;
   }[];
 }
+
 export const History = (props: HistoryProps) => {
   const { histories, type } = props;
   return (
@@ -24,7 +25,7 @@ export const History = (props: HistoryProps) => {
               {history.period}
             </h2>
             <div className="">
-              <p className="my-4 font-serif text-lg text-gray-800 sm:text-xl md:text-2xl md:my-0">
+              <p className="my-4 font-serif text-lg text-gray-800 sm:text-xl md:text-2xl md:my-0">                                                                              
                 {history.company}
               </p>
               {history.other && (
