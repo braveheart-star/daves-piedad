@@ -70,7 +70,7 @@ export default function Home() {
         <div className="items-center lg:flex">
           <p className=" title">Get to know me:</p>
           <p className="text-lg font-bold text-cyan-500 lg:m-6 sm:text-xl md:text-2xl">
-            ShiXiong(世雄) Han(韩)
+            Jorie Suan
           </p>
         </div>
         <div className="items-center my-8 lg:my-12 lg:flex lg:justify-around">
@@ -86,7 +86,7 @@ export default function Home() {
           </div>
           <div className="my-8 xl:w-4/6 lg:w-3/5 lg:my-0">
             <p className="font-serif text-gray-700 sm:text-lg lg:text-xl">
-              My name is ShiXiong Han.
+              My name is Jorie Suan.
               <span className="block">
                 I'm a senior web developer based in Dalian, China with a focus
                 in building beautiful and well-structured web site using modern
@@ -226,8 +226,8 @@ export default function Home() {
           <div className="my-4 sm:flex  items-center">
             <div>Send me Email</div>
             <p className="text-base text-teal-600 md:text-lg ml-4">
-              <a href="mailto: shixiong199525@gmail.com ">
-                shixiong199525@gmail.com
+              <a href="mailto: jorie.suan115@gmail.com ">
+                jorie.suan115@gmail.com
               </a>
             </p>
           </div>

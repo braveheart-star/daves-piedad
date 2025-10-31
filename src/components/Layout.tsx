@@ -4,7 +4,7 @@ import { Header } from "./Header";
 import { motion } from "framer-motion";
 import { DiscordIcon, GitIcon } from "./icons";
 
-export const Layout = ({ children, title = "ShiXiong" }: any) => {
+export const Layout = ({ children, title = "Jorie" }: any) => {
   return (
     <div>
       {renderSide()}

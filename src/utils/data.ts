@@ -130,9 +130,9 @@ export const recommend = [
     contactUrl: "https://www.linkedin.com/in/vladimir-agaev-16334213b/",
     job: "AlphaSwap company CTO",
     project: "Next.js, TypeScript, TailwindCSS, ",
-    content: `
-    ShiXiong is a motivated developer with good communication skills. He was able to quickly pick up our technology and do a very good job.
-     He was able to transition from backend to frontend, learn new frameworks and execute the tasks he was assigned to.`,
+  content: `
+  Jorie is a motivated developer with good communication skills. He was able to quickly pick up our technology and do a very good job.
+   He was able to transition from backend to frontend, learn new frameworks and execute the tasks he was assigned to.`,
   },
   {
     photoUrl: "/images/clients/hubert.jpg",
@@ -140,7 +140,7 @@ export const recommend = [
     contactUrl: "https://www.linkedin.com/in/huberthilczer/",
     job: "Lead Developer",
     project: "Next.js, TypeScript, TailwindCSS, ",
-    content: ` ShiXiong is a very versatile developer and hard working one at that. I can always count on his skills if I need something done.`,
+  content: ` Jorie is a very versatile developer and hard working one at that. I can always count on his skills if I need something done.`,
   },
 
   {
@@ -150,7 +150,7 @@ export const recommend = [
     job: "Business Practitioner",
     project: "Next.js, TypeScript, TailwindCSS, ",
     content: `
-    I have an opportunity for knowing ShiXiong for over 2 years now.
+    I have an opportunity for knowing Jorie for over 2 years now.
     He is a very dedicated and talented web developer that has great knowledge and understanding not only of front end, but also back end.
      I had the opportunity of working with him on one occasion working with React.js & Angular,
       and to every problem that would arise during our project.
