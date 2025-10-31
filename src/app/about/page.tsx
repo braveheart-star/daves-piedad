@@ -13,7 +13,7 @@ export default function About() {
     <div className="flex items-center space-x-6 bg-gradient-to-r from-blue-100 to-purple-100 dark:from-blue-900/20 dark:to-purple-900/20 rounded-xl p-8 shadow-lg">
       <div className="w-24 h-24 rounded-full overflow-hidden flex-shrink-0">
         <Image 
-          src="/images/photo/coder.png" 
+          src="/images/photo/picture.jpg" 
           alt="Jorie Suan" 
           width={96} 
           height={96} 
