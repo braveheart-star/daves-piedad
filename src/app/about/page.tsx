@@ -14,14 +14,14 @@ export default function About() {
       <div className="w-24 h-24 rounded-full overflow-hidden flex-shrink-0">
         <Image 
           src="/images/photo/coder.png" 
-          alt="ShiXiong Han" 
+          alt="Jorie Suan" 
           width={96} 
           height={96} 
           className="w-full h-full object-cover" 
         />
       </div>
       <div className="space-y-1">
-        <h2 className="text-xl font-bold text-gray-900 dark:text-white">ShiXiong Han</h2>
+        <h2 className="text-xl font-bold text-gray-900 dark:text-white">Jorie Suan</h2>
         <p className="text-base text-gray-700 dark:text-gray-300">Senior Full Stack Engineer</p>
         <p className="text-sm text-gray-600 dark:text-gray-400">Dalian, China</p>
       </div>
@@ -31,7 +31,7 @@ export default function About() {
           <div className="space-y-6">
             <div>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                I&apos;m <strong>ShiXiong Han</strong>, a senior full‑stack engineer in Dalian, China. Over the past 10+ years I&apos;ve shipped production systems end‑to‑end across SaaS, blockchain, and enterprise teams—owning architecture, implementation, testing and delivery. My focus is pragmatic execution: modern UIs (React/Next.js, Vue.js, Angular), reliable APIs and services (Node.js, Python, PHP), cloud on AWS, CI/CD, performance, and security. I pair clean design with measurable outcomes to deliver robust, scalable software.
+                I&apos;m <strong>Jorie Suan</strong>, a senior full‑stack engineer in Dalian, China. Over the past 10+ years I&apos;ve shipped production systems end‑to‑end across SaaS, blockchain, and enterprise teams—owning architecture, implementation, testing and delivery. My focus is pragmatic execution: modern UIs (React/Next.js, Vue.js, Angular), reliable APIs and services (Node.js, Python, PHP), cloud on AWS, CI/CD, performance, and security. I pair clean design with measurable outcomes to deliver robust, scalable software.
               </p>
             </div>
 
@@ -158,7 +158,7 @@ export default function About() {
                 </div>
               </div>
               <p className="text-gray-700 dark:text-gray-300 italic">
-                &ldquo;ShiXiong is a motivated developer with excellent communication skills. He quickly adapts to new technologies and delivers quality work across both backend and frontend development.&rdquo;
+                &ldquo;Jorie is a motivated developer with excellent communication skills. He quickly adapts to new technologies and delivers quality work across both backend and frontend development.&rdquo;
               </p>
             </div>
 
@@ -173,7 +173,7 @@ export default function About() {
                 </div>
               </div>
               <p className="text-gray-700 dark:text-gray-300 italic">
-                &ldquo;ShiXiong is a versatile and hardworking developer with strong technical skills. I can always rely on his expertise to deliver high-quality solutions and meet project deadlines effectively.&rdquo;
+                &ldquo;Jorie is a versatile and hardworking developer with strong technical skills. I can always rely on his expertise to deliver high-quality solutions and meet project deadlines effectively.&rdquo;
               </p>
             </div>
 
@@ -188,7 +188,7 @@ export default function About() {
                 </div>
               </div>
               <p className="text-gray-700 dark:text-gray-300 italic">
-                &ldquo;ShiXiong is a talented full-stack developer with excellent problem-solving skills. He consistently delivers high-quality solutions and has strong expertise in React, Next.js, and modern web technologies. I highly recommend his services.&rdquo;
+                &ldquo;Jorie is a talented full-stack developer with excellent problem-solving skills. He consistently delivers high-quality solutions and has strong expertise in React, Next.js, and modern web technologies. I highly recommend his services.&rdquo;
               </p>
             </div>
           </div>

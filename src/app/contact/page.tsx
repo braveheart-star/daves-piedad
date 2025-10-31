@@ -107,7 +107,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">Email</h3>
-                  <p className="text-gray-600 dark:text-gray-300 mb-1">dev.smart101@gmail.com</p>
+                  <p className="text-gray-600 dark:text-gray-300 mb-1">jorie.suan115@gmail.com</p>
                   <p className="text-sm text-gray-500 dark:text-gray-400">I typically respond within 24 hours</p>
                 </div>
               </div>
@@ -276,8 +276,8 @@ export default function Contact() {
                   </div>
                   <p className="mt-1 text-sm">
                     Please try again or contact me directly at{' '}
-                    <a href="mailto:dev.smart101@gmail.com" className="underline hover:no-underline">
-                      dev.smart101@gmail.com
+                    <a href="mailto:jorie.suan115@gmail.com" className="underline hover:no-underline">
+                      jorie.suan115@gmail.com
                     </a>
                   </p>
                 </div>
