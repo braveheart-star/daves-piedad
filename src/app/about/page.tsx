@@ -23,7 +23,7 @@ export default function About() {
       <div className="space-y-1">
         <h2 className="text-xl font-bold text-gray-900 dark:text-white">Jorie Suan</h2>
         <p className="text-base text-gray-700 dark:text-gray-300">Senior Full Stack Engineer</p>
-        <p className="text-sm text-gray-600 dark:text-gray-400">Dalian, China</p>
+        <p className="text-sm text-gray-600 dark:text-gray-400">Bislig, Philippines</p>
       </div>
     </div>
           
@@ -31,7 +31,7 @@ export default function About() {
           <div className="space-y-6">
             <div>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                I&apos;m <strong>Jorie Suan</strong>, a senior full‑stack engineer in Dalian, China. Over the past 10+ years I&apos;ve shipped production systems end‑to‑end across SaaS, blockchain, and enterprise teams—owning architecture, implementation, testing and delivery. My focus is pragmatic execution: modern UIs (React/Next.js, Vue.js, Angular), reliable APIs and services (Node.js, Python, PHP), cloud on AWS, CI/CD, performance, and security. I pair clean design with measurable outcomes to deliver robust, scalable software.
+                I&apos;m <strong>Jorie Suan</strong>, a senior full‑stack engineer in Bislig, Philippines. Over the past 10+ years I&apos;ve shipped production systems end‑to‑end across SaaS, blockchain, and enterprise teams—owning architecture, implementation, testing and delivery. My focus is pragmatic execution: modern UIs (React/Next.js, Vue.js, Angular), reliable APIs and services (Node.js, Python, PHP), cloud on AWS, CI/CD, performance, and security. I pair clean design with measurable outcomes to deliver robust, scalable software.
               </p>
             </div>
 

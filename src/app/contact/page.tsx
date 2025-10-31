@@ -121,7 +121,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">Location</h3>
-                  <p className="text-gray-600 dark:text-gray-300 mb-1">Dalian, China</p>
+                  <p className="text-gray-600 dark:text-gray-300 mb-1">Bislig, Philippines</p>
                   <p className="text-sm text-gray-500 dark:text-gray-400">Available for remote work worldwide</p>
                 </div>
               </div>
