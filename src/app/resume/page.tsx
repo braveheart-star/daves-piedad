@@ -88,7 +88,7 @@ const renderCompanyMark = (company: string) => {
 export default function Resume() {
   const education = [
     {
-      period: 'Aug 2013 – May 2017',
+      period: 'Aug. 2013 ~ May. 2017',
       institution: 'North Eastern Mindanao State University',
       degree: 'Bachelor of Computer Science',
     },
@@ -103,7 +103,7 @@ export default function Resume() {
       url: 'https://www.pillarmarkets.com/',
     },
     {
-      period: 'May. 2022 ~ Oct. 2022',
+      period: 'May 2022 ~ Oct. 2022',
       company: 'InputKit',
       location: 'Longueuil, Quebec, Canada (Remote)',
       position: 'Full-Stack Engineer',
