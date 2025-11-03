@@ -1,6 +1,5 @@
 import { Pillar } from '@/components/icons/Pillar'
 import { AlphaSwap } from '@/components/icons/AlphaSwap'
-import { TrackApp } from '@/components/icons/TrackApp'
 import Image from 'next/image'
 
 type ColorScheme = {
@@ -67,8 +66,6 @@ const renderCompanyMark = (company: string) => {
       )
     case 'PillarMarkets':
       return <Pillar className="w-8 h-8" />
-    case 'The Track App':
-      return <TrackApp className="w-8 h-8" />
     case 'AlphaSwap':
       return <AlphaSwap className="w-8 h-8" />
     case 'InputKit':
@@ -101,8 +98,9 @@ export default function Resume() {
     {
       period: 'Feb. 2023 ~ Mar. 2025',
       company: 'PillarMarkets',
-      location: 'NY, US (Remote)',
+      location: 'Indianapolis, IN, USA (Remote)',
       position: 'Senior Frontend Engineer',
+      url: 'https://www.pillarmarkets.com/',
     },
     {
       period: 'May. 2022 ~ Oct. 2022',
@@ -128,27 +126,17 @@ export default function Resume() {
 
   const frontendSkills = [
     'React', 'Next.js', 'Vue.js', 'Angular', 'TypeScript', 'JavaScript',
-    'HTML5', 'CSS3', 'TailwindCSS', 'DaisyUI', 'Storybook', 'React Native',
-    'Electron', 'Ionic', 'API Integration'
+    'HTML5', 'CSS3', 'Tailwind CSS', 'Sass', 'Bootstrap', 'Material-UI'
   ]
 
-  const backendSkills = [
-    'Node.js', 'Python', 'Django', 'FastAPI', 'PHP', 'Laravel', 'Yii',
-    'MongoDB', 'PostgreSQL', 'SQL', 'RESTful APIs', 'GraphQL',
-    'OAuth/JWT Authentication', 'Microservices', 'SST Framework'
-  ]
-
-  const devopsSkills = [
-    'AWS (ECS, Lambda, RDS, S3)', 'Azure', 'Google Cloud', 'Docker',
-    'Jenkins', 'GitHub Actions', 'Webpack', 'Git', 'Blockchain Integrations',
-    'Solidity', 'Hyperledger', 'n8n', 'Browser Automation', 'Skyvern', 'Browserbase MCP'
+  const backendDevopsSkills = [
+    'Node.js', 'Python', 'Django', 'Java', 'Spring Boot', 'Express.js', 'Nest.js',
+    'PostgreSQL', 'MongoDB', 'Redis', 'Docker', 'AWS', 'Firebase'
   ]
 
   const aiSkills = [
     'OpenAI API', 'LangChain', 'Vector Databases', 'Machine Learning',
-    'Computer Vision', 'Natural Language Processing', 'AI Integration',
-    'TensorFlow', 'PyTorch', 'Scikit-learn', 'Pandas', 'NumPy',
-    'LLM Integration', 'Email Processing'
+    'Computer Vision', 'Natural Language Processing', 'AI Integration'
   ]
 
   return (
@@ -158,7 +146,7 @@ export default function Resume() {
           <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Resume</h1>
           <div className="relative">
             <a 
-              href="/cv/Senior FullStack Engineer-ShiXiong.pdf" 
+              href="/cv/Senior Full Stack & AI Engineer.pdf" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 dark:text-gray-300 bg-white dark:bg-gray-800 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors duration-200"
@@ -202,7 +190,7 @@ export default function Resume() {
                 <div key={index} className={`timeline-item bg-gradient-to-r ${colorScheme.bg} rounded p-6 shadow-sm hover:shadow-md transition-shadow duration-300 border-l-4 ${colorScheme.border}`}>
                 <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-3">
                   <div className="flex items-center space-x-3 mb-2 sm:mb-0">
-                    <div className="w-16 h-16 bg-white dark:bg-gray-800 rounded-lg flex items-center justify-center shadow-sm border overflow-hidden">
+                    <div className="w-16 h-16 bg-white rounded-lg flex items-center justify-center shadow-sm border border-gray-200 overflow-hidden">
                       {renderCompanyMark(job.company)}
                     </div>
                     <div>
@@ -240,7 +228,7 @@ export default function Resume() {
 
         <section className="mb-8">
           <h2 className="section-title">Technical Skills</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div>
               <h4 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Frontend</h4>
               <div className="flex flex-wrap gap-2">
@@ -252,20 +240,10 @@ export default function Resume() {
               </div>
             </div>
             <div>
-              <h4 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Backend</h4>
+              <h4 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Backend & DevOps</h4>
               <div className="flex flex-wrap gap-2">
-                {backendSkills.map((skill, index) => (
+                {backendDevopsSkills.map((skill, index) => (
                   <span key={index} className="px-3 py-1 bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 rounded-full text-sm font-medium">
-                    {skill}
-                  </span>
-                ))}
-              </div>
-            </div>
-            <div>
-              <h4 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">DevOps & Cloud</h4>
-              <div className="flex flex-wrap gap-2">
-                {devopsSkills.map((skill, index) => (
-                  <span key={index} className="px-3 py-1 bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 rounded-full text-sm font-medium">
                     {skill}
                   </span>
                 ))}
@@ -275,7 +253,7 @@ export default function Resume() {
               <h4 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">AI & Machine Learning</h4>
               <div className="flex flex-wrap gap-2">
                 {aiSkills.map((skill, index) => (
-                  <span key={index} className="px-3 py-1 bg-orange-100 dark:bg-orange-900/30 text-orange-800 dark:text-orange-300 rounded-full text-sm font-medium">
+                  <span key={index} className="px-3 py-1 bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 rounded-full text-sm font-medium">
                     {skill}
                   </span>
                 ))}
