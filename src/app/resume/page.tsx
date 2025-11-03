@@ -71,6 +71,14 @@ const renderCompanyMark = (company: string) => {
       return <TrackApp className="w-8 h-8" />
     case 'AlphaSwap':
       return <AlphaSwap className="w-8 h-8" />
+    case 'InputKit':
+      return (
+        <Image src="/images/logos/inputkit.png" alt="InputKit" width={32} height={32} className="object-contain" />
+      )
+    case 'Kaj Medical':
+      return (
+        <Image src="/images/logos/KAJ-logo-vector.svg" alt="KAJ Medical" width={32} height={32} className="object-contain" />
+      )
     default:
       return (
         <div className="w-8 h-8 bg-gray-200 dark:bg-gray-700 rounded flex items-center justify-center">
@@ -83,33 +91,35 @@ const renderCompanyMark = (company: string) => {
 export default function Resume() {
   const education = [
     {
-      period: 'Aug. 2012 ~ May. 2016',
-      institution: 'Dalian University',
+      period: 'Aug 2013 – May 2017',
+      institution: 'North Eastern Mindanao State University',
       degree: 'Bachelor of Computer Science',
     },
   ]
 
   const workHistory = [
     {
-      period: 'Feb. 2024 ~ Mar. 2025',
-      company: 'LimeSurvey',
-      location: 'Hamburg, Germany (Remote)',
-      position: 'Senior Full-Stack Engineer',
-    },
-    {
-      period: 'Jan. 2022 ~ Feb. 2024',
+      period: 'Feb. 2023 ~ Mar. 2025',
       company: 'PillarMarkets',
       location: 'NY, US (Remote)',
       position: 'Senior Frontend Engineer',
     },
     {
-      period: 'Dec. 2020 ~ Jan. 2022',
-      company: 'The Track App',
-      location: 'NY, US (Remote)',
-      position: 'Senior Frontend & Mobile Engineer',
+      period: 'May. 2022 ~ Oct. 2022',
+      company: 'InputKit',
+      location: 'Longueuil, Quebec, Canada (Remote)',
+      position: 'Full-Stack Engineer',
+      url: 'https://www.inputkit.io/en/',
     },
     {
-      period: 'Apr. 2019 ~ Nov. 2020',
+      period: 'Jan. 2021 ~ Feb. 2022',
+      company: 'Kaj Medical',
+      location: 'Jamaica, NY, USA (Remote)',
+      position: 'Full-Stack Engineer',
+      url: 'https://kajmedical.com/',
+    },
+    {
+      period: 'Apr. 2018 ~ Nov. 2020',
       company: 'AlphaSwap',
       location: 'London, UK (Remote)',
       position: 'Full-Stack Engineer',
@@ -196,7 +206,20 @@ export default function Resume() {
                       {renderCompanyMark(job.company)}
                     </div>
                     <div>
-                      <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{job.company}</h3>
+                      <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                        {job.url ? (
+                          <a 
+                            href={job.url} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                          >
+                            {job.company}
+                          </a>
+                        ) : (
+                          job.company
+                        )}
+                      </h3>
                       {job.location && (
                         <p className="text-sm text-gray-500 dark:text-gray-400">{job.location}</p>
                       )}
