@@ -14,7 +14,6 @@ const Navigation = () => {
     { href: '/', label: 'Projects' },
     { href: '/about', label: 'About' },
     { href: '/resume', label: 'Resume' },
-    { href: '/contact', label: 'Contact' },
   ]
 
   const toggleMenu = () => {
