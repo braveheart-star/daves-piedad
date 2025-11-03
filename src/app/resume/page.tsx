@@ -226,41 +226,7 @@ export default function Resume() {
           </div>
         </section>
 
-        <section className="mb-8">
-          <h2 className="section-title">Technical Skills</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div>
-              <h4 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Frontend</h4>
-              <div className="flex flex-wrap gap-2">
-                {frontendSkills.map((skill, index) => (
-                  <span key={index} className="px-3 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 rounded-full text-sm font-medium">
-                    {skill}
-                  </span>
-                ))}
-              </div>
-            </div>
-            <div>
-              <h4 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Backend & DevOps</h4>
-              <div className="flex flex-wrap gap-2">
-                {backendDevopsSkills.map((skill, index) => (
-                  <span key={index} className="px-3 py-1 bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 rounded-full text-sm font-medium">
-                    {skill}
-                  </span>
-                ))}
-              </div>
-            </div>
-            <div>
-              <h4 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">AI & Machine Learning</h4>
-              <div className="flex flex-wrap gap-2">
-                {aiSkills.map((skill, index) => (
-                  <span key={index} className="px-3 py-1 bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 rounded-full text-sm font-medium">
-                    {skill}
-                  </span>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
+        
 
       </div>
     </div>
