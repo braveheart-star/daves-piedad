@@ -4,12 +4,12 @@ import Image from 'next/image'
 export default function Home() {
   const projects = [
     {
-      title: 'AI-Powered Platform',
+      title: 'Two.inc',
       period: '2024 - Present',
-      description: 'Built a comprehensive AI platform integrating OpenAI GPT models, LangChain for agent orchestration, and vector databases for semantic search. Implemented RAG (Retrieval-Augmented Generation) pipelines, custom fine-tuning workflows, and real-time AI inference APIs. Delivered production-ready AI solutions with monitoring, error handling, and cost optimization.',
-      technologies: ['OpenAI API', 'LangChain', 'Vector Databases', 'Python', 'FastAPI', 'Next.js', 'TypeScript', 'PostgreSQL', 'AWS'],
+      description: 'Built B2B payment infrastructure with AI-powered credit and fraud engines. Developed Delphi - an AI credit engine delivering decisions in under 2 seconds with 7x higher limits. Implemented Frida - an AI fraud engine preventing €70M+ in fraud losses, processing 5,000+ transactions per second. Built merchant portal, API integrations, and automated order-to-cash lifecycle management.',
+      technologies: ['AI/ML', 'Credit Engine', 'Fraud Detection', 'Python', 'Node.js', 'Next.js', 'TypeScript', 'PostgreSQL', 'AWS', 'API Integration'],
       image: '/images/projects/Two AI.png',
-      url: '#',
+      url: 'https://www.two.inc/',
     },
     {
       title: 'PillarMarkets.com',
