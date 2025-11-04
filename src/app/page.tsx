@@ -4,10 +4,18 @@ import Image from 'next/image'
 export default function Home() {
   const projects = [
     {
+      title: 'AI-Powered Platform',
+      period: '2024 - Present',
+      description: 'Built a comprehensive AI platform integrating OpenAI GPT models, LangChain for agent orchestration, and vector databases for semantic search. Implemented RAG (Retrieval-Augmented Generation) pipelines, custom fine-tuning workflows, and real-time AI inference APIs. Delivered production-ready AI solutions with monitoring, error handling, and cost optimization.',
+      technologies: ['OpenAI API', 'LangChain', 'Vector Databases', 'Python', 'FastAPI', 'Next.js', 'TypeScript', 'PostgreSQL', 'AWS'],
+      image: '/images/projects/Two AI.png',
+      url: '#',
+    },
+    {
       title: 'PillarMarkets.com',
       period: '2025.5 - 2022.7',
-      description: 'Harness AI-powered integrations, intuitive workflows, and a user-friendly interface to unify your critical CRE data and relationships in one seamless ecosystem.',
-      technologies: ['Next.js', 'TailwindCSS', 'Java', 'Spring Boot', 'AWS',],
+      description: 'Harness AI-powered integrations, intuitive workflows, and a user-friendly interface to unify your critical CRE data and relationships in one seamless ecosystem. Implemented ML models for data prediction and automated insights, integrated natural language processing for document analysis, and built intelligent recommendation systems.',
+      technologies: ['Next.js', 'TailwindCSS', 'Java', 'Spring Boot', 'AWS', 'Machine Learning', 'NLP'],
       image: '/images/projects/pillar.png',
       url: 'https://www.pillarmarkets.com/',
     },
@@ -15,40 +23,40 @@ export default function Home() {
     {
       title: 'InputKit',
       period: '2022.5 - 2022.10',
-      description: 'Customer experience and feedback platform enhancements across web UI and integrations. Implemented Vue.js interfaces for survey/NPS workflows, performance improvements, and analytics. Integrated data pipelines and improved reporting accuracy for high‑volume datasets.',
-      technologies: ['Vue.js', 'TypeScript', 'Node.js', 'TailwindCSS', 'Docker', 'Jenkins',  'Cypress', 'CI/CD'],
+      description: 'Customer experience and feedback platform enhancements across web UI and integrations. Implemented Vue.js interfaces for survey/NPS workflows, performance improvements, and analytics. Integrated data pipelines with ML-based sentiment analysis, automated categorization using NLP, and improved reporting accuracy for high‑volume datasets using predictive analytics.',
+      technologies: ['Vue.js', 'TypeScript', 'Node.js', 'TailwindCSS', 'Docker', 'Jenkins',  'Cypress', 'CI/CD', 'NLP', 'Sentiment Analysis'],
       image: '/images/projects/inputkit.png',
       url: 'https://www.inputkit.io/en/',
     },
     {
       title: 'KAJ Medical',
       period: '2021.1 - 2022.2',
-      description: 'Medical supply chain technology and financing platform initiatives and dashboards. Built operational workflows, integrated data sources, and refined API contracts to support payments, tenders, and logistics visibility.',
-      technologies: ['React', 'TypeScript', 'Node.js', 'Jenkins', 'Jest', 'Cypress', ],
+      description: 'Medical supply chain technology and financing platform initiatives and dashboards. Built operational workflows with AI-powered demand forecasting, integrated data sources with ML models for inventory optimization, and refined API contracts to support payments, tenders, and logistics visibility.',
+      technologies: ['React', 'TypeScript', 'Node.js', 'Jenkins', 'Jest', 'Cypress', 'Machine Learning', 'Predictive Analytics'],
       image: '/images/projects/kajmedical.png',
       url: 'https://kajmedical.com/',
     },
     {
       title: 'GiftCash',
       period: '2021.1 - 2021.6',
-      description: 'GiftCash designed a brand new platform from the ground-up that makes selling your unwanted gift cards a straightforward and completely secure process.',
-      technologies: ['Next.js', 'PHP', 'Laravel', 'Docker', 'MySQL', 'AWS Lambda'],
+      description: 'GiftCash designed a brand new platform from the ground-up that makes selling your unwanted gift cards a straightforward and completely secure process. Integrated AI-powered fraud detection and automated pricing algorithms to optimize marketplace efficiency.',
+      technologies: ['Next.js', 'PHP', 'Laravel', 'Docker', 'MySQL', 'AWS Lambda', 'AI Fraud Detection'],
       image: '/images/projects/giftcash.png',
       url: 'https://giftcash.com/',
     },
     {
       title: 'Skills4School',
       period: '2021.1 - 2021.4',
-      description: 'Skills4School is a learning platform that enables students to prepare appropriately for the lesson, the textbook and the teacher. The student learns individually in the app and can see their own learning progress.',
-      technologies: ['Ionic React', 'Firebase', 'Directus', 'TypeScript', 'Capacitor', 'Angular', 'Node.js', 'MongoDB'],
+      description: 'Skills4School is a learning platform that enables students to prepare appropriately for the lesson, the textbook and the teacher. The student learns individually in the app and can see their own learning progress. Implemented personalized learning recommendations using ML algorithms and adaptive content delivery.',
+      technologies: ['Ionic React', 'Firebase', 'Directus', 'TypeScript', 'Capacitor', 'Angular', 'Node.js', 'MongoDB', 'ML Recommendations'],
       image: '/images/projects/s4c.png',
       url: '#',
     },
     {
       title: 'AlphaSwap',
       period: 'Apr. 2018 ~ Nov. 2020',
-      description: "AlphaSwap is an investment technology platform, bundling the community's best stock picks into Data-as-a-Service.",
-      technologies: ['React-Redux', 'Node.js (Nest.js)', 'easy-peasy library', 'postgreSQL', 'Docker'],
+      description: "AlphaSwap is an investment technology platform, bundling the community's best stock picks into Data-as-a-Service. Built predictive models for stock analysis, implemented sentiment analysis from social media feeds, and created ML-powered investment recommendations.",
+      technologies: ['React-Redux', 'Node.js (Nest.js)', 'easy-peasy library', 'postgreSQL', 'Docker', 'ML Models', 'Sentiment Analysis'],
       image: '/images/projects/alphaswap.png',
       url: '#',
     },
@@ -59,8 +67,8 @@ export default function Home() {
       {/* Hero (New structure) */}
       <section className="relative overflow-hidden rounded-2xl bg-gray-900 text-white p-8 md:p-12 mb-12">
         <div className="relative z-10 max-w-3xl">
-          <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight">Designing pragmatic software that ships and scales</h1>
-          <p className="mt-4 text-lg text-gray-300">I build measurable products end‑to‑end — modern UIs, reliable services, and thoughtful AI integrations.</p>
+          <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight">Full Stack AI Expert Building Intelligent Solutions</h1>
+          <p className="mt-4 text-lg text-gray-300">I architect and develop end‑to‑end AI-powered applications — combining modern UIs, scalable backends, and cutting-edge AI/ML integrations using OpenAI, LangChain, vector databases, and custom ML models.</p>
           <div className="mt-6 flex flex-col sm:flex-row gap-3">
             <Link href="/resume" className="inline-flex items-center justify-center px-5 py-3 rounded-lg bg-white text-gray-900 font-semibold hover:bg-gray-100">View Resume</Link>
             <Link href="/about" className="inline-flex items-center justify-center px-5 py-3 rounded-lg bg-gray-800 text-white font-semibold hover:bg-gray-700">About Me</Link>
