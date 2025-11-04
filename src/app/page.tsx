@@ -56,98 +56,53 @@ export default function Home() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      {/* Hero */}
-      <section className="text-center mb-12 animate-fade-in">
-        <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-gray-900 dark:text-white mb-5">
-          Senior Full‑Stack & AI Engineer
-        </h1>
-        <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-          I architect and deliver production‑grade products end‑to‑end: modern React/Next.js UIs,
-          scalable services in Node/Python, Java/Spring Boot, and .NET Core, plus reliable data
-          pipelines. 10+ years across startups and enterprises—performance, security, cloud (AWS),
-          CI/CD, and pragmatic AI (LLMs/CV) that ships measurable value.
-        </p>
-        <div className="mt-7 flex flex-col sm:flex-row items-center justify-center gap-3">
-          <Link href="/resume" className="btn-secondary w-full sm:w-auto">View Resume</Link>
+      {/* Hero (New structure) */}
+      <section className="relative overflow-hidden rounded-2xl bg-gray-900 text-white p-8 md:p-12 mb-12">
+        <div className="relative z-10 max-w-3xl">
+          <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight">Designing pragmatic software that ships and scales</h1>
+          <p className="mt-4 text-lg text-gray-300">I build measurable products end‑to‑end — modern UIs, reliable services, and thoughtful AI integrations.</p>
+          <div className="mt-6 flex flex-col sm:flex-row gap-3">
+            <Link href="/resume" className="inline-flex items-center justify-center px-5 py-3 rounded-lg bg-white text-gray-900 font-semibold hover:bg-gray-100">View Resume</Link>
+            <Link href="/about" className="inline-flex items-center justify-center px-5 py-3 rounded-lg bg-gray-800 text-white font-semibold hover:bg-gray-700">About Me</Link>
+          </div>
         </div>
-        {/* Quick stats */}
-        <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-          <div className="stat-badge">10+ yrs experience</div>
-          <div className="stat-badge">25+ shipped projects</div>
-          <div className="stat-badge">12+ teams supported</div>
-        </div>
-        
+        <div aria-hidden className="absolute inset-0 bg-[radial-gradient(600px_300px_at_80%_-20%,rgba(99,102,241,0.35),transparent),radial-gradient(500px_260px_at_0%_120%,rgba(16,185,129,0.25),transparent)]" />
       </section>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {projects.map((project, index) => {
-          return (
-            <div key={index} className="w-full mx-auto animate-slide-up" style={{ animationDelay: `${index * 0.1}s` }}>
-              <div className="flex items-center justify-center mx-auto overflow-hidden transition duration-100 ease-in-out transform rounded-md shadow cursor-pointer hover:-translate-y-1 hover:scale-105 bg-white dark:bg-gray-800">
-                <div className="relative group">
-                  <div className="absolute z-20 flex items-center justify-center flex-1 w-full h-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div>
-                      <a
-                        href={project.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center p-3 rounded-lg bg-white dark:bg-gray-700 shadow-lg hover:bg-gray-50 dark:hover:bg-gray-600 transition-colors duration-200"
-                      >
-                        <svg className="w-4 h-4 text-gray-600 dark:text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                        </svg>
-                        <p className="mx-2 font-sans font-semibold text-gray-600 dark:text-gray-300">
-                          LEARN MORE
-                        </p>
-                      </a>
-                    </div>
-                  </div>
-                  <div className="absolute w-full rounded-t-md">
-                    <div className="flex-1 float-left w-16 h-16 p-2 m-4 text-center text-white bg-gradient-to-br from-purple-600 to-blue-600 rounded-full shadow-lg">
-                      <span className="font-sans text-xs font-bold tracking-wide">
-                        {project.period.split(' ~ ')[0].split('.')[0]}
-                      </span>
-                      <span className="block font-sans text-xs font-bold tracking-wide uppercase border-t border-white/30">
-                        {project.period.split(' ~ ')[0].split('.')[1]}
-                      </span>
-                    </div>
-                  </div>
-                  <div className="h-40 md:h-60 relative overflow-hidden rounded-t-md">
-                    <Image src={project.image} alt={project.title} fill className="object-cover" />
-                  </div>
-                  <div className="p-4 space-y-3 bg-gradient-to-br from-gray-50 to-white dark:from-gray-700 dark:to-gray-800 rounded-b-md">
-                    <div className="flex justify-between items-start">
-                      <h3 className="text-lg font-bold text-gray-800 dark:text-white">
-                        {project.title}
-                      </h3>
-                      <span className="text-xs text-gray-500 dark:text-gray-400 font-medium">
-                        {project.period}
-                      </span>
-                    </div>
-                    <p className="text-sm text-gray-600 dark:text-gray-300 line-clamp-3">
-                      {project.description}
-                    </p>
-                    <div className="flex flex-wrap gap-1">
-                      {project.technologies.map((tech, techIndex) => (
-                        <span
-                          key={techIndex}
-                          className="px-2 py-1 text-xs font-medium rounded-full bg-blue-100 text-blue-700 dark:bg-blue-300/20 dark:text-blue-50 dark:ring-1 dark:ring-blue-200/40"
-                        >
-                          {tech}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                </div>
+      {/* Case Studies (New structure) */}
+      <section className="space-y-10">
+        {projects.map((project, index) => (
+          <article key={index} className={`flex flex-col ${index % 2 === 1 ? 'md:flex-row-reverse' : 'md:flex-row'} gap-6 items-stretch`}>
+            <div className="relative w-full md:w-1/2 h-56 md:h-72 rounded-xl overflow-hidden shadow">
+              <Image src={project.image} alt={project.title} fill className="object-cover" />
+            </div>
+            <div className="w-full md:w-1/2 bg-white dark:bg-gray-800 rounded-xl p-6 shadow border border-gray-200/60 dark:border-gray-700/60">
+              <div className="flex items-start justify-between">
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white">{project.title}</h3>
+                <span className="text-xs text-gray-500 dark:text-gray-400 font-medium mt-1">{project.period}</span>
+              </div>
+              <p className="mt-3 text-gray-600 dark:text-gray-300">{project.description}</p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                {project.technologies.map((tech, techIndex) => (
+                  <span key={techIndex} className="px-2 py-1 text-xs font-medium rounded-full bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-200">{tech}</span>
+                ))}
+              </div>
+              <div className="mt-6">
+                <a href={project.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-sm font-semibold text-blue-600 dark:text-blue-400 hover:underline">
+                  View project
+                  <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h6m0 0v6m0-6L10 16"/></svg>
+                </a>
               </div>
             </div>
-          );
-        })}
-      </div>
+          </article>
+        ))}
+      </section>
 
-      
-
-      
+      {/* Footer CTA */}
+      <section className="mt-16 text-center">
+        <p className="text-gray-600 dark:text-gray-300">Want results, not demos?</p>
+        <Link href="/about" className="inline-flex items-center justify-center mt-3 px-5 py-3 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700">Work with me</Link>
+      </section>
     </div>
   )
 }

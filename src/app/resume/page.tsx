@@ -163,66 +163,56 @@ export default function Resume() {
 
         <section className="mb-8">
           <h2 className="section-title">Education</h2>
-          <div className="space-y-4">
-            {education.map((edu, index) => (
-              <div key={index} className="bg-gradient-to-r from-indigo-50 to-purple-50 dark:from-indigo-900/20 dark:to-purple-900/20 rounded p-6 shadow-sm hover:shadow-md transition-shadow duration-300 border-l-4 border-indigo-500">
-                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-3">
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{edu.institution}</h3>
-                    <p className="text-gray-600 dark:text-gray-300">{edu.degree}</p>
+          <div className="relative pl-6">
+            <div className="absolute left-2 top-0 bottom-0 w-px bg-gray-200 dark:bg-gray-700" />
+            <ul className="space-y-4">
+              {education.map((edu, index) => (
+                <li key={index} className="relative">
+                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between">
+                    <div>
+                      <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{edu.institution}</h3>
+                      <p className="text-gray-600 dark:text-gray-300">{edu.degree}</p>
+                    </div>
+                    <span className="text-sm text-gray-500 dark:text-gray-400 font-medium mt-2 sm:mt-0">{edu.period}</span>
                   </div>
-                  <span className="text-sm text-gray-500 dark:text-gray-400 font-medium mt-2 sm:mt-0">
-                    {edu.period}
-                  </span>
-                </div>
-              </div>
-            ))}
+                </li>
+              ))}
+            </ul>
           </div>
         </section>
 
         <section className="mb-8">
           <h2 className="section-title">Work History</h2>
-          <div className="space-y-6">
-            {workHistory.map((job, index) => {
-              const colorScheme = getColorScheme(index);
-
-              return (
-                <div key={index} className={`timeline-item bg-gradient-to-r ${colorScheme.bg} rounded p-6 shadow-sm hover:shadow-md transition-shadow duration-300 border-l-4 ${colorScheme.border}`}>
-                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-3">
-                  <div className="flex items-center space-x-3 mb-2 sm:mb-0">
-                    <div className="w-16 h-16 bg-white rounded-lg flex items-center justify-center shadow-sm border border-gray-200 overflow-hidden">
-                      {renderCompanyMark(job.company)}
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                        {job.url ? (
-                          <a 
-                            href={job.url} 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                          >
-                            {job.company}
-                          </a>
-                        ) : (
-                          job.company
+          <div className="relative pl-6">
+            <div className="absolute left-2 top-0 bottom-0 w-px bg-gray-200 dark:bg-gray-700" />
+            <div className="space-y-6">
+              {workHistory.map((job, index) => (
+                <div key={index} className="relative">
+                  <div className="bg-white dark:bg-gray-800 rounded-lg p-4 shadow-sm border border-gray-200/60 dark:border-gray-700/60">
+                    <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between">
+                      <div className="mb-2 sm:mb-0">
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                          {job.url ? (
+                            <a href={job.url} target="_blank" rel="noopener noreferrer" className="hover:underline">
+                              {job.company}
+                            </a>
+                          ) : (
+                            job.company
+                          )}
+                        </h3>
+                        {job.location && (
+                          <p className="text-sm text-gray-500 dark:text-gray-400">{job.location}</p>
                         )}
-                      </h3>
-                      {job.location && (
-                        <p className="text-sm text-gray-500 dark:text-gray-400">{job.location}</p>
-                      )}
+                      </div>
+                      <div className="text-left sm:text-right">
+                        <span className="text-sm text-gray-500 dark:text-gray-400 font-medium block">{job.period}</span>
+                        <p className="text-gray-700 dark:text-gray-300 font-medium">{job.position}</p>
+                      </div>
                     </div>
-                  </div>
-                  <div className="text-right">
-                    <span className="text-sm text-gray-500 dark:text-gray-400 font-medium">
-                      {job.period}
-                    </span>
-                    <p className="text-gray-700 dark:text-gray-300 font-medium">{job.position}</p>
                   </div>
                 </div>
-              </div>
-              );
-            })}
+              ))}
+            </div>
           </div>
         </section>
 
