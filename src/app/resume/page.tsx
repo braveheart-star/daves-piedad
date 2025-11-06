@@ -159,24 +159,24 @@ export default function Resume() {
                   <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-3">
                     <div>
                       <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-1">
+                        {job.position}
+                      </h3>
+                      <p className="text-lg font-semibold text-blue-600 dark:text-blue-400">
                         {job.url ? (
                           <a 
                             href={job.url} 
                             target="_blank" 
                             rel="noopener noreferrer" 
-                            className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors inline-flex items-center gap-2"
+                            className="hover:text-blue-700 dark:hover:text-blue-300 transition-colors inline-flex items-center gap-2"
                           >
-                            {job.position}
+                            {job.company}
                             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                             </svg>
                           </a>
                         ) : (
-                          job.position
+                          job.company
                         )}
-                      </h3>
-                      <p className="text-lg font-semibold text-blue-600 dark:text-blue-400">
-                        {job.company}
                       </p>
                       {job.location && (
                         <p className="text-sm text-gray-500 dark:text-gray-400 mt-1 flex items-center gap-1">
