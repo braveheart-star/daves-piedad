@@ -29,20 +29,22 @@ export default function Home() {
       url: 'https://kajmedical.com/',
     },
     {
-      title: 'GiftCash',
+      title: 'Muscular Hydrostat',
       period: '2021.1 - 2021.6',
-      description: 'GiftCash designed a brand new platform from the ground-up that makes selling your unwanted gift cards a straightforward and completely secure process. Integrated AI-powered fraud detection and automated pricing algorithms to optimize marketplace efficiency.',
-      technologies: ['Next.js', 'PHP', 'Laravel', 'Docker', 'MySQL', 'AWS Lambda', 'AI Fraud Detection'],
-      image: '/images/projects/giftcash.png',
-      url: 'https://giftcash.com/',
+      description:
+        'Built a browser-based interactive art experience titled “Muscular Hydrostat,” rendered entirely in HTML/CSS/JS without a build system. Central canvas animation driven by sketch.js simulates a pulsing, tentacle-like creature that reacts to user clicks and timed sequences. Rich visual layering: DOM-placed PNG components animate via custom keyframes while the canvas engine renders the tentacle body. Immersive audio pairing layers ambient and effect tracks as scenes progress. Runtime controls powered by dat.gui enable live tweaks to tentacle physics including length, gravity, wind, and pulse.',
+      technologies: ['HTML5','jQuery', 'CSS', 'JavaScript', 'sketch.js', 'dat.gui', 'Web Audio API'],
+      image: '/images/projects/muscular-hydrostat.png',
+      url: 'https://canvas-animation-muscular.vercel.app/',
     },
     {
-      title: 'Skills4School',
+      title: 'Flat-Pack Panel Designer',
       period: '2021.1 - 2021.4',
-      description: 'Skills4School is a learning platform that enables students to prepare appropriately for the lesson, the textbook and the teacher. The student learns individually in the app and can see their own learning progress. Implemented personalized learning recommendations using ML algorithms and adaptive content delivery.',
-      technologies: ['Ionic React', 'Firebase', 'Directus', 'TypeScript', 'Capacitor', 'Angular', 'Node.js', 'MongoDB', 'ML Recommendations'],
+      description:
+        'Parametric tool for designing flat-pack panels where users specify dimensions, corners, radii, notches, holes, and U-notches, then instantly preview both 2D SVG templates and 3D Three.js forms. Tabbed workflow recalculates every guide, label, and path, supports cloning multi-panel assemblies, and exports outputs as PNG or 3D models. Modular drawing engine handles fractional inputs, drives 3D extrusion with folding/knob visualization, and enables quick duplications for wraparound designs—showcasing computational geometry, rich visualization, and fabrication-focused UX.',
+      technologies: ['HTML5', 'Bootstrap', 'CSS3', 'JavaScript', 'jQuery 3.4.1', 'math.js', 'Three.js', 'TweenMax', 'canvg', 'canvas-to-blob'],
       image: '/images/projects/s4c.png',
-      url: '#',
+      url: 'https://drawing-svg-3-d.vercel.app/',
     },
     {
       title: 'AlphaSwap',
