@@ -32,8 +32,8 @@ export default function Home() {
       title: 'Muscular Hydrostat',
       period: '2021.1 - 2021.6',
       description:
-        'Built a browser-based interactive art experience titled “Muscular Hydrostat,” rendered entirely in HTML/CSS/JS without a build system. Central canvas animation driven by sketch.js simulates a pulsing, tentacle-like creature that reacts to user clicks and timed sequences. Rich visual layering: DOM-placed PNG components animate via custom keyframes while the canvas engine renders the tentacle body. Immersive audio pairing layers ambient and effect tracks as scenes progress. Runtime controls powered by dat.gui enable live tweaks to tentacle physics including length, gravity, wind, and pulse.',
-      technologies: ['HTML5','jQuery', 'CSS', 'JavaScript', 'sketch.js', 'dat.gui', 'Web Audio API'],
+        'Interactive art experience rendered entirely in HTML/CSS/JS with sketch.js driving a reactive tentacle animation. Layered DOM sprites, ambient audio, and dat.gui controls let viewers tune physics in real time.',
+      technologies: ['HTML5', 'CSS3', 'JavaScript', 'sketch.js', 'dat.gui', 'jQuery', 'Web Audio API'],
       image: '/images/projects/muscular-hydrostat.png',
       url: 'https://canvas-animation-muscular.vercel.app/',
     },
@@ -41,9 +41,9 @@ export default function Home() {
       title: 'Flat-Pack Panel Designer',
       period: '2021.1 - 2021.4',
       description:
-        'Parametric tool for designing flat-pack panels where users specify dimensions, corners, radii, notches, holes, and U-notches, then instantly preview both 2D SVG templates and 3D Three.js forms. Tabbed workflow recalculates every guide, label, and path, supports cloning multi-panel assemblies, and exports outputs as PNG or 3D models. Modular drawing engine handles fractional inputs, drives 3D extrusion with folding/knob visualization, and enables quick duplications for wraparound designs—showcasing computational geometry, rich visualization, and fabrication-focused UX.',
+        'Parametric flat-pack panel designer that converts tabbed inputs into instant SVG templates and Three.js previews. Fraction-aware engine supports cloning multi-panel assemblies, exports to PNG/3D, and highlights fabrication-focused UX.',
       technologies: ['HTML5', 'Bootstrap', 'CSS3', 'JavaScript', 'jQuery 3.4.1', 'math.js', 'Three.js', 'TweenMax', 'canvg', 'canvas-to-blob'],
-      image: '/images/projects/s4c.png',
+      image: '/images/projects/threejs.png',
       url: 'https://drawing-svg-3-d.vercel.app/',
     },
     {
