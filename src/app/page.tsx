@@ -11,6 +11,7 @@ export default function Home() {
       image: '/images/projects/pillar.png',
       url: 'https://www.pillarmarkets.com/',
     },
+ 
   
     {
       title: 'InputKit',
@@ -36,6 +37,14 @@ export default function Home() {
       technologies: ['HTML5', 'CSS3', 'JavaScript', 'sketch.js', 'dat.gui', 'jQuery', 'Web Audio API'],
       image: '/images/projects/muscular-hydrostat.png',
       url: 'https://canvas-animation-muscular.vercel.app/',
+    },
+    {
+      title: 'Gym.com',
+      period: '2022',
+      description: 'High-availability fitness membership platform built with Angular and TailwindCSS to power personalized class scheduling, trainer dashboards, and membership commerce workflows. Delivered responsive landing experience, reusable UI libraries, and API orchestration for real-time booking and notifications.',
+      technologies: ['Angular', 'TypeScript', 'TailwindCSS', 'RxJS', 'Node.js', 'Stripe'],
+      image: '/images/projects/gym.png',
+      url: 'https://gym.com/',
     },
     {
       title: 'Flat-Pack Panel Designer',
