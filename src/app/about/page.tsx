@@ -19,10 +19,10 @@ export default function About() {
               kish Mark Piedad
             </h1>
             <p className="text-xl md:text-2xl text-blue-600 dark:text-blue-400 font-semibold mb-4">
-              Full Stack AI Expert & Blockchain Security Researcher
+              Full Stack AI Expert
             </p>
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-6 max-w-2xl">
-              Transforming ideas into intelligent, scalable solutions through cutting-edge AI/ML integration, modern web architectures, and pragmatic engineering practices. Security researcher with expertise in blockchain smart contract auditing and DeFi protocol security.
+              Transforming ideas into intelligent, scalable solutions through cutting-edge AI/ML integration, modern web architectures, and pragmatic engineering practices.
             </p>
             <div className="flex flex-wrap justify-center md:justify-start gap-4">
               <a 
@@ -56,17 +56,6 @@ export default function About() {
                 </svg>
                 Email
               </a>
-              <a 
-                href="https://audits.sherlock.xyz/watson/Pablo"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-orange-600 text-white font-medium hover:bg-orange-700 transition-colors"
-              >
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-                </svg>
-                Security Audits
-              </a>
             </div>
           </div>
         </div>
@@ -83,11 +72,8 @@ export default function About() {
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
               My expertise spans the entire development lifecycle—from architecting scalable frontends with React, Next.js, and Vue.js to designing robust backend systems using Node.js, Python, and cloud infrastructure. What sets me apart is my deep integration of AI/ML capabilities: OpenAI GPT models, LangChain for agent orchestration, vector databases, custom ML models, and production-ready AI pipelines.
             </p>
-            <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-              I&apos;ve delivered production systems across SaaS, enterprise, healthcare, fintech, and investment platforms—always focusing on pragmatic execution, measurable outcomes, and robust, scalable solutions. Whether it&apos;s RAG pipelines, sentiment analysis, predictive models, or intelligent automation, I bring AI capabilities to life in real-world applications.
-            </p>
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-              In addition to full-stack development, I&apos;m an active security researcher in the blockchain space, conducting smart contract audits across platforms like Sherlock, Code4rena, Cantina, and CodeHawks. With 27 high-severity and 20 medium-severity findings, I&apos;ve helped secure DeFi protocols, staking systems, and various Web3 applications, ranking in the top 10 multiple times and contributing to the security of millions in protocol value.
+              I&apos;ve delivered production systems across SaaS, enterprise, healthcare, fintech, and investment platforms—always focusing on pragmatic execution, measurable outcomes, and robust, scalable solutions. Whether it&apos;s RAG pipelines, sentiment analysis, predictive models, or intelligent automation, I bring AI capabilities to life in real-world applications.
             </p>
           </div>
         </div>
@@ -118,18 +104,6 @@ export default function About() {
             <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Full Stack Development</h3>
             <p className="text-gray-600 dark:text-gray-300">
               End-to-end application development with modern frameworks, scalable architectures, and cloud-native deployments.
-            </p>
-          </div>
-          
-          <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-shadow">
-            <div className="w-12 h-12 bg-orange-100 dark:bg-orange-900/30 rounded-lg flex items-center justify-center mb-4">
-              <svg className="w-6 h-6 text-orange-600 dark:text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-              </svg>
-            </div>
-            <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Blockchain Security</h3>
-            <p className="text-gray-600 dark:text-gray-300">
-              Security researcher specializing in smart contract auditing, vulnerability assessment, and DeFi protocol security across multiple platforms.
             </p>
           </div>
           
@@ -221,21 +195,6 @@ export default function About() {
             </div>
           </div>
 
-          {/* Blockchain & Security */}
-          <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700">
-            <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-              <span className="w-2 h-2 bg-orange-500 rounded-full"></span>
-              Blockchain & Security
-            </h3>
-            <div className="flex flex-wrap gap-2">
-              <span className="px-3 py-1.5 bg-orange-100 dark:bg-orange-900/30 text-orange-800 dark:text-orange-300 rounded-lg text-sm font-medium">Solidity</span>
-              <span className="px-3 py-1.5 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 rounded-lg text-sm font-medium">Smart Contracts</span>
-              <span className="px-3 py-1.5 bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-300 rounded-lg text-sm font-medium">Security Auditing</span>
-              <span className="px-3 py-1.5 bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 rounded-lg text-sm font-medium">Web3</span>
-              <span className="px-3 py-1.5 bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 rounded-lg text-sm font-medium">DeFi</span>
-              <span className="px-3 py-1.5 bg-cyan-100 dark:bg-cyan-900/30 text-cyan-800 dark:text-cyan-300 rounded-lg text-sm font-medium">Vulnerability Research</span>
-            </div>
-          </div>
         </div>
       </section>
 

@@ -70,8 +70,8 @@ export default function Home() {
       {/* Hero (New structure) */}
       <section className="relative overflow-hidden rounded-2xl bg-gray-900 text-white p-8 md:p-12 mb-12">
         <div className="relative z-10 max-w-3xl">
-          <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight">Full Stack AI Expert & Blockchain Security Researcher</h1>
-          <p className="mt-4 text-lg text-gray-300">I architect and develop end‑to‑end AI-powered applications — combining modern UIs, scalable backends, and cutting-edge AI/ML integrations. Also an active security researcher with 27 high-severity findings in smart contract audits across DeFi protocols.</p>
+          <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight">Full Stack AI Expert</h1>
+          <p className="mt-4 text-lg text-gray-300">I architect and develop end‑to‑end AI-powered applications — combining modern UIs, scalable backends, and cutting-edge AI/ML integrations.</p>
           <div className="mt-6 flex flex-col sm:flex-row gap-3">
             <Link href="/resume" className="inline-flex items-center justify-center px-5 py-3 rounded-lg bg-white text-gray-900 font-semibold hover:bg-gray-100">View Resume</Link>
             <Link href="/about" className="inline-flex items-center justify-center px-5 py-3 rounded-lg bg-gray-800 text-white font-semibold hover:bg-gray-700">About Me</Link>
