@@ -78,7 +78,7 @@ export default function About() {
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">About Me</h2>
           <div className="prose prose-lg dark:prose-invert max-w-none">
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-              I&apos;m <strong>kish Mark Piedad</strong>, a full stack AI expert based in 348 a aklan silahis st bgry. 149 bagong barrio caloocan city, Philippines. With over 10+ years of experience, I specialize in building end-to-end AI-powered applications that combine modern web technologies with cutting-edge machine learning and artificial intelligence.
+              I&apos;m <strong>kish Mark Piedad</strong>, a full stack AI expert based in caloocan city, Philippines. With over 10+ years of experience, I specialize in building end-to-end AI-powered applications that combine modern web technologies with cutting-edge machine learning and artificial intelligence.
             </p>
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
               My expertise spans the entire development lifecycle—from architecting scalable frontends with React, Next.js, and Vue.js to designing robust backend systems using Node.js, Python, and cloud infrastructure. What sets me apart is my deep integration of AI/ML capabilities: OpenAI GPT models, LangChain for agent orchestration, vector databases, custom ML models, and production-ready AI pipelines.
