@@ -9,14 +9,14 @@ export default function About() {
           <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-2xl overflow-hidden shadow-2xl ring-4 ring-blue-500/20 dark:ring-blue-400/20">
             <Image 
               src="/images/photo/picture.jpg" 
-              alt="Jorie Suan" 
+              alt="kish Mark Piedad" 
               fill
               className="object-cover" 
             />
           </div>
           <div className="flex-1 text-center md:text-left">
             <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white mb-3">
-              Jorie Suan
+              kish Mark Piedad
             </h1>
             <p className="text-xl md:text-2xl text-blue-600 dark:text-blue-400 font-semibold mb-4">
               Full Stack AI Expert & Blockchain Security Researcher
@@ -26,7 +26,7 @@ export default function About() {
             </p>
             <div className="flex flex-wrap justify-center md:justify-start gap-4">
               <a 
-                href="https://www.linkedin.com/in/jorie-suan-5a3017320/" 
+                href="https://www.linkedin.com/in/kish-mark-0b631b145" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 transition-colors"
@@ -48,7 +48,7 @@ export default function About() {
                 GitHub
               </a>
               <a 
-                href="mailto:jorie.suan115@gmail.com"
+                href="mailto:kishmarkpiedad@gmail.com"
                 className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white font-medium hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -78,7 +78,7 @@ export default function About() {
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">About Me</h2>
           <div className="prose prose-lg dark:prose-invert max-w-none">
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-              I&apos;m <strong>Jorie Suan</strong>, a full stack AI expert based in Bislig, Philippines. With over 10+ years of experience, I specialize in building end-to-end AI-powered applications that combine modern web technologies with cutting-edge machine learning and artificial intelligence.
+              I&apos;m <strong>kish Mark Piedad</strong>, a full stack AI expert based in 348 a aklan silahis st bgry. 149 bagong barrio caloocan city, Philippines. With over 10+ years of experience, I specialize in building end-to-end AI-powered applications that combine modern web technologies with cutting-edge machine learning and artificial intelligence.
             </p>
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
               My expertise spans the entire development lifecycle—from architecting scalable frontends with React, Next.js, and Vue.js to designing robust backend systems using Node.js, Python, and cloud infrastructure. What sets me apart is my deep integration of AI/ML capabilities: OpenAI GPT models, LangChain for agent orchestration, vector databases, custom ML models, and production-ready AI pipelines.
@@ -256,7 +256,7 @@ export default function About() {
               </div>
             </div>
             <p className="text-gray-700 dark:text-gray-300 italic">
-              &ldquo;Jorie is a motivated developer with excellent communication skills. He quickly adapts to new technologies and delivers quality work across both backend and frontend development.&rdquo;
+              &ldquo;kish Mark is a motivated developer with excellent communication skills. He quickly adapts to new technologies and delivers quality work across both backend and frontend development.&rdquo;
             </p>
           </div>
 
@@ -273,7 +273,7 @@ export default function About() {
               </div>
             </div>
             <p className="text-gray-700 dark:text-gray-300 italic">
-              &ldquo;Jorie is a versatile and hardworking developer with strong technical skills. I can always rely on his expertise to deliver high-quality solutions and meet project deadlines effectively.&rdquo;
+              &ldquo;kish Mark is a versatile and hardworking developer with strong technical skills. I can always rely on his expertise to deliver high-quality solutions and meet project deadlines effectively.&rdquo;
             </p>
           </div>
 
@@ -290,7 +290,7 @@ export default function About() {
               </div>
             </div>
             <p className="text-gray-700 dark:text-gray-300 italic">
-              &ldquo;Jorie is a talented full-stack developer with excellent problem-solving skills. He consistently delivers high-quality solutions and has strong expertise in React, Next.js, and modern web technologies. I highly recommend his services.&rdquo;
+              &ldquo;kish Mark is a talented full-stack developer with excellent problem-solving skills. He consistently delivers high-quality solutions and has strong expertise in React, Next.js, and modern web technologies. I highly recommend his services.&rdquo;
             </p>
           </div>
         </div>
