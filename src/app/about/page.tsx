@@ -150,14 +150,6 @@ export default function About() {
                 </div>
               </div>
             </div>
-
-            
-
-            
-
-            
-
-            
           </div>
         </div>
 
@@ -174,7 +166,7 @@ export default function About() {
                   </div>
                 </div>
               </div>
-              <p className="text-gray-700 dark:text-gray-300 italic">&ldquo;I have been cooperating with Philip for more than 3 years, and I always feel good when I work with him. Together, we have achieved great success in our business through our common efforts.&rdquo;</p>
+              <p className="text-gray-700 dark:text-gray-300 italic">&ldquo;I have been cooperating with Kish for more than 3 years, and I always feel good when I work with him. Together, we have achieved great success in our business through our common efforts.&rdquo;</p>
             </div>
 
             <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300 border-l-4 border-gray-300 dark:border-gray-600">
@@ -186,7 +178,7 @@ export default function About() {
                   </div>
                 </div>
               </div>
-              <p className="text-gray-700 dark:text-gray-300 italic">&ldquo;Philip is a versatile and hardworking developer with strong technical skills. I can always rely on his expertise to deliver high-quality solutions and meet project deadlines effectively.&rdquo;</p>
+              <p className="text-gray-700 dark:text-gray-300 italic">&ldquo;Kish is a versatile and hardworking developer with strong technical skills. I can always rely on his expertise to deliver high-quality solutions and meet project deadlines effectively.&rdquo;</p>
             </div>
 
             <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300 border-l-4 border-gray-300 dark:border-gray-600">
@@ -198,7 +190,7 @@ export default function About() {
                   </div>
                 </div>
               </div>
-              <p className="text-gray-700 dark:text-gray-300 italic">&ldquo;Philip is a talented full-stack developer with excellent problem-solving skills. He consistently delivers high-quality solutions and has strong expertise in React, Next.js, and modern web technologies. I highly recommend his services.&rdquo;</p>
+              <p className="text-gray-700 dark:text-gray-300 italic">&ldquo;Kish is a talented full-stack developer with excellent problem-solving skills. He consistently delivers high-quality solutions and has strong expertise in React, Next.js, and modern web technologies. I highly recommend his services.&rdquo;</p>
             </div>
           </div>
         </div>

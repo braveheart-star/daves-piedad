@@ -1,59 +1,36 @@
 import { Pillar } from '@/components/icons/Pillar'
-import { AlphaSwap } from '@/components/icons/AlphaSwap'
 import { TrackApp } from '@/components/icons/TrackApp'
-import { GiftCash } from '@/components/icons/GiftCash'
 import Image from 'next/image'
 
 type ColorScheme = {
   bg: string
   border: string
-  icon: string
-  iconText: string
-  badge: string
 }
 
 const COLOR_SCHEMES: ReadonlyArray<ColorScheme> = [
   {
     bg: 'from-sky-50 to-indigo-50 dark:from-slate-800/40 dark:to-indigo-900/30',
     border: 'border-sky-300 dark:border-indigo-400/60',
-    icon: 'bg-sky-100/70 dark:bg-indigo-400/20',
-    iconText: 'text-sky-700 dark:text-indigo-200',
-    badge: 'bg-sky-100/70 dark:bg-indigo-400/20 text-sky-800 dark:text-indigo-200',
   },
   {
     bg: 'from-emerald-50 to-teal-50 dark:from-emerald-900/20 dark:to-teal-900/20',
     border: 'border-emerald-300 dark:border-teal-400/60',
-    icon: 'bg-emerald-100/70 dark:bg-teal-400/20',
-    iconText: 'text-emerald-700 dark:text-teal-200',
-    badge: 'bg-emerald-100/70 dark:bg-teal-400/20 text-emerald-800 dark:text-teal-200',
   },
   {
     bg: 'from-violet-50 to-fuchsia-50 dark:from-violet-900/20 dark:to-fuchsia-900/20',
     border: 'border-violet-300 dark:border-fuchsia-400/60',
-    icon: 'bg-violet-100/70 dark:bg-fuchsia-400/20',
-    iconText: 'text-violet-700 dark:text-fuchsia-200',
-    badge: 'bg-violet-100/70 dark:bg-fuchsia-400/20 text-violet-800 dark:text-fuchsia-200',
   },
   {
     bg: 'from-amber-50 to-rose-50 dark:from-amber-900/20 dark:to-rose-900/20',
     border: 'border-amber-300 dark:border-rose-400/60',
-    icon: 'bg-amber-100/70 dark:bg-rose-400/20',
-    iconText: 'text-amber-700 dark:text-rose-200',
-    badge: 'bg-amber-100/70 dark:bg-rose-400/20 text-amber-800 dark:text-rose-200',
   },
   {
     bg: 'from-cyan-50 to-teal-50 dark:from-cyan-900/20 dark:to-teal-900/20',
     border: 'border-cyan-300 dark:border-teal-400/60',
-    icon: 'bg-cyan-100/70 dark:bg-teal-400/20',
-    iconText: 'text-cyan-700 dark:text-teal-200',
-    badge: 'bg-cyan-100/70 dark:bg-teal-400/20 text-cyan-800 dark:text-teal-200',
   },
   {
     bg: 'from-zinc-50 to-stone-50 dark:from-zinc-800/30 dark:to-stone-800/30',
     border: 'border-zinc-300 dark:border-stone-400/60',
-    icon: 'bg-zinc-100/70 dark:bg-stone-400/20',
-    iconText: 'text-zinc-700 dark:text-stone-200',
-    badge: 'bg-zinc-100/70 dark:bg-stone-400/20 text-zinc-800 dark:text-stone-200',
   },
 ]
 
@@ -68,24 +45,12 @@ const renderCompanyMark = (company: string) => {
       )
     case 'The Track App':
       return <TrackApp className="w-8 h-8" />
-    case 'GiftCash':
-      return <GiftCash className="w-8 h-8" />
     case 'Keeper Memorials':
       return (
         <Image src="/images/logos/keeper.jpeg" alt="Keeper Memorials" width={32} height={32} className="object-contain" />
       )
     case 'PillarMarkets':
       return <Pillar className="w-8 h-8" />
-    case 'AlphaSwap':
-      return <AlphaSwap className="w-8 h-8" />
-    case 'InputKit':
-      return (
-        <Image src="/images/logos/inputkit.png" alt="InputKit" width={32} height={32} className="object-contain" />
-      )
-    case 'Kaj Medical':
-      return (
-        <Image src="/images/logos/KAJ-logo-vector.svg" alt="KAJ Medical" width={32} height={32} className="object-contain" />
-      )
     default:
       return (
         <div className="w-8 h-8 bg-gray-200 dark:bg-gray-700 rounded flex items-center justify-center">
@@ -98,7 +63,7 @@ const renderCompanyMark = (company: string) => {
 export default function Resume() {
   const education = [
     {
-      period: 'Aug. 2013 ~ May. 2017',
+      period: 'Aug. 2015 ~ May. 2018',
       institution: 'Manila Central University',
       degree: 'Bachelor of Computer Science',
     },
@@ -118,7 +83,6 @@ export default function Resume() {
       location: 'Indianapolis, IN, USA (Remote)',
       position: 'Senior Frontend Engineer',
       url: 'https://www.pillarmarkets.com/',
-      description: 'Led frontend development for AI-powered CRE platform, implementing ML models, NLP integrations, and intelligent recommendation systems.',
     },
     {
       period: 'Dec. 2020 ~ May 2021',
@@ -127,31 +91,11 @@ export default function Resume() {
       position: 'Frontend Developer',
     },
     {
-      period: 'Apr. 2018 ~ Nov. 2020',
+      period: 'June. 2018 ~ Nov. 2020',
       company: 'The Track App',
       location: 'New York, USA',
       position: 'Full-Stack Developer',
     },
-  ]
-
-  const frontendSkills = [
-    'React', 'Next.js', 'Vue.js', 'Angular', 'TypeScript', 'JavaScript',
-    'HTML5', 'CSS3', 'Tailwind CSS', 'Sass', 'Bootstrap', 'Material-UI'
-  ]
-
-  const backendDevopsSkills = [
-    'Node.js', 'Python', 'Django', 'Java', 'Spring Boot', 'Express.js', 'Nest.js',
-    'PostgreSQL', 'MongoDB', 'Redis', 'Docker', 'AWS', 'Firebase'
-  ]
-
-  const aiSkills = [
-    'OpenAI API', 'LangChain', 'Vector Databases', 'Machine Learning',
-    'Computer Vision', 'Natural Language Processing', 'AI Integration'
-  ]
-
-  const blockchainSkills = [
-    'Solidity', 'Smart Contract Auditing', 'Security Research', 'Web3',
-    'Ethereum', 'Hardhat', 'Foundry', 'Vulnerability Assessment'
   ]
 
   return (
@@ -240,9 +184,6 @@ export default function Resume() {
             })}
           </div>
         </section>
-
-       
-
       </div>
     </div>
   )
