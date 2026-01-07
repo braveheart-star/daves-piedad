@@ -10,9 +10,9 @@ export const metadata: Metadata = {
   title: 'kish Mark Piedad - Portfolio - Full-Stack Developer',
   description: 'kish Mark Piedad - Professional portfolio showcasing web development projects and experience',
   icons: {
-    icon: '/thinker.png',
-    shortcut: '/thinker.png',
-    apple: '/thinker.png',
+    icon: '/coder-favicon.svg',
+    shortcut: '/coder-favicon.svg',
+    apple: '/coder-favicon.svg',
   },
 }
 
