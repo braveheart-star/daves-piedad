@@ -105,9 +105,10 @@ export default function Resume() {
           <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Resume</h1>
           <div className="relative">
             <a 
-              href="/cv/Senior Full Stack Engineer.pdf" 
+              href="/cv/Senior Full Stack %26 AI Engineer.pdf" 
               target="_blank" 
               rel="noopener noreferrer"
+              download="Senior Full Stack & AI Engineer.pdf"
               className="inline-flex items-center justify-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 dark:text-gray-300 bg-white dark:bg-gray-800 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors duration-200"
             >
               <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
