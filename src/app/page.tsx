@@ -62,12 +62,13 @@ export default function Home() {
         <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-gray-900 dark:text-white mb-5">
           Senior Full‑Stack, AI & Automation Engineer
         </h1>
-        <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-          I architect and deliver production‑grade products end‑to‑end: modern React/Next.js UIs,
-          scalable services in Node/Python, Java/Spring Boot, and .NET Core, plus automation-ready data
-          pipelines and web scraping workflows. 10+ years across startups and enterprises—performance,
-          security, cloud (AWS), CI/CD, and pragmatic AI (LLMs/CV) that ships measurable value.
-        </p>
+        <div className="relative mx-auto max-w-7xl rounded-2xl border border-gray-200/80 dark:border-gray-700/80 bg-gradient-to-br from-slate-50 via-white to-blue-50/40 dark:from-gray-800/80 dark:via-gray-800/60 dark:to-blue-900/20 px-6 py-8 md:px-10 md:py-10 shadow-lg shadow-gray-200/50 dark:shadow-gray-900/30 ring-1 ring-gray-100/80 dark:ring-gray-700/50 backdrop-blur-sm">
+          <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-500/5 via-transparent to-purple-500/5 dark:from-blue-400/10 dark:to-purple-400/10 pointer-events-none" />
+          <div className="absolute left-5 top-1/2 -translate-y-1/2 w-1 h-3/4 min-h-[120px] rounded-full bg-gradient-to-b from-blue-500 to-purple-600 opacity-80" />
+          <p className="relative pl-8 text-left text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
+            As a <strong>Senior Fullstack & AI Automation Engineer</strong> with <strong>8+</strong> years of experience, I architect and deliver production-grade, end-to-end systems. I build modern <strong>React/Next.js</strong> frontends, scalable backend services in <strong>Node.js/Python</strong  >, <strong>Java/Spring Boot</strong>, and <strong>.NET Core</strong>, and design automation-ready data pipelines, AI workflows, and web scraping systems. I focus on performance, security, cloud-native architecture <strong>AWS</strong>, <strong>CI/CD</strong>, and pragmatic AI solutions (LLMs, computer vision, intelligent automation) that ship measurable business value across startups and enterprise environments.
+          </p>
+        </div>
         <div className="mt-7 flex flex-col sm:flex-row items-center justify-center gap-3">
           <Link href="/resume" className="btn-secondary w-full sm:w-auto">View Resume</Link>
         </div>
@@ -144,58 +145,6 @@ export default function Home() {
             </div>
           );
         })}
-      </div>
-
-      {/* Lightweight Blockchain Audit Section */}
-      <div className="mt-16">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="text-2xl font-semibold text-gray-900 dark:text-white">Blockchain & Audit Familiarity</h2>
-          <a 
-            href="https://audits.sherlock.xyz/watson/ami" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="text-sm text-blue-600 dark:text-blue-400 hover:underline flex items-center gap-1"
-          >
-            View on Sherlock
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-            </svg>
-          </a>
-        </div>
-        <p className="text-gray-600 dark:text-gray-300 max-w-3xl text-sm mb-6">
-          Full-stack delivery is my day-to-day, but I stay close to blockchain by joining selective smart-contract audits on Sherlock. 
-          The goal is to keep my security instincts sharp without turning it into my main workload.
-        </p>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-          <div className="bg-gradient-to-br from-yellow-50 to-amber-50 dark:from-yellow-900/20 dark:to-amber-900/20 rounded-lg p-5 border border-yellow-200 dark:border-yellow-800">
-            <h4 className="text-base font-semibold text-yellow-800 dark:text-yellow-200 mb-1">Selective Podiums</h4>
-            <p className="text-sm text-yellow-700 dark:text-yellow-300">3 podium finishes • ~$2.4K rewards</p>
-          </div>
-          <div className="bg-gradient-to-br from-purple-50 to-indigo-50 dark:from-purple-900/20 dark:to-indigo-900/20 rounded-lg p-5 border border-purple-200 dark:border-purple-800">
-            <h4 className="text-base font-semibold text-purple-800 dark:text-purple-200 mb-1">Focus Areas</h4>
-            <p className="text-sm text-purple-700 dark:text-purple-300">ERC-20 incentives, auctions, DEX routing</p>
-          </div>
-          <div className="bg-gradient-to-br from-blue-50 to-sky-50 dark:from-blue-900/20 dark:to-sky-900/20 rounded-lg p-5 border border-blue-200 dark:border-blue-800">
-            <h4 className="text-base font-semibold text-blue-800 dark:text-blue-200 mb-1">Tooling</h4>
-            <p className="text-sm text-blue-700 dark:text-blue-300">Foundry, Hardhat, Echidna, custom differential tests</p>
-          </div>
-        </div>
-
-        <div className="space-y-4">
-          <div className="bg-gradient-to-r from-amber-50 to-yellow-50 dark:from-amber-900/20 dark:to-yellow-900/20 rounded-lg p-5 border-l-4 border-amber-500">
-            <h4 className="text-lg font-semibold text-gray-900 dark:text-white">vVv Launchpad — 1st place</h4>
-            <p className="text-sm text-gray-600 dark:text-gray-400">DeFi token distribution • frontrunning fix for claim()</p>
-          </div>
-          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-lg p-5 border-l-4 border-blue-500">
-            <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Ethos Network — Top 10</h4>
-            <p className="text-sm text-gray-600 dark:text-gray-400">Financial contracts • fee calc + reputation market patches</p>
-          </div>
-          <div className="bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 rounded-lg p-5 border-l-4 border-green-500">
-            <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Oku Order Types — Ranked</h4>
-            <p className="text-sm text-gray-600 dark:text-gray-400">DEX UX • order execution safeguards & incentive hardening</p>
-          </div>
-        </div>
       </div>
     </div>
   )

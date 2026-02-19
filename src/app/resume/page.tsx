@@ -81,7 +81,7 @@ export default function Resume() {
       period: 'June. 2021 ~ May 2023',
       company: 'PillarMarkets',
       location: 'Indianapolis, IN, USA (Remote)',
-      position: 'Senior Frontend Engineer',
+      position: 'Senior Full Stack Engineer',
       url: 'https://www.pillarmarkets.com/',
     },
     {
