@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Image from 'next/image'
 
 export default function Home() {
@@ -6,39 +5,31 @@ export default function Home() {
     
     {
       title: 'Limesurvey.org',
-      period: '2023.6 - 2025.8',
+      period: '2023.1 - 2025.7',
       description: 'LimeSurvey is the simple, quick and anonymous online survey tool that\'s bursting with juicy insights. Calling students, professionals and enterprises: design a survey and get the best insights, it\'s free and as easy as squeezing a lime.',
       technologies: ['React', 'Yii PHP Framework', 'StoryBook', 'PHP', 'Bootstrap', 'jQuery', 'Docker', 'Git', 'Composer'],
       image: '/images/projects/limesurvey.png',
       url: 'https://www.limesurvey.org/',
     },
     {
-      title: 'PillarMarkets.com',
-      period: '2021.6 - 2023.5',
-      description: 'Harness AI-powered integrations, intuitive workflows, and a user-friendly interface to unify your critical CRE data and relationships in one seamless ecosystem. Implemented ML models for data prediction and automated insights, integrated natural language processing for document analysis, and built intelligent recommendation systems.',
-      technologies: ['Next.js', 'TailwindCSS', 'Java', 'Spring Boot', 'AWS', 'Machine Learning', 'NLP'],
-      image: '/images/projects/pillar.png',
-      url: 'https://www.pillarmarkets.com/',
-    },
-       {
-      title: 'Keeper',
-      period: '2020.12 - 2021.5',
-      description: 'Keeper was born out of a simple wish: to help those grieving celebrate the life of each and every person. That is built the best memorial website for our family and yours.',
-      technologies: ['Next.js','Node.js', 'Express.js', 'AWS Lambda'],
-      image: '/images/projects/keeper.png',
-      url: 'https://www.mykeeper.com/',
-    },
-    {
       title: 'The Track App',
-      period: '2018.4 - 2020.11',
+      period: '2020.9 - 2022.8',
       description: 'Track is an intuitive software that automates lead qualification, routing and scheduling. It eliminates a lot of manual work that MDRs and SDRs have to do to qualify leads at the risk of losing the customer sales, and allows the team to convert more leads faster',
       technologies: ['React.js', 'Electron', 'TypeScript', 'Node.js', 'SQLite', 'Material-UI', 'Redux', 'WebRTC'],
       image: '/images/projects/trackapp.png',
       url: '#',
     },
+    {
+      title: 'AlphaSwap',
+      period: '2018.1 - 2020.5',
+      description: 'Built and maintained investment technology applications powering AlphaSwap\'s Data-as-a-Service platform with React, Next.js, and PostgreSQL.',
+      technologies: ['React', 'Next.js', 'PostgreSQL', 'easy-peasy', 'Nest.js', 'REST API', 'GraphQL'],
+      image: '/images/projects/alphaswap.png',
+      url: 'https://uk.linkedin.com/company/alphaswap',
+    },
      {
       title: 'Divizend',
-      period: '2021.1 - 2022.4',
+      period: '2020.6 - 2020.8',
       description: 'Divizend is the leading international wealth-tax FinTech platform for the fastest way to reclaim foreign dividend withholding taxes.',
       technologies: ['React', 'Styled Components', 'Loopback', 'TypeScript', 'Node.js', 'Angular', 'MongoDB'],
       image: '/images/projects/divizend.png',
@@ -46,7 +37,7 @@ export default function Home() {
     },
     {
       title: 'Skills4School',
-      period: '2021.1 - 2021.4',
+      period: '2022.9 - 2022.11',
       description: 'Skills4School is a learning platform that enables students to prepare appropriately for the lesson, the textbook and the teacher. The student learns individually in the app and can see their own learning progress.',
       technologies: ['Ionic React', 'Firebase', 'Directus', 'TypeScript', 'Capacitor', 'Angular', 'Node.js', 'MongoDB'],
       image: '/images/projects/s4c.png',
@@ -60,7 +51,7 @@ export default function Home() {
       {/* Hero */}
       <section className="text-center mb-12 animate-fade-in">
         <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-gray-900 dark:text-white mb-5">
-          Senior Full‑Stack, AI & Automation Engineer
+          Senior Full-Stack & AI Engineer
         </h1>
         <div className="relative mx-auto max-w-7xl rounded-2xl border border-gray-200/80 dark:border-gray-700/80 bg-gradient-to-br from-slate-50 via-white to-blue-50/40 dark:from-gray-800/80 dark:via-gray-800/60 dark:to-blue-900/20 px-6 py-8 md:px-10 md:py-10 shadow-lg shadow-gray-200/50 dark:shadow-gray-900/30 ring-1 ring-gray-100/80 dark:ring-gray-700/50 backdrop-blur-sm">
           <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-500/5 via-transparent to-purple-500/5 dark:from-blue-400/10 dark:to-purple-400/10 pointer-events-none" />
@@ -70,13 +61,21 @@ export default function Home() {
           </p>
         </div>
         <div className="mt-7 flex flex-col sm:flex-row items-center justify-center gap-3">
-          <Link href="/resume" className="btn-secondary w-full sm:w-auto">View Resume</Link>
+          <a
+            href="/cv/Senior%20FullStack%20%26%20AI%20Engineer.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-secondary w-full sm:w-auto"
+          >
+            View Resume
+          </a>
+          <a href="/api/portfolio-pdf" download="Daves-Piedad-Portfolio.pdf" className="btn-secondary w-full sm:w-auto">Download Portfolio PDF</a>
         </div>
         {/* Quick stats */}
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
           <div className="stat-badge">8 yrs experience</div>
-          <div className="stat-badge">25+ shipped projects</div>
-          <div className="stat-badge">12+ teams supported</div>
+          <div className="stat-badge">8 shipped projects</div>
+          <div className="stat-badge">6 teams supported</div>
         </div>
         
       </section>

@@ -67,4 +67,4 @@ The form sends these variables to your EmailJS template:
 - `{{from_email}}` - Sender's email
 - `{{subject}}` - Message subject
 - `{{message}}` - Message content
-- `{{to_email}}` - Your email (kishmarkpiedad@gmail.com)
+- `{{to_email}}` - Your email (Davespiedad123@gmail.com)

@@ -1,10 +1,17 @@
-import { Pillar } from '@/components/icons/Pillar'
 import { TrackApp } from '@/components/icons/TrackApp'
 import Image from 'next/image'
 
 type ColorScheme = {
   bg: string
   border: string
+}
+
+type WorkHistoryItem = {
+  period?: string
+  company: string
+  location?: string
+  position: string
+  url?: string
 }
 
 const COLOR_SCHEMES: ReadonlyArray<ColorScheme> = [
@@ -43,14 +50,12 @@ const renderCompanyMark = (company: string) => {
       return (
         <Image src="/images/logos/limesurvey.png" alt="LimeSurvey" width={32} height={32} className="object-contain" />
       )
+    case 'AlphaSwap':
+      return (
+        <Image src="/images/logos/alphaswap.png" alt="AlphaSwap" width={48} height={48} className="object-contain p-1" />
+      )
     case 'The Track App':
       return <TrackApp className="w-8 h-8" />
-    case 'Keeper Memorials':
-      return (
-        <Image src="/images/logos/keeper.jpeg" alt="Keeper Memorials" width={32} height={32} className="object-contain" />
-      )
-    case 'PillarMarkets':
-      return <Pillar className="w-8 h-8" />
     default:
       return (
         <div className="w-8 h-8 bg-gray-200 dark:bg-gray-700 rounded flex items-center justify-center">
@@ -69,32 +74,25 @@ export default function Resume() {
     },
   ]
 
-  const workHistory = [
+  const workHistory: WorkHistoryItem[] = [
     {
-      period: 'June. 2023 ~ Aug. 2025',
+      period: 'Jan. 2023 ~ Jul. 2025',
       company: 'LimeSurvey',
-      location: 'Hamburg, Germany',
-      position: 'Senior Full Stack Engineer',
+      location: 'Hamburg, Germany (Remote)',
+      position: 'Full Stack Engineer',
       url: 'https://www.limesurvey.org/',
     },
     {
-      period: 'June. 2021 ~ May 2023',
-      company: 'PillarMarkets',
-      location: 'Indianapolis, IN, USA (Remote)',
-      position: 'Senior Full Stack Engineer',
-      url: 'https://www.pillarmarkets.com/',
-    },
-    {
-      period: 'Dec. 2020 ~ May 2021',
-      company: 'Keeper Memorials',
-      location: 'Montreal, QC',
+      period: 'Sep. 2020 ~ Aug. 2022',
+      company: 'The Track App',
+      location: 'NY, USA (Remote)',
       position: 'Frontend Developer',
     },
     {
-      period: 'June. 2018 ~ Nov. 2020',
-      company: 'The Track App',
-      location: 'New York, USA',
-      position: 'Full-Stack Developer',
+      period: 'Jan. 2018 ~ May. 2020',
+      company: 'AlphaSwap',
+      location: 'London, UK (Remote)',
+      position: 'Back End Developer',
     },
   ]
 
@@ -105,7 +103,7 @@ export default function Resume() {
           <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Resume</h1>
           <div className="relative">
             <a 
-              href="/cv/Senior Full Stack %26 AI Engineer.pdf" 
+              href="/cv/Senior%20FullStack%20%26%20AI%20Engineer.pdf" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 dark:text-gray-300 bg-white dark:bg-gray-800 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors duration-200"
@@ -173,9 +171,11 @@ export default function Resume() {
                     </div>
                   </div>
                   <div className="text-right">
-                    <span className="text-sm text-gray-500 dark:text-gray-400 font-medium">
-                      {job.period}
-                    </span>
+                    {job.period && (
+                      <span className="text-sm text-gray-500 dark:text-gray-400 font-medium">
+                        {job.period}
+                      </span>
+                    )}
                     <p className="text-gray-700 dark:text-gray-300 font-medium">{job.position}</p>
                   </div>
                 </div>
