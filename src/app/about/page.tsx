@@ -174,7 +174,7 @@ export default function About() {
               <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-3">
                 <div className="flex items-center space-x-3 mb-2 sm:mb-0">
                   <div>
-                    <h4 className="text-lg font-semibold text-gray-900 dark:text-white">John Nnamchi</h4>
+                    <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Felix Tepel</h4>
                     <p className="text-sm text-gray-500 dark:text-gray-400">Lead Developer</p>
                   </div>
                 </div>
