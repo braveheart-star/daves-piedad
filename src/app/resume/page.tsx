@@ -68,7 +68,7 @@ const renderCompanyMark = (company: string) => {
 export default function Resume() {
   const education = [
     {
-      period: 'Aug. 2015 ~ May. 2018',
+      period: 'Aug. 2013 ~ May. 2017',
       institution: 'Manila Central University',
       degree: 'Bachelor of Computer Science',
     },

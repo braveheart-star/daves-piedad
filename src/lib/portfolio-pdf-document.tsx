@@ -74,7 +74,7 @@ const mainSkills = [
 const education = {
   institution: 'Manila Central University',
   degree: 'Bachelor of Computer Science',
-  period: 'Aug. 2015 - May. 2018',
+  period: 'Aug. 2013 - May. 2017',
 }
 
 const styles = StyleSheet.create({
